@@ -1,0 +1,4 @@
+org\apache\tika\langdetect\TextLangDetectorTest.class
+org\apache\tika\langdetect\Lingo24LangDetectorTest.class
+org\apache\tika\langdetect\OptimaizeLangDetectorTest.class
+org\apache\tika\langdetect\LanguageDetectorTest.class

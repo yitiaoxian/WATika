@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.tika.parser.microsoft.WMFParserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.031 sec <<< FAILURE! - in org.apache.tika.parser.microsoft.WMFParserTest
+testTextExtractionWindows(org.apache.tika.parser.microsoft.WMFParserTest)  Time elapsed: 0.031 sec  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index: 1, Size: 1
+	at java.util.LinkedList.checkElementIndex(LinkedList.java:555)
+	at java.util.LinkedList.get(LinkedList.java:476)
+	at org.apache.tika.parser.microsoft.WMFParserTest.testTextExtractionWindows(WMFParserTest.java:33)
+
