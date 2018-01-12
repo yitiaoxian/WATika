@@ -6,12 +6,16 @@ import org.apache.tika.metadata.Metadata;
 import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.AbstractParser;
 import org.apache.tika.parser.ParseContext;
+import org.apache.tika.parser.Parser;
+import org.apache.tika.sax.EndDocumentShieldingContentHandler;
+import org.apache.tika.sax.XHTMLContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
+import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 
@@ -21,20 +25,39 @@ import java.util.zip.ZipInputStream;
 * ofd格式的解析器
  */
 public class OfdParser extends AbstractParser{
-
+    //支持的类型
     private static final Set<MediaType> SUPPORTED_TYPES=
             Collections.unmodifiableSet(new HashSet<MediaType>(
                     Arrays.asList(
                             MediaType.application("ofd")
                     )
             ));
+    private static final String OFD_XML = "OFD.xml";
     @Override
     public Set<MediaType> getSupportedTypes(ParseContext context) {
         return SUPPORTED_TYPES;
     }
-
+    //ofd的元数据解析器与内容解析器
+    private Parser content = new OfdContentParser();
+    private Parser meta = new OfdMetaParser();
+    public Parser getMetaParser(){
+        return meta;
+    }
+    public void setMetaParser(Parser meta){
+        this.meta=meta;
+    }
+    public Parser getContentParser(){
+        return content;
+    }
+    public void setContentParser(Parser content){
+        this.content = content;
+    }
+    
+    //解析方法
     @Override
-    public void parse(InputStream stream, ContentHandler handler, Metadata metadata, ParseContext context) throws IOException, SAXException, TikaException {
+    public void parse(InputStream stream, ContentHandler baseHandler, Metadata metadata, ParseContext context) throws IOException, SAXException, TikaException {
+        System.out.println("我在以zip格式进行解析ofd文件");
+        System.out.println(metadata.get("Content-Type"));
         ZipFile zipFile = null;
         ZipInputStream zipStream = null;
         if (stream instanceof TikaInputStream) {
@@ -51,5 +74,65 @@ public class OfdParser extends AbstractParser{
         } else {
             zipStream = new ZipInputStream(stream);
         }
+        System.out.println("zip流的获取结束");
+        XHTMLContentHandler xhtml = new XHTMLContentHandler(baseHandler, metadata);
+        EndDocumentShieldingContentHandler handler =
+                new EndDocumentShieldingContentHandler(xhtml);
+        if (zipFile != null) {
+            try {
+                handleZipFile(zipFile, metadata, context, handler);
+            } finally {
+                //Do we want to close silently == catch an exception here?
+                zipFile.close();
+            }
+        } else {
+            try {
+                handleZipStream(zipStream, metadata, context, handler);
+            } finally {
+                //Do we want to close silently == catch an exception here?
+                zipStream.close();
+            }
+        }
+        if (handler.getEndDocumentWasCalled()) {
+            System.out.println("文档结束");
+            handler.reallyEndDocument();
+        }
     }
+    //处理zip流
+    public void handleZipStream(ZipInputStream zipStream,Metadata metadata,ParseContext context,
+                                EndDocumentShieldingContentHandler handler) throws IOException {
+        ZipEntry entry = zipStream.getNextEntry();
+        while (entry != null) {
+            handleZipEntry(entry, zipStream, metadata, context, handler);
+            entry = zipStream.getNextEntry();
+        }
+    }
+    //处理zip文件
+    public void handleZipFile(ZipFile zipFile,Metadata metadata,ParseContext context,
+                              EndDocumentShieldingContentHandler handler) throws IOException {
+        ZipEntry entry = zipFile.getEntry(OFD_XML);
+        if (entry != null) {
+            handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
+        }
+
+        Enumeration<? extends ZipEntry> entries = zipFile.entries();
+        while (entries.hasMoreElements()) {
+            entry = entries.nextElement();
+            if (!OFD_XML.equals(entry.getName())) {
+                handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
+            }
+        }
+    }
+    //处理zip中单个文件
+    public void handleZipEntry(ZipEntry entry,InputStream zip,Metadata metadata,
+                               ParseContext context,EndDocumentShieldingContentHandler handler){
+        if(entry == null) {
+            return;
+        }
+        if(entry.getName().contains("Res/")){
+
+        }
+
+    }
+
 }
