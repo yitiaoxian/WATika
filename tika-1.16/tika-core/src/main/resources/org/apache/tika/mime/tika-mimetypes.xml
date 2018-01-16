@@ -6968,13 +6968,12 @@
     <glob pattern="*.r"/>
     <sub-class-of type="text/plain"/>
   </mime-type>
-  <mime-type type="application/ofd">
-    <_comment>ofd format</_comment>
-      <sub-class-of type="application/zip"/>
-      <magic priority="50">
-          <match value="PK\003\004" type="string" offset="0"/>
-      </magic>
-
-      <glob pattern="*.ofd"/>
-  </mime-type>
-</mime-info>
+    <mime-type type="application/ofd">
+      <_comment>ofd format</_comment>
+        <sub-class-of type="application/zip"/>
+        <magic priority="40">
+            <match value="PK\003\004" type="string" offset="0"/>
+        </magic>
+        <glob pattern="*.ofd"/>
+    </mime-type>
+  </mime-info>

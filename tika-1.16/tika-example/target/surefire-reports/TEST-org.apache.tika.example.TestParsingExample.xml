@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.example.TestParsingExample" time="0.891" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.example.TestParsingExample" time="0.91" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSerializedRecursiveParserWrapperExample" classname="org.apache.tika.example.TestParsingExample" time="0.312"/>
-  <testcase name="testRecursiveParseExample" classname="org.apache.tika.example.TestParsingExample" time="0.188"/>
-  <testcase name="testParseToStringExample" classname="org.apache.tika.example.TestParsingExample" time="0.063"/>
-  <testcase name="testRecursiveParserWrapperExample" classname="org.apache.tika.example.TestParsingExample" time="0.187"/>
-  <testcase name="testNoEmbeddedExample" classname="org.apache.tika.example.TestParsingExample" time="0.078"/>
-  <testcase name="testParseExample" classname="org.apache.tika.example.TestParsingExample" time="0.063"/>
+  <testcase name="testSerializedRecursiveParserWrapperExample" classname="org.apache.tika.example.TestParsingExample" time="0.317"/>
+  <testcase name="testRecursiveParseExample" classname="org.apache.tika.example.TestParsingExample" time="0.207"/>
+  <testcase name="testParseToStringExample" classname="org.apache.tika.example.TestParsingExample" time="0.064"/>
+  <testcase name="testRecursiveParserWrapperExample" classname="org.apache.tika.example.TestParsingExample" time="0.179"/>
+  <testcase name="testNoEmbeddedExample" classname="org.apache.tika.example.TestParsingExample" time="0.081"/>
+  <testcase name="testParseExample" classname="org.apache.tika.example.TestParsingExample" time="0.062"/>
 </testsuite>

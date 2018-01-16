@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0.015" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,5 +65,5 @@
   <testcase name="testParseJpeg" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
   <testcase name="testMaxXMPMMHistory" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
   <testcase name="testJoinCreators" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
-  <testcase name="testParseJpegXnviewmp" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0.015"/>
+  <testcase name="testParseJpegXnviewmp" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.782" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.735" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,11 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testOutlookForwarded" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.078"/>
-  <testcase name="testOutlookNew" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.157"/>
-  <testcase name="testOutlookHTMLfromRTF" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.156"/>
+  <testcase name="testOutlookForwarded" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.063"/>
+  <testcase name="testOutlookNew" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.14"/>
+  <testcase name="testOutlookHTMLfromRTF" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.141"/>
   <testcase name="testOutlookParsing" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.031"/>
-  <testcase name="testMultipleCopies" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.032"/>
-  <testcase name="testMAPIMessageClasses" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.281"/>
-  <testcase name="testOutlookHTMLVersion" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.047"/>
+  <testcase name="testMultipleCopies" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.031"/>
+  <testcase name="testMAPIMessageClasses" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.297"/>
+  <testcase name="testOutlookHTMLVersion" classname="org.apache.tika.parser.microsoft.OutlookParserTest" time="0.032"/>
 </testsuite>

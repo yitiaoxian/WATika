@@ -73,6 +73,7 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\crypto\
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\code\SourceCodeParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\jdbc\SQLite3Parser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\xwpf\ml2006\WordAndPowerPointTextPartHandler.java
+E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdMetaParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\XSSFBExcelExtractorDecorator.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\sentiment\SentimentAnalysisParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\font\TrueTypeParser.java
@@ -128,6 +129,7 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\mp3\Mpe
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\odf\OpenDocumentMetaParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ctakes\CTAKESAnnotationProperty.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\chm\assertion\ChmAssert.java
+E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\wordperfect\WP6DocumentAreaExtractor.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\mp3\MP3Frame.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\iwork\KeynoteContentHandler.java
@@ -205,6 +207,7 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\jpeg\Jp
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\mp3\LyricsHandler.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\AbstractPOIFSExtractor.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\ooxml\XSSFExcelExtractorDecorator.java
+E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdContentParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ocr\TesseractOCRParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\odf\OpenDocumentParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\executable\ExecutableParser.java
@@ -222,6 +225,7 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microso
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDF2XHTML.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\audio\AudioParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\xml\FictionBookParser.java
+E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdNormalizerContentHandler.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\font\AdobeFontMetricParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\WMFParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\strings\Latin1StringsParser.java

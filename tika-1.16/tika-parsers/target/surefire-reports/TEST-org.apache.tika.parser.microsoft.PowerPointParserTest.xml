@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.547" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.515" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,9 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.016"/>
-  <testcase name="testEmbeddedPlacedholder" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.062"/>
-  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.11"/>
+  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.015"/>
+  <testcase name="testEmbeddedPlacedholder" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.063"/>
+  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.094"/>
   <testcase name="testAutoDatePPT" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.031"/>
   <testcase name="testMasterFooter" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.015"/>
   <testcase name="testCommentAuthorship" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.032"/>
@@ -72,5 +72,5 @@
   <testcase name="testPowerPointParser" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.031"/>
   <testcase name="testMacros" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.015"/>
   <testcase name="testMasterText" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.032"/>
-  <testcase name="testSkippingBadCompressedObj" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.156"/>
+  <testcase name="testSkippingBadCompressedObj" classname="org.apache.tika.parser.microsoft.PowerPointParserTest" time="0.14"/>
 </testsuite>

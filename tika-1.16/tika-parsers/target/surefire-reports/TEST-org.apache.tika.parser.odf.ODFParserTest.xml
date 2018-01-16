@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.odf.ODFParserTest" time="0.515" tests="15" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.odf.ODFParserTest" time="0.484" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,16 +64,16 @@
   <testcase name="testAnnotationsAndPDepthGt1" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
   <testcase name="testOO2Metadata" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
   <testcase name="testOO2" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.047"/>
-  <testcase name="testOO3" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.062"/>
-  <testcase name="testODSFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.032"/>
-  <testcase name="testNPEFromFile" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.015"/>
-  <testcase name="testFromFile" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.032"/>
+  <testcase name="testOO3" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.047"/>
+  <testcase name="testODSFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
+  <testcase name="testNPEFromFile" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.032"/>
+  <testcase name="testFromFile" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
   <testcase name="testODTFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
   <testcase name="testODTStyles" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
-  <testcase name="testParagraphLevelFontStyles" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
-  <testcase name="testODPMasterFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.032"/>
-  <testcase name="testMissingMeta" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.015"/>
-  <testcase name="testOO3Metadata" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.063"/>
-  <testcase name="testNullStylesInODTFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.015"/>
-  <testcase name="testEmbedded" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.047"/>
+  <testcase name="testParagraphLevelFontStyles" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.016"/>
+  <testcase name="testODPMasterFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
+  <testcase name="testMissingMeta" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.032"/>
+  <testcase name="testOO3Metadata" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
+  <testcase name="testNullStylesInODTFooter" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
+  <testcase name="testEmbedded" classname="org.apache.tika.parser.odf.ODFParserTest" time="0.031"/>
 </testsuite>

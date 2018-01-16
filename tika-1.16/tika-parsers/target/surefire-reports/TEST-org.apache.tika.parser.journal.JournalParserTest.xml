@@ -63,7 +63,7 @@
   </properties>
   <testcase name="testJournalParser" classname="org.apache.tika.parser.journal.JournalParserTest" time="0">
     <skipped/>
-    <system-out><![CDATA[10 一月 2018 03:29:05  WARN PhaseInterceptorChain - Interceptor for {http://localhost:8080/grobid}WebClient has thrown exception, unwinding now
+    <system-out><![CDATA[16 一月 2018 03:50:28  WARN PhaseInterceptorChain - Interceptor for {http://localhost:8080/grobid}WebClient has thrown exception, unwinding now
 org.apache.cxf.interceptor.Fault: Could not send Message.
 	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:64)
 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:307)

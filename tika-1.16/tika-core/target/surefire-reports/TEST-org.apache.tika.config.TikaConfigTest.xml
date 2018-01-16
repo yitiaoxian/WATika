@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.config.TikaConfigTest" time="0.047" tests="14" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.config.TikaConfigTest" time="0.062" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,15 +63,15 @@
   </properties>
   <testcase name="testTikaExecutorServiceFromConfig" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="testInitializerPerParserWarn" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="testInitializerServiceLoaderThrowButOverridden" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="testInitializerBadValue" classname="org.apache.tika.config.TikaConfigTest" time="0.016"/>
+  <testcase name="testInitializerServiceLoaderThrowButOverridden" classname="org.apache.tika.config.TikaConfigTest" time="0.015"/>
+  <testcase name="testInitializerBadValue" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="testUnknownParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="asCompositeParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="testDynamicServiceLoaderFromConfig" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="testInitializerPerParserThrow" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="testInitializerServiceLoaderThrow" classname="org.apache.tika.config.TikaConfigTest" time="0.015"/>
+  <testcase name="testInitializerPerParserThrow" classname="org.apache.tika.config.TikaConfigTest" time="0.016"/>
+  <testcase name="testInitializerServiceLoaderThrow" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="onlyValidParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="ensureClassLoaderUsedEverywhere" classname="org.apache.tika.config.TikaConfigTest" time="0.016"/>
+  <testcase name="ensureClassLoaderUsedEverywhere" classname="org.apache.tika.config.TikaConfigTest" time="0.031"/>
   <testcase name="withInvalidParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="parserWithChildParsers" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="defaultParserWithExcludes" classname="org.apache.tika.config.TikaConfigTest" time="0"/>

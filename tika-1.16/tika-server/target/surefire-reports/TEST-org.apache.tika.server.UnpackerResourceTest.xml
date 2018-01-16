@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.server.UnpackerResourceTest" time="0.5" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.server.UnpackerResourceTest" time="0.507" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,14 +61,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testExeDOCX" classname="org.apache.tika.server.UnpackerResourceTest" time="0.062"/>
-  <testcase name="test415" classname="org.apache.tika.server.UnpackerResourceTest" time="0.032"/>
-  <testcase name="testText" classname="org.apache.tika.server.UnpackerResourceTest" time="0.031"/>
-  <testcase name="testImageDOCX" classname="org.apache.tika.server.UnpackerResourceTest" time="0.078"/>
-  <testcase name="testImageXSL" classname="org.apache.tika.server.UnpackerResourceTest" time="0.063"/>
-  <testcase name="testDocPicture" classname="org.apache.tika.server.UnpackerResourceTest" time="0.031"/>
+  <testcase name="testExeDOCX" classname="org.apache.tika.server.UnpackerResourceTest" time="0.076"/>
+  <testcase name="test415" classname="org.apache.tika.server.UnpackerResourceTest" time="0.025"/>
+  <testcase name="testText" classname="org.apache.tika.server.UnpackerResourceTest" time="0.04"/>
+  <testcase name="testImageDOCX" classname="org.apache.tika.server.UnpackerResourceTest" time="0.055"/>
+  <testcase name="testImageXSL" classname="org.apache.tika.server.UnpackerResourceTest" time="0.064"/>
+  <testcase name="testDocPicture" classname="org.apache.tika.server.UnpackerResourceTest" time="0.039"/>
   <testcase name="testDocPictureNoOle" classname="org.apache.tika.server.UnpackerResourceTest" time="0.109"/>
-  <testcase name="testDocWAVText" classname="org.apache.tika.server.UnpackerResourceTest" time="0.031"/>
-  <testcase name="testDocWAV" classname="org.apache.tika.server.UnpackerResourceTest" time="0.032"/>
-  <testcase name="testTarDocPicture" classname="org.apache.tika.server.UnpackerResourceTest" time="0.031"/>
+  <testcase name="testDocWAVText" classname="org.apache.tika.server.UnpackerResourceTest" time="0.032"/>
+  <testcase name="testDocWAV" classname="org.apache.tika.server.UnpackerResourceTest" time="0.035"/>
+  <testcase name="testTarDocPicture" classname="org.apache.tika.server.UnpackerResourceTest" time="0.032"/>
 </testsuite>

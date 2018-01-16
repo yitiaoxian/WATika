@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.batch.fs.BatchProcessTest" time="57.779" tests="14" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.batch.fs.BatchProcessTest" time="59.734" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,18 +61,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testConsumersManagerShutdownHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.647"/>
-  <testcase name="allHeavyHangsTestWithStarvedCrawler" classname="org.apache.tika.batch.fs.BatchProcessTest" time="14.651"/>
-  <testcase name="testConsumersManagerInitHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.593"/>
-  <testcase name="testTimeOutAfterBeingAskedToShutdown" classname="org.apache.tika.batch.fs.BatchProcessTest" time="10.654"/>
-  <testcase name="oneHeavyHangTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="3.645"/>
-  <testcase name="allHeavyHangsTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.615"/>
-  <testcase name="testHierarchicalWFileList" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.741"/>
-  <testcase name="testHandlingOfIllegalXMLCharsInException" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.768"/>
-  <testcase name="testWaitAfterEarlyTermination" classname="org.apache.tika.batch.fs.BatchProcessTest" time="10.773"/>
-  <testcase name="testRedirectionOfStreams" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.69"/>
-  <testcase name="testOverrideOutputSuffix" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.734"/>
-  <testcase name="outOfMemory" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.85"/>
-  <testcase name="allHeavyHangsTestWithCrazyNumberConsumersTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.658"/>
-  <testcase name="noRestart" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.76"/>
+  <testcase name="testConsumersManagerShutdownHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.657"/>
+  <testcase name="allHeavyHangsTestWithStarvedCrawler" classname="org.apache.tika.batch.fs.BatchProcessTest" time="14.699"/>
+  <testcase name="testConsumersManagerInitHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.613"/>
+  <testcase name="testTimeOutAfterBeingAskedToShutdown" classname="org.apache.tika.batch.fs.BatchProcessTest" time="10.611"/>
+  <testcase name="oneHeavyHangTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.756"/>
+  <testcase name="allHeavyHangsTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.664"/>
+  <testcase name="testHierarchicalWFileList" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.837"/>
+  <testcase name="testHandlingOfIllegalXMLCharsInException" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.239"/>
+  <testcase name="testWaitAfterEarlyTermination" classname="org.apache.tika.batch.fs.BatchProcessTest" time="11.395"/>
+  <testcase name="testRedirectionOfStreams" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.694"/>
+  <testcase name="testOverrideOutputSuffix" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.758"/>
+  <testcase name="outOfMemory" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.895"/>
+  <testcase name="allHeavyHangsTestWithCrazyNumberConsumersTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="3.773"/>
+  <testcase name="noRestart" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.143"/>
 </testsuite>

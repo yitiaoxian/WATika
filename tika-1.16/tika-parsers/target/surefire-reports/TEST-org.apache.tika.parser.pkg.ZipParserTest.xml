@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.pkg.ZipParserTest" time="0.422" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.pkg.ZipParserTest" time="0.593" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,9 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testPlaceholders" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.078"/>
+  <testcase name="testPlaceholders" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.125"/>
   <testcase name="testUnsupportedZipCompressionMethod" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.125"/>
-  <testcase name="testZipParsing" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.125"/>
-  <testcase name="testEmbedded" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.047"/>
-  <testcase name="testCustomEncoding" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.047"/>
+  <testcase name="testZipParsing" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.171"/>
+  <testcase name="testEmbedded" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.094"/>
+  <testcase name="testCustomEncoding" classname="org.apache.tika.parser.pkg.ZipParserTest" time="0.078"/>
 </testsuite>

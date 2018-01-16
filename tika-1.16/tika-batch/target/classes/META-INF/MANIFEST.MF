@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-SymbolicName: org.apache.tika.batch
 Built-By: xiao
-Bnd-LastModified: 1515555129770
+Bnd-LastModified: 1516074831608
 Specification-Title: Apache Tika batch
 Implementation-Vendor-Id: org.apache.tika
 Bundle-DocURL: http://tika.apache.org/

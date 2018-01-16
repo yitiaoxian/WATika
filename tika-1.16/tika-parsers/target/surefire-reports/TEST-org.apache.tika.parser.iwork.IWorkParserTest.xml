@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.iwork.IWorkParserTest" time="0.875" tests="19" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.iwork.IWorkParserTest" time="0.938" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -65,19 +65,19 @@
   <testcase name="testParsePagesHeadersFootersRomanUpper" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
   <testcase name="testParsePagesPasswordProtected" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.016"/>
   <testcase name="testParseKeynote" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.078"/>
-  <testcase name="testParsePages" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
-  <testcase name="testParseNumbersTableNames" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.063"/>
-  <testcase name="testKeynoteBulletPoints" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.062"/>
-  <testcase name="testParsePagesHeadersFootersFootnotes" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
+  <testcase name="testParsePages" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
+  <testcase name="testParseNumbersTableNames" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.046"/>
+  <testcase name="testKeynoteBulletPoints" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
+  <testcase name="testParsePagesHeadersFootersFootnotes" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.172"/>
   <testcase name="testNumbersExtractChartNames" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
-  <testcase name="testStreamNotClosed" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.078"/>
+  <testcase name="testStreamNotClosed" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
   <testcase name="testKeynoteMasterSlideTable" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
-  <testcase name="testKeynoteTextBoxes" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.063"/>
+  <testcase name="testKeynoteTextBoxes" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
   <testcase name="testParsePagesAnnotations" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
-  <testcase name="testParseNumbersTableHeaders" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
-  <testcase name="testPagesLayoutMode" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
+  <testcase name="testParseNumbersTableHeaders" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
+  <testcase name="testPagesLayoutMode" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.016"/>
   <testcase name="testParseNumbers" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
-  <testcase name="testKeynoteTables" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.047"/>
-  <testcase name="testParsePagesHeadersAlphaLower" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
+  <testcase name="testKeynoteTables" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.062"/>
+  <testcase name="testParsePagesHeadersAlphaLower" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.032"/>
   <testcase name="testParsePagesHeadersAlphaUpper" classname="org.apache.tika.parser.iwork.IWorkParserTest" time="0.031"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.cli.TikaCLITest" time="5.767" tests="25" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.cli.TikaCLITest" time="5.847" tests="25" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,29 +61,29 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testListParserDetail" classname="org.apache.tika.cli.TikaCLITest" time="0.297"/>
-  <testcase name="testJsonRecursiveMetadataParserMetadataOnly" classname="org.apache.tika.cli.TikaCLITest" time="0.782"/>
-  <testcase name="testJsonRecursiveMetadataParserText" classname="org.apache.tika.cli.TikaCLITest" time="0.109"/>
-  <testcase name="testExtract" classname="org.apache.tika.cli.TikaCLITest" time="0.219"/>
-  <testcase name="testLanguageOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.531"/>
-  <testcase name="testZipWithSubdirs" classname="org.apache.tika.cli.TikaCLITest" time="0.063"/>
-  <testcase name="testJsonRecursiveMetadataParserDefault" classname="org.apache.tika.cli.TikaCLITest" time="0.093"/>
-  <testcase name="testListParsers" classname="org.apache.tika.cli.TikaCLITest" time="0.032"/>
-  <testcase name="testJsonMetadataPrettyPrintOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.281"/>
-  <testcase name="testJsonMetadataOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.031"/>
-  <testcase name="testMultiValuedMetadata" classname="org.apache.tika.cli.TikaCLITest" time="0.078"/>
-  <testcase name="testDetectOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.016"/>
-  <testcase name="testConfigSerializationCustomStatic" classname="org.apache.tika.cli.TikaCLITest" time="0.109"/>
-  <testcase name="testListMetModels" classname="org.apache.tika.cli.TikaCLITest" time="0.032"/>
-  <testcase name="testConfigSerializationCustomMinimal" classname="org.apache.tika.cli.TikaCLITest" time="0.031"/>
-  <testcase name="testListSupportedTypes" classname="org.apache.tika.cli.TikaCLITest" time="0.203"/>
-  <testcase name="testDefaultConfigException" classname="org.apache.tika.cli.TikaCLITest" time="0.031"/>
-  <testcase name="testMetadataOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.047"/>
-  <testcase name="testXMLOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.047"/>
-  <testcase name="testHTMLOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.031"/>
-  <testcase name="testTextOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.016"/>
-  <testcase name="testDigestInJson" classname="org.apache.tika.cli.TikaCLITest" time="0.109"/>
-  <testcase name="testConfig" classname="org.apache.tika.cli.TikaCLITest" time="0"/>
-  <testcase name="testConfigSerializationStaticAndCurrent" classname="org.apache.tika.cli.TikaCLITest" time="0.047"/>
-  <testcase name="testExtractInlineImages" classname="org.apache.tika.cli.TikaCLITest" time="2.532"/>
+  <testcase name="testListParserDetail" classname="org.apache.tika.cli.TikaCLITest" time="0.295"/>
+  <testcase name="testJsonRecursiveMetadataParserMetadataOnly" classname="org.apache.tika.cli.TikaCLITest" time="0.79"/>
+  <testcase name="testJsonRecursiveMetadataParserText" classname="org.apache.tika.cli.TikaCLITest" time="0.111"/>
+  <testcase name="testExtract" classname="org.apache.tika.cli.TikaCLITest" time="0.205"/>
+  <testcase name="testLanguageOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.551"/>
+  <testcase name="testZipWithSubdirs" classname="org.apache.tika.cli.TikaCLITest" time="0.059"/>
+  <testcase name="testJsonRecursiveMetadataParserDefault" classname="org.apache.tika.cli.TikaCLITest" time="0.099"/>
+  <testcase name="testListParsers" classname="org.apache.tika.cli.TikaCLITest" time="0.019"/>
+  <testcase name="testJsonMetadataPrettyPrintOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.192"/>
+  <testcase name="testJsonMetadataOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.028"/>
+  <testcase name="testMultiValuedMetadata" classname="org.apache.tika.cli.TikaCLITest" time="0.082"/>
+  <testcase name="testDetectOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.02"/>
+  <testcase name="testConfigSerializationCustomStatic" classname="org.apache.tika.cli.TikaCLITest" time="0.116"/>
+  <testcase name="testListMetModels" classname="org.apache.tika.cli.TikaCLITest" time="0.028"/>
+  <testcase name="testConfigSerializationCustomMinimal" classname="org.apache.tika.cli.TikaCLITest" time="0.024"/>
+  <testcase name="testListSupportedTypes" classname="org.apache.tika.cli.TikaCLITest" time="0.222"/>
+  <testcase name="testDefaultConfigException" classname="org.apache.tika.cli.TikaCLITest" time="0.038"/>
+  <testcase name="testMetadataOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.048"/>
+  <testcase name="testXMLOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.045"/>
+  <testcase name="testHTMLOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.052"/>
+  <testcase name="testTextOutput" classname="org.apache.tika.cli.TikaCLITest" time="0.021"/>
+  <testcase name="testDigestInJson" classname="org.apache.tika.cli.TikaCLITest" time="0.107"/>
+  <testcase name="testConfig" classname="org.apache.tika.cli.TikaCLITest" time="0.011"/>
+  <testcase name="testConfigSerializationStaticAndCurrent" classname="org.apache.tika.cli.TikaCLITest" time="0.042"/>
+  <testcase name="testExtractInlineImages" classname="org.apache.tika.cli.TikaCLITest" time="2.642"/>
 </testsuite>

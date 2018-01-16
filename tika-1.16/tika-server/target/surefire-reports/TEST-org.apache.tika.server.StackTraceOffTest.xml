@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.server.StackTraceOffTest" time="2.797" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.server.StackTraceOffTest" time="2.92" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testEncrypted" classname="org.apache.tika.server.StackTraceOffTest" time="0.797"/>
-  <testcase name="testNullPointerOnTika" classname="org.apache.tika.server.StackTraceOffTest" time="0.828"/>
-  <testcase name="test415" classname="org.apache.tika.server.StackTraceOffTest" time="0.75"/>
-  <testcase name="testMeta" classname="org.apache.tika.server.StackTraceOffTest" time="0.422"/>
+  <testcase name="testEncrypted" classname="org.apache.tika.server.StackTraceOffTest" time="0.876"/>
+  <testcase name="testNullPointerOnTika" classname="org.apache.tika.server.StackTraceOffTest" time="0.774"/>
+  <testcase name="test415" classname="org.apache.tika.server.StackTraceOffTest" time="0.874"/>
+  <testcase name="testMeta" classname="org.apache.tika.server.StackTraceOffTest" time="0.396"/>
 </testsuite>

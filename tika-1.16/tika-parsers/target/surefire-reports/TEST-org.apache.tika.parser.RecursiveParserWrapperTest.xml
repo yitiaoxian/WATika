@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.797" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.RecursiveParserWrapperTest" time="1.363" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,14 +61,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testMaxEmbedded" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.203"/>
-  <testcase name="testCharLimit" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.062"/>
-  <testcase name="testPrimaryExcWEmbedded" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.016"/>
-  <testcase name="testDigesters" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.063"/>
-  <testcase name="testEmbeddedNPE" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.14"/>
-  <testcase name="testBasicHTML" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.063"/>
-  <testcase name="testBasicText" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.062"/>
-  <testcase name="testBasicXML" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.063"/>
-  <testcase name="testIgnoreContent" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.062"/>
-  <testcase name="testEmbeddedResourcePath" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.063"/>
+  <testcase name="testMaxEmbedded" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.282"/>
+  <testcase name="testCharLimit" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.096"/>
+  <testcase name="testPrimaryExcWEmbedded" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.032"/>
+  <testcase name="testDigesters" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.093"/>
+  <testcase name="testEmbeddedNPE" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.235"/>
+  <testcase name="testBasicHTML" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.125"/>
+  <testcase name="testBasicText" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.125"/>
+  <testcase name="testBasicXML" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.14"/>
+  <testcase name="testIgnoreContent" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.126"/>
+  <testcase name="testEmbeddedResourcePath" classname="org.apache.tika.parser.RecursiveParserWrapperTest" time="0.109"/>
 </testsuite>

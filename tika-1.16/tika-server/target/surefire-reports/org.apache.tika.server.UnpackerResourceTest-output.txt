@@ -4,7 +4,7 @@ INFO  stopped o.e.j.s.h.ContextHandler{,null}
 INFO  Setting the server's publish address to be http://localhost:9998/
 INFO  unpack (xxx/xxx)
 WARN  unpack: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@76e84c98
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@4d8b3c88
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:135)
 	at org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:322)

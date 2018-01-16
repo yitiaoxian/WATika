@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.rtf.RTFParserTest" time="1.266" tests="35" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.rtf.RTFParserTest" time="2.126" tests="35" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,39 +61,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testWordPadCzechCharactersExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testMetaDataCounts" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
-  <testcase name="testInvalidUnicode" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
-  <testcase name="testEmbeddedLinkedDocument" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.156"/>
-  <testcase name="testListMicrosoftWord" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
+  <testcase name="testWordPadCzechCharactersExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
+  <testcase name="testMetaDataCounts" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.031"/>
+  <testcase name="testInvalidUnicode" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
+  <testcase name="testEmbeddedLinkedDocument" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.265"/>
+  <testcase name="testListMicrosoftWord" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.031"/>
   <testcase name="testListOverride" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testBoldItalic" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.032"/>
-  <testcase name="testTextWithCurlyBraces" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
+  <testcase name="testBoldItalic" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
+  <testcase name="testTextWithCurlyBraces" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
   <testcase name="testUmlautSpacesExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testVariousStyle" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
+  <testcase name="testVariousStyle" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.047"/>
   <testcase name="testMS932Extraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testWord2010CzechCharactersExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
+  <testcase name="testWord2010CzechCharactersExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
   <testcase name="testHexEscapeInsideWord" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
   <testcase name="testUmlautSpacesExtraction2" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testBoldPlain" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
+  <testcase name="testBoldPlain" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
   <testcase name="testVarious" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testMaxLength" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.031"/>
-  <testcase name="testListLibreOffice" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
-  <testcase name="testFontAfterBufferedText" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
+  <testcase name="testMaxLength" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.047"/>
+  <testcase name="testListLibreOffice" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.032"/>
+  <testcase name="testFontAfterBufferedText" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.031"/>
   <testcase name="testTableCellSeparation" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testControls" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
+  <testcase name="testControls" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
   <testcase name="testCorruptListOverride" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
   <testcase name="testJapaneseText" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
   <testcase name="testUnicodeUCNControlWordCharacterDoublingExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testRegularImages" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.079"/>
+  <testcase name="testRegularImages" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.141"/>
   <testcase name="testIgnoredControlWord" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
-  <testcase name="testEmbeddedMonster" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.75"/>
+  <testcase name="testEmbeddedMonster" classname="org.apache.tika.parser.rtf.RTFParserTest" time="1.297"/>
   <testcase name="testConfig" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
   <testcase name="testBinControlWord" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.047"/>
   <testcase name="testGothic" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testHyperlink" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
+  <testcase name="testHyperlink" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.032"/>
   <testcase name="testWindowsCodepage1250" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
-  <testcase name="testTableCellSeparation2" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
+  <testcase name="testTableCellSeparation2" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.015"/>
   <testcase name="testMultipleNewlines" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0.016"/>
   <testcase name="testBasicExtraction" classname="org.apache.tika.parser.rtf.RTFParserTest" time="0"/>
 </testsuite>

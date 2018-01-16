@@ -167,6 +167,9 @@ public class OpenDocumentContentParser extends AbstractParser {
 
         /**
          * Check if a node is a text node
+         * noted by xiao
+         * 2018年1月15日17:22:02
+         * 检查是否是文本节点
          */
         private boolean isTextNode(String namespaceURI, String localName) {
             if (TEXT_NS.equals(namespaceURI) && !localName.equals("page-number") && !localName.equals("page-count")) {

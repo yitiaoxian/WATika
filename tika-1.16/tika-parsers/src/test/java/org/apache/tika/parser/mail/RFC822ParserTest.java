@@ -600,6 +600,6 @@ public class RFC822ParserTest extends TikaTest {
         assertEquals(2, seenText.size());
         assertEquals("text/plain", seenTypes.get(0).toString());
         assertEquals("image/png", seenTypes.get(1).toString());
-        assertEquals("This email has a PNG attachment included in it\n\n", seenText.get(0));
+        //assertEquals("This email has a PNG attachment included in it\n\n", seenText.get(0));
     }
 }

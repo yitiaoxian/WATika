@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.tika.parser.recognition.AgeRecogniserTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.672 sec - in org.apache.tika.parser.recognition.AgeRecogniserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.901 sec - in org.apache.tika.parser.recognition.AgeRecogniserTest

@@ -223,6 +223,7 @@ public class OpenDocumentParser extends AbstractParser {
                 Metadata metadataOdf = new Metadata();
                 testParser.parse(zipFile.getInputStream(manifestOdf), handlerOdf, metadataOdf);
                 if (handlerOdf.toString().contains(ENCRYPTION_INFO)) {
+                    //如果manifest.xml中含有加密信息，抛出加密的异常
                     throw new EncryptedDocumentException();
                 }
         }

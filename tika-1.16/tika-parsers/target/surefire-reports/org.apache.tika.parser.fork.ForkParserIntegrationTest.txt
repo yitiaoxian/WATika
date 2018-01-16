@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.tika.parser.fork.ForkParserIntegrationTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.643 sec - in org.apache.tika.parser.fork.ForkParserIntegrationTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.37 sec - in org.apache.tika.parser.fork.ForkParserIntegrationTest

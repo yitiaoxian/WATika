@@ -4,7 +4,27 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05e9b27-69ef-4c23-995d-90cdda9f3f7f" name="Default" comment="" />
+    <list default="true" id="f05e9b27-69ef-4c23-995d-90cdda9f3f7f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdNormalizerContentHandler.java" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/classes/org/apache/tika/mime/tika-mimetypes.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/classes/org/apache/tika/mime/tika-mimetypes.xml" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentContentParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentContentParser.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentParser.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdContentParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdContentParser.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdMetaParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdMetaParser.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdParser.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/AutoDetectParserTest.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/AutoDetectParserTest.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/mail/RFC822ParserTest.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/mail/RFC822ParserTest.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ArParserTest.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ArParserTest.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/txt/TXTParserTest.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/txt/TXTParserTest.java" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/META-INF/services/org.apache.tika.parser.Parser" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/META-INF/services/org.apache.tika.parser.Parser" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentContentParser$OpenDocumentElementMappingContentHandler.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentContentParser$OpenDocumentElementMappingContentHandler.class" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentContentParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentContentParser.class" />
+      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentParser.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/" />
     <ignored path="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/" />
     <ignored path="$PROJECT_DIR$/../tika-1.16/tika-parent/target/" />
@@ -42,11 +62,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="OfdNormalizerContentHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdNormalizerContentHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#2539#2540#0" expanded="true" />
+                <element signature="e#2583#2584#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="TikaCLI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="1033" column="65" lean-forward="false" selection-start-line="1033" selection-start-column="48" selection-end-line="1033" selection-end-column="65" />
+            <state relative-caret-position="162">
+              <caret line="1049" column="0" lean-forward="false" selection-start-line="1049" selection-start-column="0" selection-end-line="1049" selection-end-column="0" />
               <folding>
                 <element signature="e#44241#44242#0" expanded="true" />
                 <element signature="e#44276#44277#0" expanded="true" />
@@ -55,67 +93,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OfficeParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OfficeParser.java">
+      <file leaf-file-name="OfdContentParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdContentParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParsingEmbeddedDocumentExtractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractPOIFSExtractor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractPOIFSExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExcelExtractor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ExcelExtractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1742">
-              <caret line="272" column="41" lean-forward="false" selection-start-line="272" selection-start-column="41" selection-end-line="272" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmbeddedDocumentUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1255">
-              <caret line="200" column="52" lean-forward="false" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
+            <state relative-caret-position="-983">
+              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#7404#7405#0" expanded="true" />
-                <element signature="e#7476#7477#0" expanded="true" />
-                <element signature="e#7524#7525#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Metadata.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/metadata/Metadata.java">
+      <file leaf-file-name="OfdMetaParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdMetaParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="38" />
+            <state relative-caret-position="70">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OfdParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <folding>
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+                <element signature="e#1692#1693#0" expanded="true" />
+                <element signature="e#1719#1720#0" expanded="true" />
+                <element signature="e#1763#1764#0" expanded="true" />
+                <element signature="e#1793#1794#0" expanded="true" />
+                <element signature="e#1831#1832#0" expanded="true" />
+                <element signature="e#1861#1862#0" expanded="true" />
+                <element signature="e#1911#1912#0" expanded="true" />
+                <element signature="e#1949#1950#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,10 +143,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="UML Sequence" />
         <option value="UML Class" />
         <option value="UML Component" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,11 +157,16 @@
       <find>parse(</find>
       <find>parseE</find>
       <find>powerpoint</find>
+      <find>zip</find>
+      <find>system.ou</find>
     </findStrings>
     <dirStrings>
       <dir>E:\tika-1.16\tika-1.16</dir>
       <dir>E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\pkg</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -153,21 +176,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../tika-1.16/tika-dl/src/main/java/org/apache/tika/dl/imagerec/DL4JVGG16Net.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-dl/src/test/java/org/apache/tika/dl/imagerec/DL4JInceptionV3NetTest.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-bundle/src/test/java/org/apache/tika/bundle/BundleIT.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-translate/src/main/java/org/apache/tika/language/translate/JoshuaNetworkTranslator.java" />
-        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/resources/META-INF/services/org.apache.tika.parser.Parser" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/video/FLVParser.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/xiao/XiaoParser.java" />
-        <option value="$PROJECT_DIR$/../tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml" />
         <option value="$PROJECT_DIR$/../tika-1.16/pom.xml" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-dl/pom.xml" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-core/pom.xml" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLWordAndPowerPointTextHandler.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLParser.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ZipParserTest.java" />
-        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/mail/RFC822ParserTest.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/mail/MailContentHandler.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/SXWPFWordExtractorDecorator.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlHandler.java" />
@@ -187,7 +206,6 @@
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/rtf/RTFParserTest.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/pkg/PackageParser.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/pkg/RarParser.java" />
-        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentParser.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OfficeParser.java" />
@@ -196,6 +214,19 @@
         <option value="$PROJECT_DIR$/../tika-1.16/tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractPOIFSExtractor.java" />
         <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ExcelExtractor.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/resources/META-INF/services/org.apache.tika.parser.Parser" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdMetaParser.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentContentParser.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentParser.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/txt/TXTParserTest.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/mail/RFC822ParserTest.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/AutoDetectParserTest.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ArParserTest.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdParser.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdNormalizerContentHandler.java" />
+        <option value="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdContentParser.java" />
       </list>
     </option>
   </component>
@@ -224,12 +255,13 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="938" />
+    <option name="y" value="-23" />
     <option name="width" value="1400" />
     <option name="height" value="990" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -245,7 +277,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,33 +309,6 @@
             <path>
               <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="cli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
               <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,99 +349,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="microsoft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="microsoft" type="462c0819:PsiDirectoryNode" />
-              <item name="ooxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.github.junrar:junrar:0.7" type="70bed36:NamedLibraryElementNode" />
-              <item name="junrar-0.7.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junrar" type="462c0819:PsiDirectoryNode" />
+              <item name="ofd" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="org.plantuml.idea.lang.settings.PlantUmlSettingsPage" />
-    <property name="SearchEverywhereHistoryKey" value="should&#9;PSI&#9;JAVA://org.apache.tika.extractor.EmbeddedDocumentExtractor#shouldParseEmbedded&#10;off&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OfficeParser.java&#10;oxml&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLParser.java&#10;hs&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/HSLFExtractor.java&#10;abstra&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractPOIFSExtractor.java&#10;rtf&#9;PSI&#9;JAVA://org.apache.tika.parser.rtf.RTFParser&#10;abs&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java&#10;HS&#9;PSI&#9;JAVA://org.apache.tika.parser.microsoft.HSLFExtractor&#10;fic&#9;PSI&#9;JAVA://org.apache.tika.parser.xml.FictionBookParser&#10;tikare&#9;PSI&#9;JAVA://org.apache.tika.server.resource.TikaResource&#10;recu&#9;PSI&#9;JAVA://org.apache.tika.parser.RecursiveParserWrapper&#10;entrytest&#9;null&#9;null&#10;parseEmbedded&#9;PSI&#9;JAVA://org.apache.tika.extractor.EmbeddedDocumentUtil#parseEmbedded&#10;rar&#9;PSI&#9;JAVA://org.apache.tika.parser.pkg.RarParser&#10;pack&#9;PSI&#9;JAVA://org.apache.tika.parser.pkg.PackageParser&#10;testEmbeddedMonster&#9;PSI&#9;JAVA://org.apache.tika.parser.rtf.RTFParserTest#testEmbeddedMonster&#10;testDOCXOCR&#9;PSI&#9;JAVA://org.apache.tika.parser.ocr.TesseractOCRParserTest#testDOCXOCR&#10;testEmbedded&#9;PSI&#9;JAVA://org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest#testEmbedded&#10;newMhd&#9;PSI&#9;JAVA://com.github.junrar.Archive#newMhd&#10;em&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java&#10;embed&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentUtil.java&#10;parsing&#9;PSI&#9;JAVA://org.apache.tika.extractor.ParsingEmbeddedDocumentExtractor&#10;RFC822ParserTest&#9;PSI&#9;JAVA://org.apache.tika.parser.mail.RFC822ParserTest&#10;.dll&#9;PSI&#9;JAVA://com.sun.java.accessibility.AccessBridge.dllRunner&#10;DLLCallback&#9;PSI&#9;JAVA://com.sun.jna.Platform#HAS_DLL_CALLBACKS&#10;dll&#9;FILE&#9;jar://C:/Users/xiao/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar!/com/sun/jna/win32/DLLCallback.java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="SearchEverywhereHistoryKey" value="arp&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ArParserTest.java&#10;testmim&#9;PSI&#9;JAVA://org.apache.tika.mime.TestMimeTypes&#10;autod&#9;PSI&#9;JAVA://org.apache.tika.parser.AutoDetectParserTest&#10;rfc&#9;PSI&#9;JAVA://org.apache.tika.parser.mail.RFC822ParserTest&#10;txt&#9;PSI&#9;JAVA://org.apache.tika.parser.txt.TXTParserTest&#10;tika-&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml&#10;EMPTY_ATTRIBUTES&#9;PSI&#9;JAVA://org.apache.tika.sax.DIFContentHandler#EMPTY_ATTRIBUTES&#10;tika&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml&#10;should&#9;PSI&#9;JAVA://org.apache.tika.extractor.EmbeddedDocumentExtractor#shouldParseEmbedded&#10;off&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OfficeParser.java&#10;oxml&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLParser.java&#10;hs&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/HSLFExtractor.java&#10;abstra&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/AbstractPOIFSExtractor.java&#10;rtf&#9;PSI&#9;JAVA://org.apache.tika.parser.rtf.RTFParser&#10;abs&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java&#10;HS&#9;PSI&#9;JAVA://org.apache.tika.parser.microsoft.HSLFExtractor&#10;fic&#9;PSI&#9;JAVA://org.apache.tika.parser.xml.FictionBookParser&#10;tikare&#9;PSI&#9;JAVA://org.apache.tika.server.resource.TikaResource&#10;recu&#9;PSI&#9;JAVA://org.apache.tika.parser.RecursiveParserWrapper&#10;entrytest&#9;null&#9;null&#10;parseEmbedded&#9;PSI&#9;JAVA://org.apache.tika.extractor.EmbeddedDocumentUtil#parseEmbedded&#10;rar&#9;PSI&#9;JAVA://org.apache.tika.parser.pkg.RarParser&#10;pack&#9;PSI&#9;JAVA://org.apache.tika.parser.pkg.PackageParser&#10;testEmbeddedMonster&#9;PSI&#9;JAVA://org.apache.tika.parser.rtf.RTFParserTest#testEmbeddedMonster&#10;testDOCXOCR&#9;PSI&#9;JAVA://org.apache.tika.parser.ocr.TesseractOCRParserTest#testDOCXOCR&#10;testEmbedded&#9;PSI&#9;JAVA://org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest#testEmbedded&#10;newMhd&#9;PSI&#9;JAVA://com.github.junrar.Archive#newMhd&#10;em&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java&#10;embed&#9;FILE&#9;file://E:/tika-1.16/tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentUtil.java&#10;parsing&#9;PSI&#9;JAVA://org.apache.tika.extractor.ParsingEmbeddedDocumentExtractor&#10;RFC822ParserTest&#9;PSI&#9;JAVA://org.apache.tika.parser.mail.RFC822ParserTest&#10;.dll&#9;PSI&#9;JAVA://com.sun.java.accessibility.AccessBridge.dllRunner&#10;DLLCallback&#9;PSI&#9;JAVA://com.sun.jna.Platform#HAS_DLL_CALLBACKS&#10;dll&#9;FILE&#9;jar://C:/Users/xiao/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar!/com/sun/jna/win32/DLLCallback.java" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -468,8 +394,8 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="org.apache.tika.cli.TikaCLI" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="-z 嵌套文件抽取目录中文名乱码\dgy-office2003xls(压缩图片加密文件).xls" />
-      <option name="WORKING_DIRECTORY" value="file://E:/tika-test-dir/test/" />
+      <option name="PROGRAM_PARAMETERS" value="cb49fedf47c141c3beae340a5c5ac428.ofd" />
+      <option name="WORKING_DIRECTORY" value="file://E:/tika-test-dir/test/ofd/" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -772,8 +698,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -782,14 +707,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33635333" sideWeight="0.50965667" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17703862" sideWeight="0.49100256" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33635333" sideWeight="0.49034336" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21177803" sideWeight="0.51180255" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17703862" sideWeight="0.49100256" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21177803" sideWeight="0.48819742" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21351932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22263949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1124,6 +1049,18 @@
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdContentParser.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/ContentHandlerDecorator.java</url>
+          <line>125</line>
+          <properties />
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/../tika-1.16/tika-app/src/main/java/org/apache/tika/gui/TikaGUI.java</url>
           <line>325</line>
@@ -1152,7 +1089,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="135" />
+      <option name="time" value="144" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1161,309 +1098,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-server/src/main/java/org/apache/tika/server/resource/TikaResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4020">
-          <caret line="132" column="25" lean-forward="false" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/xml/FictionBookParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/pkg/ZipContainerDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="164" column="33" lean-forward="true" selection-start-line="164" selection-start-column="33" selection-end-line="164" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/metadata/TikaCoreProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2780">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/org/xml/sax/ContentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="280" column="16" lean-forward="false" selection-start-line="280" selection-start-column="16" selection-end-line="280" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/org/xml/sax/helpers/AttributesImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12695">
-          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/MetadataExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17-beta1/poi-3.17-beta1-sources.jar!/org/apache/poi/poifs/filesystem/DirectoryNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="519" column="0" lean-forward="false" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/XSSFExcelExtractorDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/pkg/CompressorParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17-beta1/poi-3.17-beta1-sources.jar!/org/apache/poi/poifs/filesystem/Ole10Native.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="95" column="25" lean-forward="false" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/ContentHandlerDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/EmbeddedContentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#1633#1634#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLExtractorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8100">
-          <caret line="366" column="0" lean-forward="false" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/rtf/TextExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11070">
-          <caret line="458" column="0" lean-forward="false" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFEmbObjHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5130">
-          <caret line="221" column="0" lean-forward="false" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="214" column="52" lean-forward="true" selection-start-line="214" selection-start-column="52" selection-end-line="214" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/mime/MediaType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="426" column="0" lean-forward="false" selection-start-line="426" selection-start-column="0" selection-end-line="426" selection-end-column="0" />
-          <folding>
-            <element signature="e#13921#13922#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/XHTMLContentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6908">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.17-beta1/poi-scratchpad-3.17-beta1-sources.jar!/org/apache/poi/hslf/usermodel/HSLFSheet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2715">
-          <caret line="153" column="29" lean-forward="false" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/pkg/PackageParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="255" column="0" lean-forward="false" selection-start-line="255" selection-start-column="0" selection-end-line="255" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/CompositeParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/AutoDetectParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2808">
-          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi/3.17-beta1/poi-3.17-beta1-sources.jar!/org/apache/poi/poifs/dev/POIFSViewable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-772">
-          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/DelegatingParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/OOXMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="44" column="39" lean-forward="false" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/WordExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="822">
-          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.17-beta1/poi-scratchpad-3.17-beta1-sources.jar!/org/apache/poi/hslf/usermodel/HSLFSlideShow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="65" column="19" lean-forward="false" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.17-beta1/poi-scratchpad-3.17-beta1-sources.jar!/org/apache/poi/hslf/usermodel/HSLFShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.17-beta1/poi-scratchpad-3.17-beta1-sources.jar!/org/apache/poi/hslf/model/OLEShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.17-beta1/poi-scratchpad-3.17-beta1-sources.jar!/org/apache/poi/hslf/usermodel/HSLFObjectData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-scratchpad/3.17-beta1/poi-scratchpad-3.17-beta1-sources.jar!/org/apache/poi/hslf/usermodel/HSLFAutoShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/HSLFExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="469" column="0" lean-forward="false" selection-start-line="469" selection-start-column="0" selection-end-line="469" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2737#2738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/OfficeParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1480,32 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/metadata/Metadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1255">
           <caret line="200" column="52" lean-forward="false" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7404#7405#0" expanded="true" />
-            <element signature="e#7476#7477#0" expanded="true" />
-            <element signature="e#7524#7525#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1513,29 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="241" column="56" lean-forward="false" selection-start-line="241" selection-start-column="48" selection-end-line="241" selection-end-column="56" />
-          <folding>
-            <element signature="e#7257#7258#0" expanded="false" />
-            <element signature="e#7325#7326#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1033" column="65" lean-forward="false" selection-start-line="1033" selection-start-column="48" selection-end-line="1033" selection-end-column="65" />
-          <folding>
-            <element signature="e#44241#44242#0" expanded="true" />
-            <element signature="e#44276#44277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1567,7 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="68" column="13" lean-forward="false" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1576,6 +1162,357 @@
         <state relative-caret-position="-1742">
           <caret line="272" column="41" lean-forward="false" selection-start-line="272" selection-start-column="41" selection-end-line="272" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="43" column="7" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/resources/META-INF/services/org.apache.tika.parser.Parser">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="72" column="49" lean-forward="true" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/pkg/PackageParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6507">
+          <caret line="305" column="0" lean-forward="false" selection-start-line="305" selection-start-column="0" selection-end-line="305" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/apple/AppleSingleFileParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/POIFSContainerDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11097">
+          <caret line="448" column="0" lean-forward="false" selection-start-line="448" selection-start-column="0" selection-end-line="448" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/EmbeddedDocumentExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/xml/parsers/SAXParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="184" column="30" lean-forward="false" selection-start-line="184" selection-start-column="30" selection-end-line="184" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/ParseContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2129">
+          <caret line="182" column="23" lean-forward="false" selection-start-line="182" selection-start-column="16" selection-end-line="182" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/extractor/ParsingEmbeddedDocumentExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/CompositeParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/parser/AutoDetectParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/io/CloseShieldInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#1485#1486#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/detect/CompositeDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/metadata/Metadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/SecureContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="250" column="0" lean-forward="false" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/SafeContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/ElementMappingContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/XHTMLContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="79" column="36" lean-forward="false" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/DIFContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1048">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/jpeg/JpegParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/xml/XMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentMetaParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/ContentHandlerDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="225" column="51" lean-forward="false" selection-start-line="225" selection-start-column="51" selection-end-line="225" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/sax/TextContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/biz/aQute/bnd/bndlib/2.4.0/bndlib-2.4.0-sources.jar!/aQute/libg/sax/ContentFilterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="58" column="15" lean-forward="false" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/org/xml/sax/ContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="354" column="16" lean-forward="false" selection-start-line="354" selection-start-column="16" selection-end-line="354" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/NSNormalizerContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="31" column="61" lean-forward="false" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/txt/TXTParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="298" column="10" lean-forward="false" selection-start-line="298" selection-start-column="10" selection-end-line="298" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/mail/RFC822ParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="602" column="10" lean-forward="false" selection-start-line="602" selection-start-column="10" selection-end-line="602" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185766">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdMetaParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/mime/TestMimeTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="370" column="9" lean-forward="false" selection-start-line="370" selection-start-column="9" selection-end-line="370" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/AutoDetectParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="185" column="0" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/odf/OpenDocumentContentParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="295" column="34" lean-forward="false" selection-start-line="295" selection-start-column="34" selection-end-line="295" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1692#1693#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+            <element signature="e#1911#1912#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="e#4403#4404#0" expanded="false" />
+            <element signature="e#4455#4456#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/test/java/org/apache/tika/parser/pkg/ArParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="113" column="3" lean-forward="false" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdContentParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-app/src/main/java/org/apache/tika/cli/TikaCLI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="1049" column="0" lean-forward="false" selection-start-line="1049" selection-start-column="0" selection-end-line="1049" selection-end-column="0" />
+          <folding>
+            <element signature="e#44241#44242#0" expanded="true" />
+            <element signature="e#44276#44277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/ofd/OfdNormalizerContentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
+            <element signature="e#2583#2584#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1657,6 +1594,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Maven: com.github.junrar:junrar:0.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

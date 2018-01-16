@@ -62,8 +62,8 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testByteOrderMark" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0"/>
-  <testcase name="testMimeMagicStability" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0.078"/>
-  <testcase name="testDetection" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0.047"/>
+  <testcase name="testMimeMagicStability" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0.094"/>
+  <testcase name="testDetection" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0.031"/>
   <testcase name="testMimeMagicClashSamePriority" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0"/>
   <testcase name="testTIKA2237" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0"/>
   <testcase name="testEmptyDocument" classname="org.apache.tika.mime.ProbabilisticMimeDetectionTest" time="0"/>
