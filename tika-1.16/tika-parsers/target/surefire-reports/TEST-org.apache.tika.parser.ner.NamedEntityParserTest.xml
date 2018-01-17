@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.ner.NamedEntityParserTest" time="3.829" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.ner.NamedEntityParserTest" time="4.298" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testParse" classname="org.apache.tika.parser.ner.NamedEntityParserTest" time="1.969"/>
-  <testcase name="testNerChain" classname="org.apache.tika.parser.ner.NamedEntityParserTest" time="1.86"/>
+  <testcase name="testParse" classname="org.apache.tika.parser.ner.NamedEntityParserTest" time="1.985"/>
+  <testcase name="testNerChain" classname="org.apache.tika.parser.ner.NamedEntityParserTest" time="2.313"/>
 </testsuite>

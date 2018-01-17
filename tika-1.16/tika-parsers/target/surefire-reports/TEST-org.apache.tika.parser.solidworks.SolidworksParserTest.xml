@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0.015" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0.016" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,7 +64,7 @@
   <testcase name="testPart2014SP0Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0"/>
   <testcase name="testAssembly2013SP2Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0"/>
   <testcase name="testDrawing2014SP0Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0"/>
-  <testcase name="testPart2013SP2Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0.015"/>
+  <testcase name="testPart2013SP2Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0.016"/>
   <testcase name="testDrawing2013SP2Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0"/>
   <testcase name="testAssembly2014SP0Parser" classname="org.apache.tika.parser.solidworks.SolidworksParserTest" time="0"/>
 </testsuite>

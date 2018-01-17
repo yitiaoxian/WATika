@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.AutoDetectParserTest" time="3.033" tests="22" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.AutoDetectParserTest" time="3.139" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,24 +63,24 @@
   </properties>
   <testcase name="testNoBombDetectedForInvalidXml" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.047"/>
   <testcase name="testSpecificParserList" classname="org.apache.tika.parser.AutoDetectParserTest" time="0"/>
-  <testcase name="testChm" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.547"/>
-  <testcase name="testPDF" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.235"/>
+  <testcase name="testChm" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.516"/>
+  <testcase name="testPDF" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.265"/>
   <testcase name="testRTF" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.047"/>
   <testcase name="testRss" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.078"/>
   <testcase name="testXML" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.031"/>
-  <testcase name="testKeynote" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.406"/>
-  <testcase name="testExcel" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.157"/>
-  <testcase name="testPages" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.172"/>
-  <testcase name="testEpub" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.125"/>
+  <testcase name="testKeynote" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.437"/>
+  <testcase name="testExcel" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.187"/>
+  <testcase name="testPages" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.187"/>
+  <testcase name="testEpub" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.109"/>
   <testcase name="testHTML" classname="org.apache.tika.parser.AutoDetectParserTest" time="0"/>
   <testcase name="testText" classname="org.apache.tika.parser.AutoDetectParserTest" time="0"/>
-  <testcase name="testWord" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.14"/>
-  <testcase name="testOggFlacAudio" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.063"/>
-  <testcase name="testOpenOffice" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.281"/>
+  <testcase name="testWord" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.141"/>
+  <testcase name="testOggFlacAudio" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.047"/>
+  <testcase name="testOpenOffice" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.296"/>
   <testcase name="testTextNonASCIIUTF8" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.016"/>
-  <testcase name="testPowerpoint" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.141"/>
-  <testcase name="testZipBombPrevention" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.031"/>
-  <testcase name="testImages" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.188"/>
+  <testcase name="testPowerpoint" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.125"/>
+  <testcase name="testZipBombPrevention" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.047"/>
+  <testcase name="testImages" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.204"/>
   <testcase name="testRdfXml" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.031"/>
-  <testcase name="testNumbers" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.297"/>
+  <testcase name="testNumbers" classname="org.apache.tika.parser.AutoDetectParserTest" time="0.328"/>
 </testsuite>

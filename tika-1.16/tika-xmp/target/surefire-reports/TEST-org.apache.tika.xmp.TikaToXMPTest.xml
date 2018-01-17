@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.xmp.TikaToXMPTest" time="0.158" tests="12" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.xmp.TikaToXMPTest" time="0.078" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,16 +61,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="convert_OOXMLMetadataWithExtraMimetype_everythingConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.144"/>
+  <testcase name="convert_OOXMLMetadataWithExtraMimetype_everythingConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.062"/>
   <testcase name="getConverter_nullInput_throw" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
   <testcase name="getConverter_noConverterAvailable_null" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
-  <testcase name="convert_wrongGenericMetadata_notConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.005"/>
-  <testcase name="isConverterAvailable_availableMime_true" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.002"/>
+  <testcase name="convert_wrongGenericMetadata_notConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.016"/>
+  <testcase name="isConverterAvailable_availableMime_true" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
   <testcase name="isConverterAvailable_nullInput_false" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
-  <testcase name="convert_nullInput_throw" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.002"/>
+  <testcase name="convert_nullInput_throw" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
   <testcase name="isConverterAvailable_noAvailableMime_false" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
-  <testcase name="convert_genericMetadataAllQualified_allConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.003"/>
+  <testcase name="convert_genericMetadataAllQualified_allConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
   <testcase name="getConverter_ConverterAvailable_class" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
-  <testcase name="convert_OOXMLMetadataWithoutMimetype_onlyGeneralMetadataconverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0.002"/>
+  <testcase name="convert_OOXMLMetadataWithoutMimetype_onlyGeneralMetadataconverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
   <testcase name="convert_OOXMLMetadataWithMimetype_everythingConverted" classname="org.apache.tika.xmp.TikaToXMPTest" time="0"/>
 </testsuite>

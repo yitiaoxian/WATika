@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.metadata.TestMetadata" time="0.125" tests="13" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.metadata.TestMetadata" time="0.11" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -67,7 +67,7 @@
   <testcase name="testSet" classname="org.apache.tika.metadata.TestMetadata" time="0"/>
   <testcase name="testNames" classname="org.apache.tika.metadata.TestMetadata" time="0"/>
   <testcase name="testGetSetDateUnspecifiedTimezone" classname="org.apache.tika.metadata.TestMetadata" time="0"/>
-  <testcase name="testMultithreadedDates" classname="org.apache.tika.metadata.TestMetadata" time="0.125"/>
+  <testcase name="testMultithreadedDates" classname="org.apache.tika.metadata.TestMetadata" time="0.11"/>
   <testcase name="testIsMultiValued" classname="org.apache.tika.metadata.TestMetadata" time="0"/>
   <testcase name="testSetProperties" classname="org.apache.tika.metadata.TestMetadata" time="0"/>
   <testcase name="testGetSetInt" classname="org.apache.tika.metadata.TestMetadata" time="0"/>

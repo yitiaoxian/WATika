@@ -8,7 +8,7 @@ Bundle-SymbolicName: org.apache.tika.parsers
 Implementation-Version: 1.16
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1516074690453
+Bnd-LastModified: 1516170881842
 Specification-Vendor: The Apache Software Foundation
 Specification-Title: Apache Tika parsers
 Implementation-Vendor-Id: org.apache.tika
@@ -569,13 +569,15 @@ Export-Package: org.apache.tika.parser.apple;uses:="org.apache.tika.ex
  tika.metadata,org.apache.tika.sax,org.xml.sax,org.slf4j,org.apache.po
  i.poifs.filesystem,org.apache.tika.exception,org.apache.tika.parser,o
  rg.apache.tika.mime,org.apache.commons.collections4,org.apache.common
- s.lang",org.apache.tika.parser.xiao;uses:="org.apache.tika.metadata,o
- rg.apache.tika.parser,org.xml.sax,org.apache.tika.mime,org.apache.tik
- a.sax",org.apache.tika.parser.xml;uses:="org.xml.sax.helpers,org.apac
- he.tika.metadata,org.xml.sax,org.apache.tika.parser,org.apache.tika.s
- ax,org.slf4j,org.apache.commons.codec.binary,org.apache.tika.extracto
- r,org.apache.tika.exception,org.apache.tika.mime,javax.xml.parsers,or
- g.apache.commons.io.input"
+ s.lang",org.apache.tika.parser.wps;uses:="org.apache.tika.metadata,or
+ g.apache.tika.parser,org.xml.sax,org.apache.tika.mime,org.apache.tika
+ .exception",org.apache.tika.parser.xiao;uses:="org.apache.tika.metada
+ ta,org.apache.tika.parser,org.xml.sax,org.apache.tika.mime,org.apache
+ .tika.sax",org.apache.tika.parser.xml;uses:="org.xml.sax.helpers,org.
+ apache.tika.metadata,org.xml.sax,org.apache.tika.parser,org.apache.ti
+ ka.sax,org.slf4j,org.apache.commons.codec.binary,org.apache.tika.extr
+ actor,org.apache.tika.exception,org.apache.tika.mime,javax.xml.parser
+ s,org.apache.commons.io.input"
 Bundle-Version: 1.16.0
 Bundle-Name: Apache Tika parsers
 Bundle-Activator: org.apache.tika.parser.internal.Activator

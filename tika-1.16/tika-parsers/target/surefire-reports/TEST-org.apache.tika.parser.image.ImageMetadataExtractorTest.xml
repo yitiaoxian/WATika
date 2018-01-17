@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testExifHandlerParseDateError" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.11"/>
-  <testcase name="testExifHandlerParseDate" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.015"/>
+  <testcase name="testExifHandlerParseDateError" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.109"/>
+  <testcase name="testExifHandlerParseDate" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.016"/>
   <testcase name="testExifHandlerSupports" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0"/>
-  <testcase name="testHandleDirectories" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.016"/>
+  <testcase name="testHandleDirectories" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.015"/>
   <testcase name="testExifHandlerParseDateFallback" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0"/>
-  <testcase name="testCopyUnknownFieldsHandler" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.015"/>
+  <testcase name="testCopyUnknownFieldsHandler" classname="org.apache.tika.parser.image.ImageMetadataExtractorTest" time="0.016"/>
 </testsuite>

@@ -61,9 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testPlainText" classname="org.apache.tika.parser.microsoft.OldExcelParserTest" time="0.016"/>
+  <testcase name="testPlainText" classname="org.apache.tika.parser.microsoft.OldExcelParserTest" time="0.015"/>
   <testcase name="testDetection" classname="org.apache.tika.parser.microsoft.OldExcelParserTest" time="0"/>
-  <testcase name="testHTML" classname="org.apache.tika.parser.microsoft.OldExcelParserTest" time="0.031"/>
+  <testcase name="testHTML" classname="org.apache.tika.parser.microsoft.OldExcelParserTest" time="0.032"/>
   <testcase name="testMetadata" classname="org.apache.tika.parser.microsoft.OldExcelParserTest" time="0">
     <skipped/>
   </testcase>

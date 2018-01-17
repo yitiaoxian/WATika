@@ -4,7 +4,7 @@ INFO  stopped o.e.j.s.h.ContextHandler{,null}
 INFO  Setting the server's publish address to be http://localhost:9998/
 INFO  unpack (xxx/xxx)
 WARN  unpack: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@4d8b3c88
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@71465a6f
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:135)
 	at org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:322)
@@ -35,7 +35,7 @@ org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.ap
 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:984)
 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1045)
 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:953)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:236)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:231)
 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)

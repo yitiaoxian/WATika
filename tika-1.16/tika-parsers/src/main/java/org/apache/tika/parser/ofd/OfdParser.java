@@ -17,6 +17,7 @@ import org.apache.tika.sax.EndDocumentShieldingContentHandler;
 import org.apache.tika.sax.XHTMLContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;
@@ -67,6 +68,8 @@ public class OfdParser extends AbstractParser{
         //System.out.println("我在以zip格式进行解析ofd文件");
         //System.out.println(metadata.get("Content-Type"));
         ZipFile zipFile = null;
+        //metadata.add("test","shabi");
+        //可以直接增加元数据
         ZipInputStream zipStream = null;
         if (stream instanceof TikaInputStream) {
             //将输入流转换为tika输入流形式
@@ -138,12 +141,18 @@ public class OfdParser extends AbstractParser{
         if(entry == null) {
             return;
         }
+        if (entry.getName().endsWith(OFD_XML)){
+           // return;
+            if(meta instanceof OfdMetaParser){
+               ((OfdMetaParser) meta).parse(zip, new DefaultHandler(), metadata, context);
+           }
+        }
         if(entry.getName().endsWith("Content.xml")){
             if(content instanceof OfdContentParser) {
-                //System.out.println("处理content.xml中");
                 ((OfdContentParser) content).parseInternal(zip, handler, metadata, context);
             }else {
-                return;
+                // Foreign content parser was set:
+                content.parse(zip, handler, metadata, context);
             }
         }else {
             String embeddedName = entry.getName();
@@ -153,7 +162,7 @@ public class OfdParser extends AbstractParser{
                 Metadata embeddedMetadata = new Metadata();
                 embeddedMetadata.set(TikaCoreProperties.ORIGINAL_RESOURCE_NAME, entry.getName());
                 if (embeddedName.contains("Pictures/")) {
-                   embeddedMetadata.set(TikaMetadataKeys.EMBEDDED_RESOURCE_TYPE,
+                    embeddedMetadata.set(TikaMetadataKeys.EMBEDDED_RESOURCE_TYPE,
                             TikaCoreProperties.EmbeddedResourceType.INLINE.toString());
                 }
                 //这里可以对抽取的文件进行过滤

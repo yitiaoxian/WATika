@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.mock.MockParserTest" time="13.064" tests="10" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.mock.MockParserTest" time="13.221" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,14 +61,14 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testExample" classname="org.apache.tika.parser.mock.MockParserTest" time="0.11"/>
+  <testcase name="testExample" classname="org.apache.tika.parser.mock.MockParserTest" time="0.125"/>
   <testcase name="testFakeOOM" classname="org.apache.tika.parser.mock.MockParserTest" time="0"/>
-  <testcase name="testSleep" classname="org.apache.tika.parser.mock.MockParserTest" time="3"/>
+  <testcase name="testSleep" classname="org.apache.tika.parser.mock.MockParserTest" time="3.001"/>
   <testcase name="testNullPointer" classname="org.apache.tika.parser.mock.MockParserTest" time="0"/>
-  <testcase name="testRealOOM" classname="org.apache.tika.parser.mock.MockParserTest" time="2.766"/>
-  <testcase name="testHeavyHang" classname="org.apache.tika.parser.mock.MockParserTest" time="3.172"/>
+  <testcase name="testRealOOM" classname="org.apache.tika.parser.mock.MockParserTest" time="2.906"/>
+  <testcase name="testHeavyHang" classname="org.apache.tika.parser.mock.MockParserTest" time="3.188"/>
   <testcase name="testNullPointerNoMsg" classname="org.apache.tika.parser.mock.MockParserTest" time="0"/>
   <testcase name="testInterruptibleSleep" classname="org.apache.tika.parser.mock.MockParserTest" time="1"/>
-  <testcase name="testNonInterruptibleSleep" classname="org.apache.tika.parser.mock.MockParserTest" time="3.016"/>
+  <testcase name="testNonInterruptibleSleep" classname="org.apache.tika.parser.mock.MockParserTest" time="3.001"/>
   <testcase name="testNothingBad" classname="org.apache.tika.parser.mock.MockParserTest" time="0"/>
 </testsuite>

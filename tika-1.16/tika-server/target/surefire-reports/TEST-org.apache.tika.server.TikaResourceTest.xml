@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.server.TikaResourceTest" time="0.953" tests="15" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.server.TikaResourceTest" time="1" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,19 +61,19 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSimpleWord" classname="org.apache.tika.server.TikaResourceTest" time="0.024"/>
-  <testcase name="testExtractTextAcceptPlainText" classname="org.apache.tika.server.TikaResourceTest" time="0.127"/>
-  <testcase name="testPasswordXLSXML" classname="org.apache.tika.server.TikaResourceTest" time="0.026"/>
-  <testcase name="testApplicationWadl" classname="org.apache.tika.server.TikaResourceTest" time="0.026"/>
-  <testcase name="testWMFInRTF" classname="org.apache.tika.server.TikaResourceTest" time="0.098"/>
+  <testcase name="testSimpleWord" classname="org.apache.tika.server.TikaResourceTest" time="0.015"/>
+  <testcase name="testExtractTextAcceptPlainText" classname="org.apache.tika.server.TikaResourceTest" time="0.125"/>
+  <testcase name="testPasswordXLSXML" classname="org.apache.tika.server.TikaResourceTest" time="0.063"/>
+  <testcase name="testApplicationWadl" classname="org.apache.tika.server.TikaResourceTest" time="0.031"/>
+  <testcase name="testWMFInRTF" classname="org.apache.tika.server.TikaResourceTest" time="0.094"/>
   <testcase name="testPasswordXLSHTML" classname="org.apache.tika.server.TikaResourceTest" time="0.031"/>
-  <testcase name="testTextMain" classname="org.apache.tika.server.TikaResourceTest" time="0.257"/>
-  <testcase name="testSimpleWordHTML" classname="org.apache.tika.server.TikaResourceTest" time="0.046"/>
-  <testcase name="testPasswordXLS" classname="org.apache.tika.server.TikaResourceTest" time="0.026"/>
-  <testcase name="testSimpleWordXML" classname="org.apache.tika.server.TikaResourceTest" time="0.027"/>
-  <testcase name="testPDFOCRConfig" classname="org.apache.tika.server.TikaResourceTest" time="0.022"/>
-  <testcase name="testEmbedded" classname="org.apache.tika.server.TikaResourceTest" time="0.157"/>
-  <testcase name="testSimpleWordMultipartXML" classname="org.apache.tika.server.TikaResourceTest" time="0.031"/>
-  <testcase name="testTextMainMultipart" classname="org.apache.tika.server.TikaResourceTest" time="0.034"/>
-  <testcase name="testHelloWorld" classname="org.apache.tika.server.TikaResourceTest" time="0.021"/>
+  <testcase name="testTextMain" classname="org.apache.tika.server.TikaResourceTest" time="0.266"/>
+  <testcase name="testSimpleWordHTML" classname="org.apache.tika.server.TikaResourceTest" time="0.047"/>
+  <testcase name="testPasswordXLS" classname="org.apache.tika.server.TikaResourceTest" time="0.015"/>
+  <testcase name="testSimpleWordXML" classname="org.apache.tika.server.TikaResourceTest" time="0.047"/>
+  <testcase name="testPDFOCRConfig" classname="org.apache.tika.server.TikaResourceTest" time="0.016"/>
+  <testcase name="testEmbedded" classname="org.apache.tika.server.TikaResourceTest" time="0.156"/>
+  <testcase name="testSimpleWordMultipartXML" classname="org.apache.tika.server.TikaResourceTest" time="0.047"/>
+  <testcase name="testTextMainMultipart" classname="org.apache.tika.server.TikaResourceTest" time="0.031"/>
+  <testcase name="testHelloWorld" classname="org.apache.tika.server.TikaResourceTest" time="0.016"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.sax.SecureContentHandlerTest" time="0.063" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.sax.SecureContentHandlerTest" time="0.047" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testOneCharacterPerByte" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0.031"/>
+  <testcase name="testOneCharacterPerByte" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0.016"/>
   <testcase name="testSomeCharactersWithoutInput" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0"/>
   <testcase name="testNestedEntries" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0"/>
-  <testcase name="testTenCharactersPerByte" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0.016"/>
+  <testcase name="testTenCharactersPerByte" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0.015"/>
   <testcase name="testZeroCharactersPerByte" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0.016"/>
   <testcase name="testManyCharactersPerByte" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0"/>
   <testcase name="testNestedElements" classname="org.apache.tika.sax.SecureContentHandlerTest" time="0"/>

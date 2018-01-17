@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.tika.parser.rtf.RTFParserTest
 -------------------------------------------------------------------------------
-Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.094 sec - in org.apache.tika.parser.rtf.RTFParserTest
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.781 sec - in org.apache.tika.parser.rtf.RTFParserTest

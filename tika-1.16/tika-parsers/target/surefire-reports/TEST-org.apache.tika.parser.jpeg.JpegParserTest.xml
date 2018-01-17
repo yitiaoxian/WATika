@@ -62,9 +62,9 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testJPEGEmptyEXIFDateTime" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.015"/>
-  <testcase name="testJPEGTitleAndDescriptionPhotoshop" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.032"/>
-  <testcase name="testJPEG" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.015"/>
-  <testcase name="testJPEGXMPMM" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0"/>
+  <testcase name="testJPEGTitleAndDescriptionPhotoshop" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.031"/>
+  <testcase name="testJPEG" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0"/>
+  <testcase name="testJPEGXMPMM" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.016"/>
   <testcase name="testJPEGGeo2" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.016"/>
   <testcase name="testJPEGoddTagComponent" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0"/>
   <testcase name="testJPEGTitleAndDescriptionXnviewmp" classname="org.apache.tika.parser.jpeg.JpegParserTest" time="0.015"/>

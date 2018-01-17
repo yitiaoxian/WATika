@@ -68,31 +68,31 @@
   <testcase name="testUserDefinedCharset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.062"/>
   <testcase name="testCharactersDirectlyUnderBodyElement" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testBoilerplateWhitespace" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
-  <testcase name="testPushback" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.047"/>
-  <testcase name="testAreaExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.047"/>
+  <testcase name="testPushback" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.032"/>
+  <testcase name="testAreaExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
   <testcase name="testParseAscii" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testParseEmpty" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
-  <testcase name="testUsingFunkyCharsetInContentTypeHeader" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testParseEmpty" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testUsingFunkyCharsetInContentTypeHeader" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
   <testcase name="testIdentityMapper" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testOpenGraphMetadata" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testFrameSrcExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testObjectExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testUsingCharsetInContentTypeHeader" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
-  <testcase name="testBrokenFrameset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testConfigExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.032"/>
+  <testcase name="testUsingCharsetInContentTypeHeader" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testBrokenFrameset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testConfigExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testMetaHttpEquivWithLotsOfPreambleText" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
-  <testcase name="testGoodScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
+  <testcase name="testGoodScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.032"/>
   <testcase name="testNewlineAndIndent" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testLineBreak" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
-  <testcase name="testMultiThreadingEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.094"/>
-  <testcase name="testBaseHref" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
-  <testcase name="testXHTMLWithMisleading" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.047"/>
+  <testcase name="testLineBreak" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
+  <testcase name="testMultiThreadingEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.14"/>
+  <testcase name="testBaseHref" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testXHTMLWithMisleading" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
   <testcase name="testBoilerplateDelegation" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testWhitespaceBetweenTableCells" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testHttpEquivCharsetFunkyAttributes" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testNoisyMetaCharsetHeaders" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
-  <testcase name="testBoilerplateWithMarkup" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testLocator" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testBoilerplateWithMarkup" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testLocator" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testFirstTitleValueisSetToMetadata" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testBoilerplateRemoval" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testIgnoreCharsetDetectorLanguage" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
@@ -100,17 +100,17 @@
   <testcase name="testMisleadingMetaContentTypeTags" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testScriptSrc" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testDetectOfCharset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testElementOrdering" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testElementOrdering" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
   <testcase name="testLinkHrefResolution" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testAllHeadElements" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testCustomHtmlSchema" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testCustomHtmlSchema" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="XtestParseUTF8" classname="org.apache.tika.parser.html.HtmlParserTest" time="0">
     <skipped message="The file &apos;testXHTML_utf8.html&apos; is not available for testing"/>
   </testcase>
   <testcase name="testMetaTagHandling" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testSkippingCommentsInEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.032"/>
-  <testcase name="testIFrameSrcExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testHtml5Charset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testSkippingCommentsInEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testIFrameSrcExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testHtml5Charset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testImgUrlExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
 </testsuite>

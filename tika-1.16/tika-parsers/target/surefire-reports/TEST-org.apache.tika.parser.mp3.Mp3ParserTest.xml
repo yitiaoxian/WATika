@@ -62,9 +62,9 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testNakedUTF16BOM" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.047"/>
-  <testcase name="testMp3ParsingID3v1" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.015"/>
+  <testcase name="testMp3ParsingID3v1" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.031"/>
   <testcase name="testMp3ParsingID3v2" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>
-  <testcase name="testMp3ParsingID3v24" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.031"/>
+  <testcase name="testMp3ParsingID3v24" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.015"/>
   <testcase name="testID3v2Frame" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0"/>
   <testcase name="testMp3ParsingLyrics" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>
   <testcase name="testMp3ParsingID3i18n" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>

@@ -67,8 +67,8 @@
   <testcase name="testInitializerBadValue" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="testUnknownParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="asCompositeParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="testDynamicServiceLoaderFromConfig" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
-  <testcase name="testInitializerPerParserThrow" classname="org.apache.tika.config.TikaConfigTest" time="0.016"/>
+  <testcase name="testDynamicServiceLoaderFromConfig" classname="org.apache.tika.config.TikaConfigTest" time="0.016"/>
+  <testcase name="testInitializerPerParserThrow" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="testInitializerServiceLoaderThrow" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="onlyValidParser" classname="org.apache.tika.config.TikaConfigTest" time="0"/>
   <testcase name="ensureClassLoaderUsedEverywhere" classname="org.apache.tika.config.TikaConfigTest" time="0.031"/>

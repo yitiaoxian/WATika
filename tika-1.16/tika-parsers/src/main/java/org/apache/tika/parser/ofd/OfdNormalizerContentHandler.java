@@ -11,8 +11,9 @@ import org.xml.sax.helpers.DefaultHandler;
 * 2018年1月16日11:43:42
 * 增加对ofd的内容抽取
 * 只抽取ofd格式中的TextCode标签的内容
+ ***
+ * @author xiao
  */
-
 public class OfdNormalizerContentHandler extends DefaultHandler{
     private static final char[] SPACE = new char[] {' '};
 
@@ -23,7 +24,7 @@ public class OfdNormalizerContentHandler extends DefaultHandler{
         this(ofdHandler,false);
     }
     public OfdNormalizerContentHandler(ContentHandler ofdHandler,boolean addSpaceBetweenElements){
-        this.ofdHandler=ofdHandler;
+        this.ofdHandler = ofdHandler;
         this.addSpaceBetweenElements = addSpaceBetweenElements;
     }
     @Override
@@ -38,7 +39,7 @@ public class OfdNormalizerContentHandler extends DefaultHandler{
         if("TextCode".equals(currentFlag)){
 
             String value = new String(ch,start,length);
-            if(value.equals(" ")){
+            if(value.equals("")){
                 ofdHandler.ignorableWhitespace(ch,0,value.length());
             }else {
                 ofdHandler.characters(ch, start, length);
@@ -84,5 +85,9 @@ public class OfdNormalizerContentHandler extends DefaultHandler{
     @Override
     public String toString() {
         return ofdHandler.toString();
+    }
+
+    public boolean isAddSpaceBetweenElements() {
+        return addSpaceBetweenElements;
     }
 }

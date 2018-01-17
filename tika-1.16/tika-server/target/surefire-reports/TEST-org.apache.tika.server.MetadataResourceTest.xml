@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.server.MetadataResourceTest" time="5.408" tests="9" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.server.MetadataResourceTest" time="5.032" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,13 +61,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSimpleWord" classname="org.apache.tika.server.MetadataResourceTest" time="0.608"/>
-  <testcase name="testGetField_Author_TEXT_Partial_Found" classname="org.apache.tika.server.MetadataResourceTest" time="0.5"/>
-  <testcase name="testXMP" classname="org.apache.tika.server.MetadataResourceTest" time="0.447"/>
-  <testcase name="testJSON" classname="org.apache.tika.server.MetadataResourceTest" time="0.628"/>
-  <testcase name="testGetField_Author_XMP_Partial_Found" classname="org.apache.tika.server.MetadataResourceTest" time="0.451"/>
-  <testcase name="testGetField_Author_TEXT_Partial_BAD_REQUEST" classname="org.apache.tika.server.MetadataResourceTest" time="0.443"/>
-  <testcase name="testGetField_Author_JSON_Partial_Found" classname="org.apache.tika.server.MetadataResourceTest" time="0.401"/>
-  <testcase name="testPasswordProtected" classname="org.apache.tika.server.MetadataResourceTest" time="1.507"/>
-  <testcase name="testGetField_XXX_NotFound" classname="org.apache.tika.server.MetadataResourceTest" time="0.423"/>
+  <testcase name="testSimpleWord" classname="org.apache.tika.server.MetadataResourceTest" time="0.531"/>
+  <testcase name="testGetField_Author_TEXT_Partial_Found" classname="org.apache.tika.server.MetadataResourceTest" time="0.469"/>
+  <testcase name="testXMP" classname="org.apache.tika.server.MetadataResourceTest" time="0.422"/>
+  <testcase name="testJSON" classname="org.apache.tika.server.MetadataResourceTest" time="0.469"/>
+  <testcase name="testGetField_Author_XMP_Partial_Found" classname="org.apache.tika.server.MetadataResourceTest" time="0.5"/>
+  <testcase name="testGetField_Author_TEXT_Partial_BAD_REQUEST" classname="org.apache.tika.server.MetadataResourceTest" time="0.375"/>
+  <testcase name="testGetField_Author_JSON_Partial_Found" classname="org.apache.tika.server.MetadataResourceTest" time="0.391"/>
+  <testcase name="testPasswordProtected" classname="org.apache.tika.server.MetadataResourceTest" time="1.437"/>
+  <testcase name="testGetField_XXX_NotFound" classname="org.apache.tika.server.MetadataResourceTest" time="0.438"/>
 </testsuite>

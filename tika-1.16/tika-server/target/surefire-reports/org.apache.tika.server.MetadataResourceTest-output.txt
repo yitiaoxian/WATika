@@ -16,7 +16,7 @@ INFO  stopped o.e.j.s.h.ContextHandler{,null}
 INFO  Setting the server's publish address to be http://localhost:9998/
 INFO  meta/Author (application/msword)
 WARN  meta/Author: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@6ed76f5f
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@83cf634
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)
@@ -110,7 +110,7 @@ org.apache.tika.server.TikaServerParseException: HTTP 500 Internal Server Error
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@6ed76f5f
+Caused by: org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@83cf634
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)

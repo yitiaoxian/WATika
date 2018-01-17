@@ -415,6 +415,7 @@ org\apache\tika\parser\microsoft\ooxml\xwpf\XWPFStylesShim$EmptyXWPFStyles.class
 org\apache\tika\parser\ner\mitie\MITIENERecogniser.class
 org\apache\tika\parser\ner\regex\RegexNERecogniser.class
 org\apache\tika\parser\txt\CharsetRecog_sbcs$CharsetRecog_EBCDIC_500_it.class
+org\apache\tika\parser\wps\WPSParser.class
 org\apache\tika\parser\chm\core\ChmCommons$IntelState.class
 org\apache\tika\parser\ocr\TesseractOCRParser$CompositeImageParser.class
 org\apache\tika\parser\odf\OpenDocumentContentParser.class
