@@ -1,13 +1,11 @@
 package org.apache.tika.parser.ofd;
 
-
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.extractor.EmbeddedDocumentExtractor;
 import org.apache.tika.extractor.EmbeddedDocumentUtil;
 import org.apache.tika.io.TikaInputStream;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.metadata.TikaCoreProperties;
-import org.apache.tika.metadata.TikaMetadataKeys;
 import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.AbstractParser;
 import org.apache.tika.parser.ParseContext;
@@ -27,26 +25,43 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 
-/*
-*added by xiao
-* 2018年1月12日10:39:35
-* ofd格式的解析器
+/**
+ * @author xiao
+ * @date 20180119 10:54:16
+ * @modify
+ * @description parser that parse OFD file
  */
 public class OfdParser extends AbstractParser{
-    //该支持的类型
+
     private static final Set<MediaType> SUPPORTED_TYPES=
             Collections.unmodifiableSet(new HashSet<MediaType>(
                     Arrays.asList(
                             MediaType.application("ofd")
                     )
             ));
+    /**
+     * OFD_XML:metadata file
+     */
     private static final String OFD_XML = "OFD.xml";
+    /**
+     * OFD_RES:embedded resource files
+     */
+    private static final String OFD_RES = "Res/";
+    /**
+     * OFD_XML:content file
+     */
+    private static final String OFD_CONTENT = "Content.xml";
     @Override
     public Set<MediaType> getSupportedTypes(ParseContext context) {
         return SUPPORTED_TYPES;
     }
-    //ofd的元数据解析器与内容解析器
+    /**
+     * content:parser for extracting content
+     */
     private Parser content = new OfdContentParser();
+    /**
+     * meta:parser for extracting metadata
+     */
     private Parser meta = new OfdMetaParser();
     public Parser getMetaParser(){
         return meta;
@@ -60,19 +75,25 @@ public class OfdParser extends AbstractParser{
     public void setContentParser(Parser content){
         this.content = content;
     }
-
-    //解析方法
+    /**
+     *
+     * @param stream the document stream (input)
+     * @param baseHandler
+     * @param metadata document metadata (input and output)
+     * @param context parse context
+     * @throws IOException
+     * @throws SAXException
+     * @throws TikaException
+     */
     @Override
     public void parse(InputStream stream, ContentHandler baseHandler, Metadata metadata, ParseContext context)
             throws IOException, SAXException, TikaException {
-        //System.out.println("我在以zip格式进行解析ofd文件");
-        //System.out.println(metadata.get("Content-Type"));
+
         ZipFile zipFile = null;
-        //metadata.add("test","shabi");
-        //可以直接增加元数据
         ZipInputStream zipStream = null;
+
         if (stream instanceof TikaInputStream) {
-            //将输入流转换为tika输入流形式
+            //tansform stream into TikaInputStream
             TikaInputStream tis = (TikaInputStream) stream;
             Object container = ((TikaInputStream) stream).getOpenContainer();
             if (container instanceof ZipFile) {
@@ -85,7 +106,7 @@ public class OfdParser extends AbstractParser{
         } else {
             zipStream = new ZipInputStream(stream);
         }
-        //System.out.println("zip流的获取结束");
+        //handler that XHTML form
         XHTMLContentHandler xhtml = new XHTMLContentHandler(baseHandler, metadata);
         EndDocumentShieldingContentHandler handler =
                 new EndDocumentShieldingContentHandler(xhtml);
@@ -103,11 +124,19 @@ public class OfdParser extends AbstractParser{
             }
         }
         if (handler.getEndDocumentWasCalled()) {
-            //System.out.println("文档结束");
             handler.reallyEndDocument();
         }
     }
-    //处理zip流
+    /***
+     * handle zip by ZipInputStream
+     * @param zipStream:to get ZipEntry
+     * @param metadata:document metadata
+     * @param context parse context
+     * @param handler:EndDocumentShiedingContentHandler,to ensure output metadata before document end
+     * @throws IOException
+     * @throws TikaException
+     * @throws SAXException
+     */
     public void handleZipStream(ZipInputStream zipStream,Metadata metadata,ParseContext context,
                                 EndDocumentShieldingContentHandler handler)
             throws IOException, TikaException, SAXException {
@@ -117,7 +146,16 @@ public class OfdParser extends AbstractParser{
             entry = zipStream.getNextEntry();
         }
     }
-    //处理zip文件
+    /**
+     *@description handle zip file by dealing with zip entry
+     * @param zipFile:to get ZipEntry
+     * @param metadata:document metadata
+     * @param context
+     * @param handler:EndDocumentShiedingContentHandler,to ensure output metadata before document end
+     * @throws IOException
+     * @throws TikaException
+     * @throws SAXException
+     */
     public void handleZipFile(ZipFile zipFile,Metadata metadata,ParseContext context,
                               EndDocumentShieldingContentHandler handler)
             throws IOException, TikaException, SAXException {
@@ -134,7 +172,18 @@ public class OfdParser extends AbstractParser{
             }
         }
     }
-    //处理zip中单个文件
+
+    /**
+     *
+     * @param entry:zip file,to extract content or meta
+     * @param zip:zipstream
+     * @param metadata:metadata
+     * @param context:parse context
+     * @param handler
+     * @throws SAXException
+     * @throws IOException
+     * @throws TikaException
+     */
     public void handleZipEntry(ZipEntry entry,InputStream zip,Metadata metadata,
                                ParseContext context,EndDocumentShieldingContentHandler handler)
             throws SAXException, IOException, TikaException {
@@ -142,13 +191,13 @@ public class OfdParser extends AbstractParser{
             return;
         }
         if (entry.getName().endsWith(OFD_XML)){
-           // return;
             if(meta instanceof OfdMetaParser){
-               ((OfdMetaParser) meta).parse(zip, new DefaultHandler(), metadata, context);
-           }
-        }
-        if(entry.getName().endsWith("Content.xml")){
+                //parse OFD.xml and set metadata
+                meta.parse(zip, new DefaultHandler(), metadata, context);
+            }
+        }else if(entry.getName().endsWith(OFD_CONTENT)){
             if(content instanceof OfdContentParser) {
+                //parse Content.xml in the OFD
                 ((OfdContentParser) content).parseInternal(zip, handler, metadata, context);
             }else {
                 // Foreign content parser was set:
@@ -156,25 +205,17 @@ public class OfdParser extends AbstractParser{
             }
         }else {
             String embeddedName = entry.getName();
-            if(embeddedName.contains("Res/")){
+            if(embeddedName.contains(OFD_RES)){
+                //to deal with embedded resources
                 EmbeddedDocumentExtractor embeddedDocumentExtractor =
                         EmbeddedDocumentUtil.getEmbeddedDocumentExtractor(context);
                 Metadata embeddedMetadata = new Metadata();
+                //set embedded information
                 embeddedMetadata.set(TikaCoreProperties.ORIGINAL_RESOURCE_NAME, entry.getName());
-                if (embeddedName.contains("Pictures/")) {
-                    embeddedMetadata.set(TikaMetadataKeys.EMBEDDED_RESOURCE_TYPE,
-                            TikaCoreProperties.EmbeddedResourceType.INLINE.toString());
-                }
-                //这里可以对抽取的文件进行过滤
-                //if (embeddedName.contains("Pictures/")) {
-                 //   embeddedMetadata.set(TikaMetadataKeys.EMBEDDED_RESOURCE_TYPE,
-                  //          TikaCoreProperties.EmbeddedResourceType.INLINE.toString());
-                //return;
-                // }
-                //end
                 if (embeddedDocumentExtractor.shouldParseEmbedded(embeddedMetadata)) {
-                    BufferedInputStream zipTest = new BufferedInputStream(zip);
-                    embeddedDocumentExtractor.parseEmbedded(zipTest,
+                    //to avoid some IOException
+                    BufferedInputStream zipBuffer = new BufferedInputStream(zip);
+                    embeddedDocumentExtractor.parseEmbedded(zipBuffer,
                             new EmbeddedContentHandler(handler), embeddedMetadata, false);
                 }
             }

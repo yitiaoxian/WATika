@@ -1,9 +1,10 @@
 package org.apache.tika.parser.ofd;
 
 import org.apache.tika.exception.TikaException;
-import org.apache.tika.metadata.*;
+
+import org.apache.tika.metadata.Metadata;
+import org.apache.tika.metadata.Property;
 import org.apache.tika.parser.ParseContext;
-import org.apache.tika.parser.xml.ElementMetadataHandler;
 import org.apache.tika.parser.xml.MetadataHandler;
 import org.apache.tika.parser.xml.XMLParser;
 import org.apache.tika.sax.TeeContentHandler;
@@ -18,47 +19,65 @@ import java.io.IOException;
 import java.io.InputStream;
 
 
-/*
-*added by xiao
-* 2018年1月12日14:02:26
-* 解析元数据xml文件
-* 与tika元数据映射关系处理
+/**
+ * @author xiao
+ *@date 20180119 11:38:55
+ * @modify xiao
+ * @description parser that get and set metadata from a Xml file
  */
 public class OfdMetaParser extends XMLParser {
    private  static final String META_OFD = "http://www.ofdspec.org";
    private static final XPathParser META_XPATH = new XPathParser("ofd",META_OFD);
-
-   //获取XML文件中标签中的内容设置元数据
-   private static ContentHandler getMeta(ContentHandler ch,Metadata md,Property property,String element){
+    /**
+     * handler to get and set metadata
+     * @param ch
+     * @param md
+     * @param property set metadata property
+     * @param element get metadata that will be set
+     * @return TeeContentHandler(ch,brach)
+     */
+   private static ContentHandler getMeta(ContentHandler ch, Metadata md, Property property, String element){
+       //matcher for custom element content
        Matcher matcher = new CompositeMatcher(
                META_XPATH.parse("//ofd:"+element),
                META_XPATH.parse("//ofd:"+element+"//text()"));
        ContentHandler branch =
+               //set metadata in the MetadataHandler
                new MatchingContentHandler(new MetadataHandler(md,property),matcher);
-                //在metadatahandler中获取并设置元数据信息
+        //Content handler proxy that forwards the received SAX events to zero or
+       // more underlying content handlers.
        return new TeeContentHandler(ch,branch);
    }
-    private static ContentHandler getDublinCoreHandler(Metadata metadata,Property property,String element){
-       return new ElementMetadataHandler(DublinCore.NAMESPACE_URI_DC,element,metadata,property);
-    }
-    /*
-    *noted by xiao
-    * getMeta中的参数说明
-    * 第三个为设置的元数据名，第四个为XML的标签名
+    /**
+     * handler for get and set metadata from xml file
+     * @param ch content handler
+     * @param md ofd document metadata
+     * @param context
+     * @return content handler
      */
     @Override
     protected ContentHandler getContentHandler(ContentHandler ch, Metadata md, ParseContext context){
-        //OFD元数据信息在标准文档13页
+        //ofd metadata is in the page 13 of the ofd standard document
+        // author of the ofd document
        ch = getMeta(ch,md,Property.externalText("Author"),"Author");
+       //title of the ofd document
+       ch = getMeta(ch,md,Property.externalText("Title"),"Title");
+       //uuid created when the ofd document was created consist of 32 characters,for identifying files
        ch = getMeta(ch,md,Property.externalText("DocID"),"DocID");
+       //creation date of the ofd document
        ch = getMeta(ch,md,Property.externalText("CreationDate"),"CreationDate");
+       //latest modify date of the ofd document
        ch = getMeta(ch,md,Property.externalText("ModDate"),"ModDate");
+       //create tools of the ofd document
        ch = getMeta(ch,md,Property.externalText("Creator"),"Creator");
+       //creator version of the ofd document
        ch = getMeta(ch,md,Property.externalText("CreatorVersion"),"CreatorVersion");
+       //abstract of the ofd document
        ch = getMeta(ch,md,Property.externalText("Abstract"),"Abstract");
+       //subject of the ofd document
        ch = getMeta(ch,md,Property.externalText("Subject"),"Subject");
+       //usage of the ofd document
        ch = getMeta(ch,md,Property.externalText("DocUsage"),"DocUsage");
-
 
        return ch;
     }
@@ -66,7 +85,5 @@ public class OfdMetaParser extends XMLParser {
    public void parse(InputStream stream, ContentHandler handler, Metadata metadata, ParseContext context)
            throws TikaException, SAXException, IOException {
         super.parse(stream,handler,metadata,context);
-        //String string = metadata.get("Author");
-       // System.out.println(string);
    }
 }
