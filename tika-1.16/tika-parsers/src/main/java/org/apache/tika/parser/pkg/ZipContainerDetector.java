@@ -50,6 +50,7 @@ import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.iwork.IWorkPackageParser;
 import org.apache.tika.parser.iwork.IWorkPackageParser.IWORKDocumentType;
 import org.apache.tika.parser.iwork.iwana.IWork13PackageParser;
+import org.apache.tika.parser.txt.TXTParser;
 
 /**
  * A detector that works on Zip documents and other archive and compression
@@ -148,6 +149,9 @@ public class ZipContainerDetector implements Detector {
                 if (type == null) {
                     type = detectIpa(zip);
                 }
+                if(type == null){
+                    type = detectOfd(zip);
+                }
                 if (type != null) {
                     return type;
                 }
@@ -168,6 +172,24 @@ public class ZipContainerDetector implements Detector {
         // Fallback: it's still a zip file, we just don't know what kind of one
         return MediaType.APPLICATION_ZIP;
     }
+
+    /**
+     * check if the zip is ofd format
+     * @author xiao
+     * @modify 20180123 11:46
+     * @param zip
+     * @return type
+     */
+    private static MediaType detectOfd(ZipFile zip) {
+        ZipArchiveEntry ofdType = zip.getEntry("OFD.xml");
+        if (ofdType != null) {
+            return MediaType.application("ofd");
+        } else {
+            return null;
+        }
+    }
+    //20180123 13:54:17
+    //end
 
     /**
      * OpenDocument files, along with EPub files and ASiC ones, have a 
