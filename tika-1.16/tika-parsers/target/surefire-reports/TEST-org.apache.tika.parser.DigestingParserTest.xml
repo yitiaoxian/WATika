@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.DigestingParserTest" time="0.845" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.DigestingParserTest" time="1.031" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,7 +63,7 @@
   </properties>
   <testcase name="testCommaSeparated" classname="org.apache.tika.parser.DigestingParserTest" time="0.078"/>
   <testcase name="testNegativeMaxMarkLength" classname="org.apache.tika.parser.DigestingParserTest" time="0"/>
-  <testcase name="testBasic" classname="org.apache.tika.parser.DigestingParserTest" time="0.297"/>
-  <testcase name="testReset" classname="org.apache.tika.parser.DigestingParserTest" time="0.063"/>
-  <testcase name="testMultipleCombinations" classname="org.apache.tika.parser.DigestingParserTest" time="0.407"/>
+  <testcase name="testBasic" classname="org.apache.tika.parser.DigestingParserTest" time="0.359"/>
+  <testcase name="testReset" classname="org.apache.tika.parser.DigestingParserTest" time="0.078"/>
+  <testcase name="testMultipleCombinations" classname="org.apache.tika.parser.DigestingParserTest" time="0.516"/>
 </testsuite>

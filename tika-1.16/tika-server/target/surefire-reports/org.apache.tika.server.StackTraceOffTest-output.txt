@@ -1,6 +1,6 @@
 INFO  Setting the server's publish address to be http://localhost:9998/
-WARN  Both org.apache.tika.server.resource.TikaResource#getHTML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
 WARN  Both org.apache.tika.server.resource.TikaResource#getXML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
+WARN  Both org.apache.tika.server.resource.TikaResource#getHTML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
 INFO  tika (autodetecting type)
 WARN  tika: Encrypted document
 org.apache.tika.exception.EncryptedDocumentException: Unable to process: document is encrypted
@@ -219,11 +219,11 @@ Caused by: org.apache.poi.EncryptedDocumentException: Default password is invali
 	... 44 more
 INFO  stopped o.e.j.s.h.ContextHandler{,null}
 INFO  Setting the server's publish address to be http://localhost:9998/
-WARN  Both org.apache.tika.server.resource.TikaResource#getHTML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
 WARN  Both org.apache.tika.server.resource.TikaResource#getXML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
+WARN  Both org.apache.tika.server.resource.TikaResource#getHTML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
 INFO  tika (autodetecting type)
 WARN  tika: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@428e98a7
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@21264e43
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)
@@ -275,7 +275,7 @@ Caused by: java.lang.NullPointerException: null pointer message
 ERROR Problem with writing the data, class org.apache.tika.server.resource.TikaResource$5, ContentType: text/plain
 INFO  rmeta (autodetecting type)
 WARN  rmeta: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@428e98a7
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@21264e43
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)
@@ -331,7 +331,7 @@ Caused by: java.lang.NullPointerException: null pointer message
 	... 41 more
 INFO  unpack (autodetecting type)
 WARN  unpack: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@428e98a7
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@21264e43
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)
@@ -384,7 +384,7 @@ Caused by: java.lang.NullPointerException: null pointer message
 	... 38 more
 INFO  meta (autodetecting type)
 WARN  meta: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@428e98a7
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.mock.MockParser@21264e43
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)
@@ -439,11 +439,11 @@ Caused by: java.lang.NullPointerException: null pointer message
 	... 40 more
 INFO  stopped o.e.j.s.h.ContextHandler{,null}
 INFO  Setting the server's publish address to be http://localhost:9998/
-WARN  Both org.apache.tika.server.resource.TikaResource#getHTML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
 WARN  Both org.apache.tika.server.resource.TikaResource#getXML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
+WARN  Both org.apache.tika.server.resource.TikaResource#getHTML and org.apache.tika.server.resource.TikaResource#getText are equal candidates for handling the current request which can lead to unpredictable results
 INFO  tika (blechdeblah/deblechdeblah)
 WARN  tika: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@59848604
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@e2eb660
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:135)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
@@ -486,7 +486,7 @@ Caused by: javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
 ERROR Problem with writing the data, class org.apache.tika.server.resource.TikaResource$5, ContentType: text/plain
 INFO  rmeta (blechdeblah/deblechdeblah)
 WARN  rmeta: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@138677f5
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@418070e6
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:135)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
@@ -533,7 +533,7 @@ Caused by: javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
 	... 39 more
 INFO  unpack (blechdeblah/deblechdeblah)
 WARN  unpack: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@122b891
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@566e1c88
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:135)
 	at org.apache.tika.server.resource.TikaResource.parse(TikaResource.java:322)
@@ -577,7 +577,7 @@ Caused by: javax.ws.rs.WebApplicationException: HTTP 415 Unsupported Media Type
 	... 36 more
 INFO  meta (blechdeblah/deblechdeblah)
 WARN  meta: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@d9b0682
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.server.resource.TikaResource$1@3716ade6
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.AutoDetectParser.parse(AutoDetectParser.java:135)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
@@ -625,7 +625,7 @@ INFO  stopped o.e.j.s.h.ContextHandler{,null}
 INFO  Setting the server's publish address to be http://localhost:9998/
 INFO  meta/Author (application/msword)
 WARN  meta/Author: Text extraction failed
-org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@eb1ccab
+org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@4d302031
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)
@@ -660,7 +660,7 @@ org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.ap
 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:984)
 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1045)
 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:953)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:236)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:231)
 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
@@ -712,14 +712,14 @@ org.apache.tika.server.TikaServerParseException: HTTP 500 Internal Server Error
 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:984)
 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1045)
 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:953)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:236)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:231)
 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@eb1ccab
+Caused by: org.apache.tika.exception.TikaException: Unexpected RuntimeException from org.apache.tika.parser.microsoft.OfficeParser@4d302031
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:283)
 	at org.apache.tika.parser.ParserDecorator.parse(ParserDecorator.java:188)
 	at org.apache.tika.parser.CompositeParser.parse(CompositeParser.java:281)

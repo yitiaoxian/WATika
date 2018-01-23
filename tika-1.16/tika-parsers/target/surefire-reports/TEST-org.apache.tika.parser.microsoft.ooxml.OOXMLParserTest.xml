@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="3.638" tests="71" errors="0" skipped="2" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="3.701" tests="71" errors="0" skipped="2" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,79 +61,79 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testEncrypted" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.328"/>
+  <testcase name="testEncrypted" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.344"/>
   <testcase name="testXLSXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testDOCXHeaderFooterNotExtraction" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.063"/>
-  <testcase name="testEmbeddedZipInPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.141"/>
-  <testcase name="testPPTXAutodate" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
-  <testcase name="testXLSXChartData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testDOCXHeaderFooterNotExtraction" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.062"/>
+  <testcase name="testEmbeddedZipInPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.125"/>
+  <testcase name="testPPTXAutodate" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testXLSXChartData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.046"/>
   <testcase name="testXLSBChartData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testHyperlinksInXLSX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testWordMissingOOXMLBeans" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
+  <testcase name="testHyperlinksInXLSX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testWordMissingOOXMLBeans" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
   <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
-  <testcase name="testBigIntegersWGeneralFormat" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
-  <testcase name="testDOCXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testPPTXDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testBigIntegersWGeneralFormat" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testDOCXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
+  <testcase name="testPPTXDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
   <testcase name="testExcel" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
   <testcase name="testWord" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
   <testcase name="testMacrosInDocm" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.078"/>
   <testcase name="testMacrosInPptm" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.125"/>
   <testcase name="testDOCXChartData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testDOCXDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testPPTXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testPPTXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testInitializationViaConfig" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.094"/>
   <testcase name="testTextInsideTextBox" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
   <testcase name="testProtectedExcelFile" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.062"/>
-  <testcase name="testPPTXChartData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testPPTXChartData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
   <testcase name="testMasterFooter" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.046"/>
   <testcase name="testUnsupportedPowerPoint" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
-  <testcase name="testExcelTextBox" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0"/>
+  <testcase name="testExcelTextBox" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
   <testcase name="testXLSXOriginalPath" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testXLSBNoHeaderFooters" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.063"/>
-  <testcase name="testPowerPoint" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.188"/>
-  <testcase name="testLongForIntExceptionInSummaryDetails" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
+  <testcase name="testXLSBNoHeaderFooters" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.062"/>
+  <testcase name="testPowerPoint" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.219"/>
+  <testcase name="testLongForIntExceptionInSummaryDetails" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testBoldHyperlink" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.063"/>
-  <testcase name="testWordPicturesInHeader" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testDOCXOverrideParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testXLSXDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testMacroinXlsm" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.109"/>
-  <testcase name="testWordNullStyle" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testExcelFormats" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testBoldHyperlink" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
+  <testcase name="testWordPicturesInHeader" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testDOCXOverrideParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
+  <testcase name="testXLSXDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
+  <testcase name="testMacroinXlsm" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.11"/>
+  <testcase name="testWordNullStyle" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testExcelFormats" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
   <testcase name="testEmbeddedPDFInPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.078"/>
-  <testcase name="testEmbeddedPDFInXLSX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testOrigSourcePath" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.093"/>
+  <testcase name="testEmbeddedPDFInXLSX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
+  <testcase name="testOrigSourcePath" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.094"/>
   <testcase name="testMasterText2" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testMissingText" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
-  <testcase name="testWordCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
+  <testcase name="testWordCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testTurningOffTextBoxExtractionExcel" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testWordHTML" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.125"/>
-  <testcase name="testWordFootnote" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
+  <testcase name="testWordFootnote" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
   <testcase name="testExcelHeaderAndFooterNotExtraction" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testPowerPointMetadataEarly" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.187"/>
+  <testcase name="testPowerPointMetadataEarly" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.188"/>
   <testcase name="testNoFormat" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testWordArt" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testExcelHeaderAndFooterExtraction" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testExcelHeaderAndFooterExtraction" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
   <testcase name="testExcelStrict" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0">
     <skipped message="OOXML-Strict not currently supported by POI, see #57699"/>
   </testcase>
-  <testcase name="testExcelCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testExcelCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
   <testcase name="testPowerPointCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testCommentPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
-  <testcase name="testMasterText" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
-  <testcase name="testXLSBDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
+  <testcase name="testMasterText" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testXLSBDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
   <testcase name="testProtectedExcelSheets" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
   <testcase name="testVariousPPTX" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
-  <testcase name="testNullHeaders" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
+  <testcase name="testNullHeaders" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.015"/>
   <testcase name="testXLSBOriginalPath" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
-  <testcase name="testEmbeddedPPTXTwoSlides" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.156"/>
-  <testcase name="testPOI61034" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testEmbeddedPPTXTwoSlides" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.172"/>
+  <testcase name="testPOI61034" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.032"/>
   <testcase name="testPicturesInVariousPlaces" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0">
     <skipped message="need to add links in xhtml"/>
   </testcase>
   <testcase name="testTurningOffTextBoxExtraction" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
   <testcase name="testXLSBVarious" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.047"/>
-  <testcase name="testDOCXParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.063"/>
+  <testcase name="testDOCXParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.062"/>
   <testcase name="testExcelXLSB" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
-  <testcase name="testMultiAuthorsManagers" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.031"/>
+  <testcase name="testMultiAuthorsManagers" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest" time="0.016"/>
 </testsuite>

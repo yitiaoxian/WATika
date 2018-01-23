@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="1.39" tests="6" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="1.454" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testEmbeddedImages" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.406"/>
-  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.031"/>
-  <testcase name="testEmbeddedOutlook" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.031"/>
-  <testcase name="testEmbeddedOfficeFiles" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.625"/>
-  <testcase name="testEmbeddedGraphChart" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.157"/>
-  <testcase name="testWithoutEmbedded" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.14"/>
+  <testcase name="testEmbeddedImages" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.375"/>
+  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.047"/>
+  <testcase name="testEmbeddedOutlook" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.032"/>
+  <testcase name="testEmbeddedOfficeFiles" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.703"/>
+  <testcase name="testEmbeddedGraphChart" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.156"/>
+  <testcase name="testWithoutEmbedded" classname="org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest" time="0.141"/>
 </testsuite>

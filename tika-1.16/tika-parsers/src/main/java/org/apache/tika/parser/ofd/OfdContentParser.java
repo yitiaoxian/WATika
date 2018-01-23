@@ -70,7 +70,7 @@ public class OfdContentParser extends AbstractParser{
         //get a SAX parser for extracting xml file
         SAXParser parser = context.getSAXParser();
         parser.parse(new CloseShieldInputStream(stream),
-              new OfdNormalizerContentHandler(defaultHandler));
+              new OfdContentHandler(defaultHandler));
 
     }
 }

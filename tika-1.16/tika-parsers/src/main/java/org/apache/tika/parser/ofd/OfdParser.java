@@ -197,7 +197,7 @@ public class OfdParser extends AbstractParser{
             }
         }else if(entry.getName().endsWith(OFD_CONTENT)){
             if(content instanceof OfdContentParser) {
-                //parse Content.xml in the OFD
+                //parse Content.xml
                 ((OfdContentParser) content).parseInternal(zip, handler, metadata, context);
             }else {
                 // Foreign content parser was set:

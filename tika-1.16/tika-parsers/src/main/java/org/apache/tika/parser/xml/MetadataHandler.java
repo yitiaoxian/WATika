@@ -65,11 +65,13 @@ public class MetadataHandler extends DefaultHandler {
         }
     }
 
+    @Override
     public void endElement(String uri, String localName, String name) {
         addMetadata(buffer.toString());
         buffer.setLength(0);
     }
 
+    @Override
     public void startElement(
             String uri, String localName, String name, Attributes attributes) {
         for (int i = 0; i < attributes.getLength(); i++) {
@@ -78,6 +80,7 @@ public class MetadataHandler extends DefaultHandler {
     }
 
     
+    @Override
     public void characters(char[] ch, int start, int length) {
         buffer.append(ch, start, length);
     }

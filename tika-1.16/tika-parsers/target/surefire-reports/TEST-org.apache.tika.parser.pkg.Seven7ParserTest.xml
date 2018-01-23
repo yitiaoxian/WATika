@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.578" tests="3" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.641" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,7 +61,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test7ZParsing" classname="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.14"/>
-  <testcase name="testPasswordProtected" classname="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.375"/>
-  <testcase name="testEmbedded" classname="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.063"/>
+  <testcase name="test7ZParsing" classname="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.141"/>
+  <testcase name="testPasswordProtected" classname="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.453"/>
+  <testcase name="testEmbedded" classname="org.apache.tika.parser.pkg.Seven7ParserTest" time="0.047"/>
 </testsuite>

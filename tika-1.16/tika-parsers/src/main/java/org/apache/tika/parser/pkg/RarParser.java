@@ -74,7 +74,6 @@ public class RarParser extends AbstractParser {
                 throw new EncryptedDocumentException();
            }
 
-
             //Without this BodyContentHandler does not work
             xhtml.element("div", " ");
 
@@ -92,9 +91,9 @@ public class RarParser extends AbstractParser {
                 //end
                 if (!header.isDirectory()) {
                     //****modified by xiao
-                    //rar文件无法抽取
+                    //cannot extract rar file
                     //Caused by: java.io.IOException: mark/reset not supported
-                    //将subFile再封装一层BufferedInputStream
+                    //make subFile buffered by BufferedInputStream
                     try (InputStream subFile = rar.getInputStream(header)) {
                         BufferedInputStream subFile1 = new BufferedInputStream(subFile);
                         Metadata entrydata = PackageParser.handleEntryMetadata(
@@ -110,7 +109,7 @@ public class RarParser extends AbstractParser {
                           //          header.getFullUnpackSize(),
                          //           xhtml
                          //   );
-                        //源码
+                        //source code
 
                         if (extractor.shouldParseEmbedded(entrydata)) {
                             extractor.parseEmbedded(subFile1, handler, entrydata, true);

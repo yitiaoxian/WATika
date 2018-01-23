@@ -70,6 +70,6 @@
   <testcase name="testMp3ParsingID3i18n" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>
   <testcase name="testMp3ParsingID3v1v2" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.015"/>
   <testcase name="testTIKA1589_noId3ReturnsDurationCorrectly" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>
-  <testcase name="testTIKA424" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.015"/>
-  <testcase name="testTIKA474" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>
+  <testcase name="testTIKA424" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.016"/>
+  <testcase name="testTIKA474" classname="org.apache.tika.parser.mp3.Mp3ParserTest" time="0.015"/>
 </testsuite>

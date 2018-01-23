@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.eval.SimpleComparerTest" time="3.985" tests="10" errors="0" skipped="2" failures="0">
+<testsuite name="org.apache.tika.eval.SimpleComparerTest" time="3.97" tests="10" errors="0" skipped="2" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,18 +61,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testAttachmentCounts" classname="org.apache.tika.eval.SimpleComparerTest" time="0.579"/>
-  <testcase name="testBasic" classname="org.apache.tika.eval.SimpleComparerTest" time="0.593"/>
+  <testcase name="testAttachmentCounts" classname="org.apache.tika.eval.SimpleComparerTest" time="0.61"/>
+  <testcase name="testBasic" classname="org.apache.tika.eval.SimpleComparerTest" time="0.594"/>
   <testcase name="testDebug" classname="org.apache.tika.eval.SimpleComparerTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="testEmpty" classname="org.apache.tika.eval.SimpleComparerTest" time="0.579"/>
+  <testcase name="testEmpty" classname="org.apache.tika.eval.SimpleComparerTest" time="0.562"/>
   <testcase name="oneOff" classname="org.apache.tika.eval.SimpleComparerTest" time="0">
     <skipped message="useful for testing 2 files not in test set"/>
   </testcase>
-  <testcase name="testDifferentlyOrderedAttachments" classname="org.apache.tika.eval.SimpleComparerTest" time="0.422"/>
-  <testcase name="testAccessException" classname="org.apache.tika.eval.SimpleComparerTest" time="0.515"/>
-  <testcase name="testChinese" classname="org.apache.tika.eval.SimpleComparerTest" time="0.406"/>
+  <testcase name="testDifferentlyOrderedAttachments" classname="org.apache.tika.eval.SimpleComparerTest" time="0.438"/>
+  <testcase name="testAccessException" classname="org.apache.tika.eval.SimpleComparerTest" time="0.562"/>
+  <testcase name="testChinese" classname="org.apache.tika.eval.SimpleComparerTest" time="0.375"/>
   <testcase name="testBasicSpanish" classname="org.apache.tika.eval.SimpleComparerTest" time="0.454"/>
-  <testcase name="testGetContent" classname="org.apache.tika.eval.SimpleComparerTest" time="0.437"/>
+  <testcase name="testGetContent" classname="org.apache.tika.eval.SimpleComparerTest" time="0.375"/>
 </testsuite>

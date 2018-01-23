@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="1.5" tests="32" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="1.563" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,36 +61,36 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testEncrypted" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.11"/>
-  <testcase name="basicTest" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.078"/>
-  <testcase name="testWordMissingOOXMLBeans" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
-  <testcase name="testDOCXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testDotx" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.078"/>
-  <testcase name="testWord" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testMacrosInDocm" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.079"/>
-  <testcase name="testDOCXChartData" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testTextInsideTextBox" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
+  <testcase name="testEncrypted" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.109"/>
+  <testcase name="basicTest" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.094"/>
+  <testcase name="testWordMissingOOXMLBeans" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
+  <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
+  <testcase name="testDOCXThumbnail" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.032"/>
+  <testcase name="testDotx" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.093"/>
+  <testcase name="testWord" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.032"/>
+  <testcase name="testMacrosInDocm" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.093"/>
+  <testcase name="testDOCXChartData" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.016"/>
+  <testcase name="testTextInsideTextBox" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
   <testcase name="testSkipDeleted" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.094"/>
   <testcase name="testLongForIntExceptionInSummaryDetails" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
+  <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
   <testcase name="testBoldHyperlink" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
   <testcase name="testWordPicturesInHeader" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.032"/>
-  <testcase name="testContiguousHTMLFormatting" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.046"/>
-  <testcase name="testDOCXOverrideParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.032"/>
-  <testcase name="testWordNullStyle" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testOrigSourcePath" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.078"/>
-  <testcase name="testMissingText" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
+  <testcase name="testContiguousHTMLFormatting" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.062"/>
+  <testcase name="testDOCXOverrideParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
+  <testcase name="testWordNullStyle" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.016"/>
+  <testcase name="testOrigSourcePath" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.094"/>
+  <testcase name="testMissingText" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
   <testcase name="testWordCustomProperties" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.016"/>
-  <testcase name="testWordHTML" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.062"/>
+  <testcase name="testWordHTML" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.078"/>
   <testcase name="testWordFootnote" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
   <testcase name="testNoFormat" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
-  <testcase name="testEmbedded" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.094"/>
-  <testcase name="testDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
+  <testcase name="testEmbedded" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.109"/>
+  <testcase name="testDiagramData" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.016"/>
   <testcase name="testNullHeaders" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testPicturesInVariousPlaces" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.047"/>
-  <testcase name="testTurningOffTextBoxExtraction" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.032"/>
+  <testcase name="testPicturesInVariousPlaces" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.063"/>
+  <testcase name="testTurningOffTextBoxExtraction" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
   <testcase name="testDOCXParagraphNumbering" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
   <testcase name="testHeaderFooterNotExtraction" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
-  <testcase name="testMultiAuthorsManagers" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.031"/>
+  <testcase name="testMultiAuthorsManagers" classname="org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest" time="0.032"/>
 </testsuite>

@@ -225,6 +225,7 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microso
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDF2XHTML.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\audio\AudioParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\xml\FictionBookParser.java
+E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\wps\WPSParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdNormalizerContentHandler.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\font\AdobeFontMetricParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\WMFParser.java

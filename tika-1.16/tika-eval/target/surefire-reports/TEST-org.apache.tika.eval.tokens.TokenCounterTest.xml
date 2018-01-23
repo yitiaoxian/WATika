@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.eval.tokens.TokenCounterTest" time="0.297" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.eval.tokens.TokenCounterTest" time="0.203" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,7 +62,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testCJKFilter" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0"/>
-  <testcase name="testBasic" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0.047"/>
-  <testcase name="testCommonTokens" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0"/>
-  <testcase name="testRandom" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0.25"/>
+  <testcase name="testBasic" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0.031"/>
+  <testcase name="testCommonTokens" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0.016"/>
+  <testcase name="testRandom" classname="org.apache.tika.eval.tokens.TokenCounterTest" time="0.156"/>
 </testsuite>

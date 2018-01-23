@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="basicTest" classname="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest" time="0.094"/>
-  <testcase name="testSkipDeletedAndMoveFrom" classname="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest" time="0.078"/>
+  <testcase name="basicTest" classname="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest" time="0.093"/>
+  <testcase name="testSkipDeletedAndMoveFrom" classname="org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest" time="0.079"/>
 </testsuite>

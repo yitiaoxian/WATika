@@ -61,9 +61,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testMultilineHeader" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.016"/>
-  <testcase name="testHeaders" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.015"/>
-  <testcase name="testComplex" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.016"/>
-  <testcase name="testQuoted" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.031"/>
+  <testcase name="testMultilineHeader" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.015"/>
+  <testcase name="testHeaders" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.032"/>
+  <testcase name="testComplex" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.015"/>
+  <testcase name="testQuoted" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.016"/>
   <testcase name="testSimple" classname="org.apache.tika.parser.mbox.MboxParserTest" time="0.016"/>
 </testsuite>

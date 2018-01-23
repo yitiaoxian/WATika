@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.config.TikaEncodingDetectorTest" time="0.313" tests="8" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.config.TikaEncodingDetectorTest" time="0.36" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,12 +61,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testEncodingDetectorConfigurability" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.109"/>
-  <testcase name="testNonDetectingDetectorParams" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.063"/>
+  <testcase name="testEncodingDetectorConfigurability" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.141"/>
+  <testcase name="testNonDetectingDetectorParams" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.078"/>
   <testcase name="testConfigurabilityOfUserSpecified" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.031"/>
   <testcase name="testNonDetectingDetectorParamsBadCharset" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0"/>
-  <testcase name="testDefault" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.047"/>
-  <testcase name="testParameterization" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.031"/>
-  <testcase name="testBlackList" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.016"/>
-  <testcase name="testEncodingDetectorsAreLoaded" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.016"/>
+  <testcase name="testDefault" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.063"/>
+  <testcase name="testParameterization" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.016"/>
+  <testcase name="testBlackList" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0.031"/>
+  <testcase name="testEncodingDetectorsAreLoaded" classname="org.apache.tika.config.TikaEncodingDetectorTest" time="0"/>
 </testsuite>

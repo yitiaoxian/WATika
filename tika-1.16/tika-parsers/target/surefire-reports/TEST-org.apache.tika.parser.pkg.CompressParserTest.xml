@@ -63,6 +63,6 @@
   </properties>
   <testcase name="testCompressParsing" classname="org.apache.tika.parser.pkg.CompressParserTest" time="0.109"/>
   <testcase name="testLZMAOOM" classname="org.apache.tika.parser.pkg.CompressParserTest" time="0.047"/>
-  <testcase name="testCompressOOM" classname="org.apache.tika.parser.pkg.CompressParserTest" time="0.032"/>
-  <testcase name="testEmbedded" classname="org.apache.tika.parser.pkg.CompressParserTest" time="0.031"/>
+  <testcase name="testCompressOOM" classname="org.apache.tika.parser.pkg.CompressParserTest" time="0.031"/>
+  <testcase name="testEmbedded" classname="org.apache.tika.parser.pkg.CompressParserTest" time="0.032"/>
 </testsuite>

@@ -62,8 +62,8 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testParseJpegPhotoshop" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
-  <testcase name="testParseJpeg" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0.016"/>
+  <testcase name="testParseJpeg" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
   <testcase name="testMaxXMPMMHistory" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
   <testcase name="testJoinCreators" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
-  <testcase name="testParseJpegXnviewmp" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0"/>
+  <testcase name="testParseJpegXnviewmp" classname="org.apache.tika.parser.image.xmp.JempboxExtractorTest" time="0.016"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.ParameterizedParserTest" time="0.016" tests="5" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.ParameterizedParserTest" time="0.015" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -63,7 +63,7 @@
   </properties>
   <testcase name="testSomeParams" classname="org.apache.tika.parser.ParameterizedParserTest" time="0"/>
   <testcase name="testBadValue" classname="org.apache.tika.parser.ParameterizedParserTest" time="0"/>
-  <testcase name="testConfigurableParserTypesDecorated" classname="org.apache.tika.parser.ParameterizedParserTest" time="0.016"/>
-  <testcase name="testBadType" classname="org.apache.tika.parser.ParameterizedParserTest" time="0"/>
+  <testcase name="testConfigurableParserTypesDecorated" classname="org.apache.tika.parser.ParameterizedParserTest" time="0"/>
+  <testcase name="testBadType" classname="org.apache.tika.parser.ParameterizedParserTest" time="0.015"/>
   <testcase name="testConfigurableParserTypes" classname="org.apache.tika.parser.ParameterizedParserTest" time="0"/>
 </testsuite>

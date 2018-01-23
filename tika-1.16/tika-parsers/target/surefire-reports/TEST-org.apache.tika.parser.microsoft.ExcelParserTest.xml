@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.812" tests="16" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.86" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,20 +61,20 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testHeaderAndFooterExtraction" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
-  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.032"/>
-  <testcase name="testTextBox" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.031"/>
-  <testcase name="testExcel95" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.031"/>
-  <testcase name="testJXL" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.203"/>
+  <testcase name="testHeaderAndFooterExtraction" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.016"/>
+  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
+  <testcase name="testTextBox" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.032"/>
+  <testcase name="testExcel95" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.047"/>
+  <testcase name="testJXL" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.187"/>
   <testcase name="testEmbeddedPDF" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.063"/>
-  <testcase name="testBigIntegersWGeneralFormat" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
-  <testcase name="testExcelParserCharts" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.032"/>
-  <testcase name="testExcelParserFormatting" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
-  <testcase name="testExcelParserPassword" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.188"/>
+  <testcase name="testBigIntegersWGeneralFormat" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.031"/>
+  <testcase name="testExcelParserCharts" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
+  <testcase name="testExcelParserFormatting" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.032"/>
+  <testcase name="testExcelParserPassword" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.203"/>
   <testcase name="testHeaderAndFooterNotExtraction" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
   <testcase name="testWorksSpreadsheet70" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.032"/>
-  <testcase name="testTurningOffTextBoxExtractionExcel" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.015"/>
+  <testcase name="testTurningOffTextBoxExtractionExcel" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.031"/>
   <testcase name="testExcelParser" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.016"/>
   <testcase name="testHyperlinksInXLS" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.031"/>
-  <testcase name="testMacros" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.078"/>
+  <testcase name="testMacros" classname="org.apache.tika.parser.microsoft.ExcelParserTest" time="0.094"/>
 </testsuite>

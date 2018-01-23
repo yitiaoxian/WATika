@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testByteOrderMark" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>
-  <testcase name="testMimeMagicStability" classname="org.apache.tika.mime.MimeDetectionTest" time="0.157"/>
-  <testcase name="testDetection" classname="org.apache.tika.mime.MimeDetectionTest" time="0.046"/>
-  <testcase name="testMimeMagicClashSamePriority" classname="org.apache.tika.mime.MimeDetectionTest" time="0.016"/>
+  <testcase name="testByteOrderMark" classname="org.apache.tika.mime.MimeDetectionTest" time="0.016"/>
+  <testcase name="testMimeMagicStability" classname="org.apache.tika.mime.MimeDetectionTest" time="0.14"/>
+  <testcase name="testDetection" classname="org.apache.tika.mime.MimeDetectionTest" time="0.063"/>
+  <testcase name="testMimeMagicClashSamePriority" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>
   <testcase name="testEmptyDocument" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>
   <testcase name="testNotXML" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>
   <testcase name="testSuperTypes" classname="org.apache.tika.mime.MimeDetectionTest" time="0"/>

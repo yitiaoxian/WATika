@@ -7,7 +7,7 @@ Bundle-SymbolicName: org.apache.tika.translate
 Implementation-Version: 1.16
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1516171067299
+Bnd-LastModified: 1516679573086
 Specification-Vendor: The Apache Software Foundation
 Specification-Title: Apache Tika translate
 Implementation-Vendor-Id: org.apache.tika

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.crypto.TSDParserTest" time="0.422" tests="7" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.crypto.TSDParserTest" time="0.531" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,11 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testTSDFileData" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.25"/>
-  <testcase name="testTSDFileDataRecursiveMetadataPdf" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.047"/>
-  <testcase name="testTSDFileDataRecursiveMetadataXML" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.015"/>
+  <testcase name="testTSDFileData" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.296"/>
+  <testcase name="testTSDFileDataRecursiveMetadataPdf" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.063"/>
+  <testcase name="testTSDFileDataRecursiveMetadataXML" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.031"/>
   <testcase name="testBrokenPdf" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.031"/>
-  <testcase name="testTSDFileDataRecursiveMetadataDocx" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.032"/>
-  <testcase name="testTSDFileDataRecursiveMetadataTxt1" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.031"/>
-  <testcase name="testTSDFileDataRecursiveMetadataTxt2" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.016"/>
+  <testcase name="testTSDFileDataRecursiveMetadataDocx" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.047"/>
+  <testcase name="testTSDFileDataRecursiveMetadataTxt1" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.032"/>
+  <testcase name="testTSDFileDataRecursiveMetadataTxt2" classname="org.apache.tika.parser.crypto.TSDParserTest" time="0.031"/>
 </testsuite>

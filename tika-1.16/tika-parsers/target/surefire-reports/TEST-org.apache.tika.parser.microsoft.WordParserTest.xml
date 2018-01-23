@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.microsoft.WordParserTest" time="1.203" tests="29" errors="0" skipped="2" failures="0">
+<testsuite name="org.apache.tika.parser.microsoft.WordParserTest" time="1.25" tests="29" errors="0" skipped="2" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -61,37 +61,37 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.015"/>
+  <testcase name="testCustomProperties" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
   <testcase name="testHyperlinkStringLongNoCloseQuote" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0">
     <skipped/>
   </testcase>
-  <testcase name="testEmbeddedRTF" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.032"/>
-  <testcase name="testHeaderHyperlinks" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testDocumentLink" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
+  <testcase name="testEmbeddedRTF" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.047"/>
+  <testcase name="testHeaderHyperlinks" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
+  <testcase name="testDocumentLink" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
   <testcase name="testParagraphsAfterTables" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testControlCharacter" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.047"/>
-  <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testBoldHyperlink" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testDOCParagraphNumbering" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.032"/>
+  <testcase name="testControlCharacter" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.063"/>
+  <testcase name="testVarious" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.015"/>
+  <testcase name="testBoldHyperlink" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.032"/>
+  <testcase name="testDOCParagraphNumbering" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
   <testcase name="testProtected" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
   <testcase name="testOrigSourcePath" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.078"/>
-  <testcase name="testDOCOverrideParagraphNumbering" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
+  <testcase name="testDOCOverrideParagraphNumbering" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.032"/>
   <testcase name="testTabularSymbol" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testTurningOffTextBox" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
-  <testcase name="testWordParser" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testWordHTML" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.125"/>
+  <testcase name="testTurningOffTextBox" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
+  <testcase name="testWordParser" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
+  <testcase name="testWordHTML" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.14"/>
   <testcase name="testOrigLocation" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.032"/>
   <testcase name="testNoFormat" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testEmbeddedNames" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.062"/>
-  <testcase name="testDeleted" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.188"/>
-  <testcase name="testWordWithWAV" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testWord6Parser" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
+  <testcase name="testEmbeddedNames" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.047"/>
+  <testcase name="testDeleted" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.187"/>
+  <testcase name="testWordWithWAV" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.047"/>
+  <testcase name="testWord6Parser" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
   <testcase name="testHyperlinkStringLongCarriageReturn" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0">
     <skipped/>
   </testcase>
   <testcase name="testMacros" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.078"/>
-  <testcase name="testExceptions1" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.063"/>
-  <testcase name="testHyperlinkStringIOOBESmartQuote" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
-  <testcase name="testHeaderFooterNotExtraction" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
+  <testcase name="testExceptions1" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.078"/>
+  <testcase name="testHyperlinkStringIOOBESmartQuote" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.016"/>
+  <testcase name="testHeaderFooterNotExtraction" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
   <testcase name="testMultiAuthorsManagers" classname="org.apache.tika.parser.microsoft.WordParserTest" time="0.031"/>
 </testsuite>

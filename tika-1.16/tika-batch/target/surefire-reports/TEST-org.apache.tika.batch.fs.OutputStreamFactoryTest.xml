@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSkip" classname="org.apache.tika.batch.fs.OutputStreamFactoryTest" time="0.016"/>
-  <testcase name="testIllegalState" classname="org.apache.tika.batch.fs.OutputStreamFactoryTest" time="0.031"/>
+  <testcase name="testSkip" classname="org.apache.tika.batch.fs.OutputStreamFactoryTest" time="0.031"/>
+  <testcase name="testIllegalState" classname="org.apache.tika.batch.fs.OutputStreamFactoryTest" time="0.016"/>
 </testsuite>

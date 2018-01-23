@@ -61,6 +61,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testQPW" classname="org.apache.tika.parser.wordperfect.QuattroProTest" time="0.032"/>
-  <testcase name="testWB3" classname="org.apache.tika.parser.wordperfect.QuattroProTest" time="0.015"/>
+  <testcase name="testQPW" classname="org.apache.tika.parser.wordperfect.QuattroProTest" time="0.031"/>
+  <testcase name="testWB3" classname="org.apache.tika.parser.wordperfect.QuattroProTest" time="0.016"/>
 </testsuite>

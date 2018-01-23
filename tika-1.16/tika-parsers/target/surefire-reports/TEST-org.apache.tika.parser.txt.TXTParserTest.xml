@@ -65,11 +65,11 @@
   <testcase name="testUseIncomingCharsetAsHint" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
   <testcase name="testDropByteOrderMark" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
   <testcase name="testUsingCharsetInContentTypeHeader" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
-  <testcase name="testSubclassingMimeTypesRemain" classname="org.apache.tika.parser.txt.TXTParserTest" time="0.015"/>
+  <testcase name="testSubclassingMimeTypesRemain" classname="org.apache.tika.parser.txt.TXTParserTest" time="0.016"/>
   <testcase name="testCP866" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
   <testcase name="testEmptyText" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
-  <testcase name="testLatinDetectionHeuristics" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
-  <testcase name="testEBCDIC_CP500" classname="org.apache.tika.parser.txt.TXTParserTest" time="0.016"/>
+  <testcase name="testLatinDetectionHeuristics" classname="org.apache.tika.parser.txt.TXTParserTest" time="0.015"/>
+  <testcase name="testEBCDIC_CP500" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
   <testcase name="testRetainIncomingLanguage" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
   <testcase name="testCharsetDetectionWithShortSnipet" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>
   <testcase name="testUTF8Text" classname="org.apache.tika.parser.txt.TXTParserTest" time="0"/>

@@ -181,8 +181,9 @@ public class ZipContainerDetector implements Detector {
      * @return type
      */
     private static MediaType detectOfd(ZipFile zip) {
-        ZipArchiveEntry ofdType = zip.getEntry("OFD.xml");
-        if (ofdType != null) {
+        ZipArchiveEntry ofdEntry1 = zip.getEntry("OFD.xml");
+        ZipArchiveEntry ofdEntry2 = zip.getEntry("Doc_0/Document.xml");
+        if (ofdEntry1 != null && ofdEntry2 != null) {
             return MediaType.application("ofd");
         } else {
             return null;

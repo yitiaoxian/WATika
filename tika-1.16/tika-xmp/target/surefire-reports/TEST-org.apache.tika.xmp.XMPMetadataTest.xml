@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.xmp.XMPMetadataTest" time="0.016" tests="21" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.xmp.XMPMetadataTest" time="0.015" tests="21" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -69,7 +69,7 @@
   <testcase name="get_nullInput_throw" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="get_notQualifiedKey_throw" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="get_simpleProp_valueReturned" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
-  <testcase name="getValues_arrayProperty_allElementsReturned" classname="org.apache.tika.xmp.XMPMetadataTest" time="0.016"/>
+  <testcase name="getValues_arrayProperty_allElementsReturned" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="size_numberOfNamespacesReturned" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="get_unknownPrefixKey_throw" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="isMultiValued_multiProp_true" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
@@ -81,5 +81,5 @@
   <testcase name="set_simplePropWithMultipleValues_throw" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="set_nullInput_throw" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
   <testcase name="isMultiValued_simpleProp_false" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
-  <testcase name="testSetAll" classname="org.apache.tika.xmp.XMPMetadataTest" time="0"/>
+  <testcase name="testSetAll" classname="org.apache.tika.xmp.XMPMetadataTest" time="0.015"/>
 </testsuite>

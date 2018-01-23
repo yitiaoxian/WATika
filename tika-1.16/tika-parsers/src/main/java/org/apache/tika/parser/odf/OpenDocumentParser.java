@@ -105,7 +105,7 @@ public class OpenDocumentParser extends AbstractParser {
 
     /***
      *added by xiao
-     *2018年1月3日14:21:15
+     *20180103 14:21:15
      */
     //private static  boolean CHECK_ENCRYPTED = true;
     private static final String MANIFEST="META-INF/manifest.xml";
@@ -172,7 +172,7 @@ public class OpenDocumentParser extends AbstractParser {
             try {
                 handleZipFile(zipFile, metadata, context, handler);
             }
-            //test 2018年1月2日11:05:30
+            //test 20180102 11:05:30
             // catch (Exception e){
             //      throw new EncryptedDocumentException();
             //  }
@@ -212,18 +212,21 @@ public class OpenDocumentParser extends AbstractParser {
         // Only possible to guarantee that when opened from a file not a stream
         /**
          * added by xiao
-         * 2018年1月3日11:33:52
-         * 增加读取META-INF/manifest.xml的读取
-         * xmlParser为解析出xml文件中的数据
+         * 2018 01 03 11:33:52
+         * add extract META-INF/manifest.xml
+         * if the content has some encrytion infomatioin
+         * throw file encryption exception
+         *
          * */
         ZipEntry manifestOdf = zipFile.getEntry(MANIFEST);
         if (manifestOdf != null) {
-                TXTParser testParser = new TXTParser();
+                TXTParser tmpParser = new TXTParser();
                 BodyContentHandler handlerOdf = new BodyContentHandler();
                 Metadata metadataOdf = new Metadata();
-                testParser.parse(zipFile.getInputStream(manifestOdf), handlerOdf, metadataOdf);
+                tmpParser.parse(zipFile.getInputStream(manifestOdf), handlerOdf, metadataOdf);
                 if (handlerOdf.toString().contains(ENCRYPTION_INFO)) {
-                    //如果manifest.xml中含有加密信息，抛出加密的异常
+                    //if manifest.xml contain encryption information
+                    //throw encryption exception
                     throw new EncryptedDocumentException();
                 }
         }
@@ -248,31 +251,31 @@ public class OpenDocumentParser extends AbstractParser {
         if (entry == null) return;
         /**
          * added by xiao
-         * 2018年1月3日10:29:09
-         * zip --->ziptest
+         * 20180103 10:29:09
+         * zip --->zipbuffered to avoid some ioexception
          * */
-        BufferedInputStream zipTest=new BufferedInputStream(zip);
+        BufferedInputStream zipBuffered=new BufferedInputStream(zip);
         //end
         if (entry.getName().equals("mimetype")) {
-            String type = IOUtils.toString(zipTest, UTF_8);
+            String type = IOUtils.toString(zipBuffered, UTF_8);
             metadata.set(Metadata.CONTENT_TYPE, type);
         } else if (entry.getName().equals(META_NAME)) {
-            //xiao test 2018年1月2日11:51:20
+            //xiao test 20180102 11:51:20
             //end
-            meta.parse(zipTest, new DefaultHandler(), metadata, context);
+            meta.parse(zipBuffered, new DefaultHandler(), metadata, context);
         } else if (entry.getName().endsWith("content.xml")) {
             if (content instanceof OpenDocumentContentParser) {
-                ((OpenDocumentContentParser) content).parseInternal(zipTest, handler, metadata, context);
+                ((OpenDocumentContentParser) content).parseInternal(zipBuffered, handler, metadata, context);
             } else {
                 // Foreign content parser was set:
-                content.parse(zipTest, handler, metadata, context);
+                content.parse(zipBuffered, handler, metadata, context);
             }
         } else if (entry.getName().endsWith("styles.xml")) {
             if (content instanceof OpenDocumentContentParser) {
-                ((OpenDocumentContentParser) content).parseInternal(zipTest, handler, metadata, context);
+                ((OpenDocumentContentParser) content).parseInternal(zipBuffered, handler, metadata, context);
             } else {
                 // Foreign content parser was set:
-                content.parse(zipTest, handler, metadata, context);
+                content.parse(zipBuffered, handler, metadata, context);
             }
         } else {
             String embeddedName = entry.getName();
@@ -292,7 +295,7 @@ public class OpenDocumentParser extends AbstractParser {
                             TikaCoreProperties.EmbeddedResourceType.INLINE.toString());
                 }
                 if (embeddedDocumentExtractor.shouldParseEmbedded(embeddedMetadata)) {
-                    embeddedDocumentExtractor.parseEmbedded(zipTest,
+                    embeddedDocumentExtractor.parseEmbedded(zipBuffered,
                             new EmbeddedContentHandler(handler), embeddedMetadata, false);
                 }
             }

@@ -161,7 +161,7 @@ org.apache.tika.exception.EncryptedDocumentException: Unable to process: documen
 	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:984)
 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1045)
 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:953)
-	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:236)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:231)
 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)

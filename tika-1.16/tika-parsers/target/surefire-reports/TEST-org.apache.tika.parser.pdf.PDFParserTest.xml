@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.pdf.PDFParserTest" time="11.705" tests="47" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.parser.pdf.PDFParserTest" time="11.595" tests="47" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,48 +64,48 @@
   <testcase name="testOSSpecificEmbeddedFileExtraction" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
   <testcase name="testSignatureInAcroForm" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
   <testcase name="testDisableAutoSpace" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.078"/>
-  <testcase name="testDuplicateOverlappingText" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.079"/>
-  <testcase name="testEmbeddedJPEG" classname="org.apache.tika.parser.pdf.PDFParserTest" time="1.422"/>
+  <testcase name="testDuplicateOverlappingText" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.063"/>
+  <testcase name="testEmbeddedJPEG" classname="org.apache.tika.parser.pdf.PDFParserTest" time="1.484"/>
   <testcase name="testEmbeddedPDFs" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
-  <testcase name="testAnnotations" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.062"/>
+  <testcase name="testAnnotations" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.063"/>
   <testcase name="testBookmarks" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
   <testcase name="testJBIG2OCROnly" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0"/>
-  <testcase name="testEmbeddedPDFEmbeddingAnotherDocument" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.11"/>
-  <testcase name="testVersions" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.172"/>
-  <testcase name="testLinks" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
-  <testcase name="testXMPMM" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
-  <testcase name="testSortByPosition" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.062"/>
-  <testcase name="testEmbeddedFileMarkup" classname="org.apache.tika.parser.pdf.PDFParserTest" time="1.266"/>
-  <testcase name="testInitializationOfNonPrimitivesViaConfig" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testEmbeddedFileNameExtraction" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
-  <testcase name="testInitializationViaConfig" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testEmbeddedFilesInAnnotations" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
-  <testcase name="testLegacyAccessChecking" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.094"/>
-  <testcase name="testInlineSelector" classname="org.apache.tika.parser.pdf.PDFParserTest" time="2.203"/>
-  <testcase name="testMultipleTitles" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testCustomMetadata" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
-  <testcase name="testVarious" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.032"/>
+  <testcase name="testEmbeddedPDFEmbeddingAnotherDocument" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.109"/>
+  <testcase name="testVersions" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.203"/>
+  <testcase name="testLinks" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.032"/>
+  <testcase name="testXMPMM" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.046"/>
+  <testcase name="testSortByPosition" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.079"/>
+  <testcase name="testEmbeddedFileMarkup" classname="org.apache.tika.parser.pdf.PDFParserTest" time="1.172"/>
+  <testcase name="testInitializationOfNonPrimitivesViaConfig" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
+  <testcase name="testEmbeddedFileNameExtraction" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
+  <testcase name="testInitializationViaConfig" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0"/>
+  <testcase name="testEmbeddedFilesInAnnotations" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
+  <testcase name="testLegacyAccessChecking" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.093"/>
+  <testcase name="testInlineSelector" classname="org.apache.tika.parser.pdf.PDFParserTest" time="2.313"/>
+  <testcase name="testMultipleTitles" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
+  <testcase name="testCustomMetadata" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
+  <testcase name="testVarious" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
   <testcase name="testMaxLength" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
-  <testcase name="testConfiguringMoreParams" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.125"/>
+  <testcase name="testConfiguringMoreParams" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.141"/>
   <testcase name="testXFAExtractionBasic" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.078"/>
-  <testcase name="testSingleCloseDoc" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
-  <testcase name="testAccessCheckingEmptyPassword" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.032"/>
-  <testcase name="testPDFEncodedStringsInXMP" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
-  <testcase name="testTwoTextBoxes" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.032"/>
-  <testcase name="testPageNumber" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
-  <testcase name="testDiffTitles" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testAccessCheckingOwnerPassword" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.156"/>
-  <testcase name="testXFAOnly" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testPdfParsing" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
-  <testcase name="testInlineConfig" classname="org.apache.tika.parser.pdf.PDFParserTest" time="2.25"/>
-  <testcase name="testProtectedPDF" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.391"/>
-  <testcase name="testMultipleAuthors" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
+  <testcase name="testSingleCloseDoc" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
+  <testcase name="testAccessCheckingEmptyPassword" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
+  <testcase name="testPDFEncodedStringsInXMP" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.032"/>
+  <testcase name="testTwoTextBoxes" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
+  <testcase name="testPageNumber" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
+  <testcase name="testDiffTitles" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
+  <testcase name="testAccessCheckingOwnerPassword" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.141"/>
+  <testcase name="testXFAOnly" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
+  <testcase name="testPdfParsing" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
+  <testcase name="testInlineConfig" classname="org.apache.tika.parser.pdf.PDFParserTest" time="2.157"/>
+  <testcase name="testProtectedPDF" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.343"/>
+  <testcase name="testMultipleAuthors" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
   <testcase name="testEmbeddedDocsWithOCROnly" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0"/>
-  <testcase name="testPdfParsingMetadataOnly" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testPopupAnnotation" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.031"/>
+  <testcase name="testPdfParsingMetadataOnly" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.032"/>
+  <testcase name="testPopupAnnotation" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.015"/>
   <testcase name="testTurningOffBookmarks" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.016"/>
-  <testcase name="testEmbeddedFilesInChildren" classname="org.apache.tika.parser.pdf.PDFParserTest" time="2.188"/>
+  <testcase name="testEmbeddedFilesInChildren" classname="org.apache.tika.parser.pdf.PDFParserTest" time="2.094"/>
   <testcase name="testAccessCheckingUserPassword" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
-  <testcase name="testEmbeddedJBIG2Image" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.046"/>
-  <testcase name="testSkipBadPage" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.204"/>
+  <testcase name="testEmbeddedJBIG2Image" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.047"/>
+  <testcase name="testSkipBadPage" classname="org.apache.tika.parser.pdf.PDFParserTest" time="0.156"/>
 </testsuite>
