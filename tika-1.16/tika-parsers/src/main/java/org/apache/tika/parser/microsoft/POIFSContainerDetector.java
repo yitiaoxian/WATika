@@ -250,6 +250,11 @@ public class POIFSContainerDetector implements Detector {
                 //  OOXML file we have. Return a general OOXML Protected type,
                 //  and hope the name based detection can guess the rest!
                 return OOXML_PROTECTED;
+            }else if(names.contains("EncryptedPackage") &&
+                    names.contains("EncryptionInfo")){
+                //wps encrypted pptx docx xlsx 20180124 15:27
+                return OOXML_PROTECTED;
+                //end
             } else if (names.contains("EncryptedPackage")) {
                 return OLE;
             } else if (names.contains("WordDocument")) {

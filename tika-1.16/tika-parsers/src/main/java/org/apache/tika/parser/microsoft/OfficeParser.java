@@ -232,45 +232,7 @@ public class OfficeParser extends AbstractOfficeParser {
                 } catch (GeneralSecurityException ex) {
                     throw new EncryptedDocumentException(ex);
                 }
-                /*
-                *added by xiao
-                * 2017年12月25日10:09:01
-                * tika测试wps加密文件读取为了UNKNOWN类型
-                * case UNKNOWN
-                 */
-            case UNKNOWN:
-                EncryptionInfo info1 = new EncryptionInfo(root);
-                Decryptor d1 = Decryptor.getInstance(info1);
 
-                try {
-                    // By default, use the default Office Password
-                    String password = Decryptor.DEFAULT_PASSWORD;
-                    // If they supplied a Password Provider, ask that for the password,
-                    //  and use the provider given one if available (stick with default if not)
-                    PasswordProvider passwordProvider = context.get(PasswordProvider.class);
-                    if (passwordProvider != null) {
-                        String suppliedPassword = passwordProvider.getPassword(metadata);
-                        if (suppliedPassword != null) {
-                            password = suppliedPassword;
-                        }
-                    }
-                    // Check if we've the right password or not
-                    if (!d1.verifyPassword(password)) {
-                        throw new EncryptedDocumentException();
-                    }
-                    // Decrypt the OLE2 stream, and delegate the resulting OOXML
-                    //  file to the regular OOXML parser for normal handling
-                    OOXMLParser parser = new OOXMLParser();
-                    parser.parse(d1.getDataStream(root), new EmbeddedContentHandler(
-                                    new BodyContentHandler(xhtml)),
-                            metadata, context);
-                } catch (GeneralSecurityException ex) {
-                    throw new EncryptedDocumentException(ex);
-                }
-                /*
-                *ended by xiao
-                * 2017年12月25日10:10:41
-                 */
             default:
                 // For unsupported / unhandled types, just the metadata
                 //  is extracted, which happened above
