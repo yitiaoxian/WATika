@@ -99,10 +99,7 @@ import org.apache.tika.parser.RecursiveParserWrapper;
 import org.apache.tika.parser.html.BoilerpipeContentHandler;
 import org.apache.tika.parser.pdf.PDFParserConfig;
 import org.apache.tika.parser.utils.CommonsDigester;
-import org.apache.tika.sax.BasicContentHandlerFactory;
-import org.apache.tika.sax.BodyContentHandler;
-import org.apache.tika.sax.ContentHandlerFactory;
-import org.apache.tika.sax.ExpandedTitleContentHandler;
+import org.apache.tika.sax.*;
 import org.apache.tika.xmp.XMPMetadata;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -287,7 +284,17 @@ public class TikaCLI {
             return new NoDocumentXMPMetaHandler(metadata, writer);
         }
     };
+    //xiao
+    //20018/1/30
+    private final OutputType WAEXTRACT = new OutputType(){
+        @Override
+        protected ContentHandler getContentHandler(
+                OutputStream output,Metadata metadata){
+            return new BodyContentHandler(output);
+        }
 
+    };
+    //end
     private final OutputType LANGUAGE = new OutputType() {
         @Override
         protected ContentHandler getContentHandler(
@@ -444,7 +451,14 @@ public class TikaCLI {
         } else if (arg.equals("-z") || arg.equals("--extract")) {
             type = NO_OUTPUT;
             context.set(EmbeddedDocumentExtractor.class, new FileEmbeddedDocumentExtractor());
-        } else if (arg.equals("-r") || arg.equals("--pretty-print")) {
+        }
+        //xiao
+        //2018/1/30
+         else if(arg.equals("-w")||arg.equals("--word")){
+            type = WAEXTRACT;
+        }
+        //end
+          else if (arg.equals("-r") || arg.equals("--pretty-print")) {
             prettyPrint = true;
         } else if (arg.equals("-p") || arg.equals("--port")
                 || arg.equals("-s") || arg.equals("--server")) {
@@ -523,6 +537,7 @@ public class TikaCLI {
         } else if (type.equals(METADATA)) {
             handlerType = BasicContentHandlerFactory.HANDLER_TYPE.IGNORE;
         }
+
         return new BasicContentHandlerFactory(handlerType, -1);
     }
     private void usage() {
@@ -545,6 +560,11 @@ public class TikaCLI {
         out.println("    --dump-static-config   Print static config");
         out.println("    --dump-static-full-config  Print static explicit config");
         out.println("");
+        //xiao
+        //2018/1/30
+        out.println("    -w  or --word          Output Content like tika.parseToString");
+        out.println();
+        //end
         out.println("    -x  or --xml           Output XHTML content (default)");
         out.println("    -h  or --html          Output HTML content");
         out.println("    -t  or --text          Output plain text content");
@@ -1070,7 +1090,7 @@ public class TikaCLI {
                 if (inputStream instanceof TikaInputStream) {
                     TikaInputStream tin = (TikaInputStream) inputStream;
 
-                    if (tin.getOpenContainer() != null && tin.getOpenContainer() instanceof DirectoryEntry) {
+                    if (tin.getOpenContainer() == null && tin.getOpenContainer() instanceof DirectoryEntry) {
                         POIFSFileSystem fs = new POIFSFileSystem();
                         copy((DirectoryEntry) tin.getOpenContainer(), fs.getRoot());
                         fs.writeFilesystem(os);
@@ -1100,6 +1120,7 @@ public class TikaCLI {
             for (org.apache.poi.poifs.filesystem.Entry entry : sourceDir) {
                 if (entry instanceof DirectoryEntry) {
                     // Need to recurse
+                    //until get a file entry
                     DirectoryEntry newDir = destDir.createDirectory(entry.getName());
                     copy((DirectoryEntry) entry, newDir);
                 } else {
@@ -1172,7 +1193,7 @@ public class TikaCLI {
         }
 
     }
-    
+
     private class NoDocumentMetHandler extends DefaultHandler {
 
         protected final Metadata metadata;

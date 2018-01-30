@@ -77,11 +77,7 @@ import org.apache.tika.parser.Parser;
 import org.apache.tika.parser.RecursiveParserWrapper;
 import org.apache.tika.parser.html.BoilerpipeContentHandler;
 import org.apache.tika.parser.utils.CommonsDigester;
-import org.apache.tika.sax.BasicContentHandlerFactory;
-import org.apache.tika.sax.BodyContentHandler;
-import org.apache.tika.sax.ContentHandlerDecorator;
-import org.apache.tika.sax.TeeContentHandler;
-import org.apache.tika.sax.XHTMLContentHandler;
+import org.apache.tika.sax.*;
 import org.xml.sax.Attributes;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
@@ -186,7 +182,12 @@ public class TikaGUI extends JFrame
      * Document metadata.
      */
     private final JEditorPane metadata;
-
+    /**
+     * xiao
+     * 2018/1/30
+     * WAExtract output
+     */
+    private final JEditorPane WAExtract;
     /**
      * File chooser.
      */
@@ -206,6 +207,10 @@ public class TikaGUI extends JFrame
         textMain = addCard(cards, "text/plain", "main");
         xml = addCard(cards, "text/plain", "xhtml");
         json = addCard(cards, "text/plain", "json");
+        //xiao
+        // 2018/1/30
+        WAExtract = addCard(cards,"text/plain","word");
+        //end
         add(cards);
         layout.show(cards, "welcome");
 
@@ -239,6 +244,11 @@ public class TikaGUI extends JFrame
         addMenuItem(view, "Main content", "main", KeyEvent.VK_C);
         addMenuItem(view, "Structured text", "xhtml", KeyEvent.VK_S);
         addMenuItem(view, "Recursive JSON", "json", KeyEvent.VK_J);
+        //xiao
+        //2018/1/30
+        // add tikaparsetostring bar
+        addMenuItem(view,"WAExtract word","word",KeyEvent.VK_K);
+        //end
         bar.add(view);
 
         bar.add(Box.createHorizontalGlue());
@@ -291,7 +301,14 @@ public class TikaGUI extends JFrame
             layout.show(cards, command);
         } else if ("json".equals(command)) {
             layout.show(cards, command);
-        } else if ("about".equals(command)) {
+        }
+        // xiao
+        //2018/1/30
+            else if("word".equals(command)){
+            layout.show(cards,command);
+        }
+        //end
+            else if ("about".equals(command)) {
             textDialog(
                     "About Apache Tika",
                     TikaGUI.class.getResource("about.html"));
@@ -330,12 +347,22 @@ public class TikaGUI extends JFrame
         StringWriter textMainBuffer = new StringWriter();
         StringWriter xmlBuffer = new StringWriter();
         StringBuilder metadataBuffer = new StringBuilder();
+        //xiao
+        //2018/1/30
+        StringWriter waExtractBuffer = new StringWriter();
+
+        //end
 
         ContentHandler handler = new TeeContentHandler(
                 getHtmlHandler(htmlBuffer),
                 getTextContentHandler(textBuffer),
                 getTextMainContentHandler(textMainBuffer),
-                getXmlContentHandler(xmlBuffer));
+                getXmlContentHandler(xmlBuffer),
+                // xiao
+                //2018/1/30
+                getWAExtractHandler(waExtractBuffer)
+                //end
+                 );
 
         context.set(DocumentSelector.class, new ImageDocumentSelector());
 
@@ -379,6 +406,10 @@ public class TikaGUI extends JFrame
         setText(text, textBuffer.toString());
         setText(textMain, textMainBuffer.toString());
         setText(html, htmlBuffer.toString());
+        //xiao
+        //2018/1/30
+        setText(WAExtract,waExtractBuffer.toString());
+        //end
         if (!input.markSupported()) {
             setText(json, "InputStream does not support mark/reset for Recursive Parsing");
             layout.show(cards, "metadata");
@@ -602,7 +633,13 @@ public class TikaGUI extends JFrame
         handler.setResult(new StreamResult(writer));
         return handler;
     }
-
+    //xiao
+    //2018/1/30
+    private ContentHandler getWAExtractHandler(Writer writer){
+        WriteOutContentHandler outContentHandler = new WriteOutContentHandler(writer,10*1000);
+        return new BodyContentHandler(outContentHandler);
+    }
+    //end
     /**
      * A {@link DocumentSelector} that accepts only images.
      */

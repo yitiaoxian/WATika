@@ -329,7 +329,11 @@ class HtmlHandler extends TextContentHandler {
             script.setLength(0);
         }
     }
-
+    //2018/1/30
+    //xiao
+    private static final int htmlSpaceValue = 160;
+    private static final int normalSpaceValue = 32;
+    //end
     @Override
     public void characters(char[] ch, int start, int length)
             throws SAXException {
@@ -337,9 +341,10 @@ class HtmlHandler extends TextContentHandler {
         // 2018/1/30
         //html : the value of &nbsp is 160
         // &nbsp;
+        //normal blank space value is 32
         for (int i = start; i < start+length+1; i++) {
-            if (ch[i]==160) {
-                ch[i]=(char)32;
+            if (ch[i]== htmlSpaceValue) {
+                ch[i]=(char)normalSpaceValue;
             }
         }
         //end
