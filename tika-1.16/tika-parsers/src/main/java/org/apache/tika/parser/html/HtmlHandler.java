@@ -19,6 +19,7 @@ package org.apache.tika.parser.html;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
@@ -108,7 +109,6 @@ class HtmlHandler extends TextContentHandler {
             HtmlMapper mapper, ContentHandler handler, Metadata metadata) {
         this(mapper, new XHTMLContentHandler(handler, metadata), metadata, new ParseContext(), false);
     }
-
 
     @Override
     public void startElement(
@@ -333,6 +333,16 @@ class HtmlHandler extends TextContentHandler {
     @Override
     public void characters(char[] ch, int start, int length)
             throws SAXException {
+        //modify by xiao
+        // 2018/1/30
+        //html : the value of &nbsp is 160
+        // &nbsp;
+        for (int i = start; i < start+length+1; i++) {
+            if (ch[i]==160) {
+                ch[i]=(char)32;
+            }
+        }
+        //end
         if (scriptLevel > 0 && extractScripts) {
             script.append(ch, start, length);
         }
