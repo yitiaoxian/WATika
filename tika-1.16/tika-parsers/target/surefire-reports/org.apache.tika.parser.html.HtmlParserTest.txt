@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.tika.parser.html.HtmlParserTest
 -------------------------------------------------------------------------------
-Tests run: 48, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.578 sec - in org.apache.tika.parser.html.HtmlParserTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.734 sec - in org.apache.tika.parser.html.HtmlParserTest
