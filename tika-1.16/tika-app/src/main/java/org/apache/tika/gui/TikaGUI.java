@@ -354,9 +354,12 @@ public class TikaGUI extends JFrame
         tmpInput.flush();
         InputStream stream1 = new ByteArrayInputStream(tmpInput.toByteArray());
         InputStream stream2 = new ByteArrayInputStream(tmpInput.toByteArray());
-        Tika tika = new Tika();
         String WAExtraction = null;
-        WAExtraction = tika.parseToString(stream2);
+        //character length limit
+        ContentHandler contentHandler = new BodyContentHandler(-1);
+        AutoDetectParser parser = new AutoDetectParser();
+        parser.parse(stream2,contentHandler,new Metadata());
+        WAExtraction = contentHandler.toString();
         //end
 
         ContentHandler handler = new TeeContentHandler(
