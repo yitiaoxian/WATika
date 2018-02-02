@@ -6,7 +6,7 @@ Bundle-SymbolicName: org.apache.tika.xmp
 Implementation-Version: 1.16
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1517558461606
+Bnd-LastModified: 1517562166485
 Specification-Vendor: The Apache Software Foundation
 Specification-Title: Apache Tika XMP
 Implementation-Vendor-Id: org.apache.tika

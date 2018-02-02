@@ -5,7 +5,7 @@ Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-SymbolicName: org.apache.tika.java7
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1517558685582
+Bnd-LastModified: 1517562390265
 Bundle-DocURL: http://www.apache.org
 Bundle-Vendor: The Apache Software Foundation
 Import-Package: org.apache.tika;version="[1.0,2)",org.apache.tika.mime

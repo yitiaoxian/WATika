@@ -8,7 +8,7 @@ Bundle-SymbolicName: org.apache.tika.parsers
 Implementation-Version: 1.16
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1517558452449
+Bnd-LastModified: 1517562156703
 Specification-Vendor: The Apache Software Foundation
 Specification-Title: Apache Tika parsers
 Implementation-Vendor-Id: org.apache.tika

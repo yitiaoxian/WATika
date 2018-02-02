@@ -7,7 +7,7 @@ Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-SymbolicName: org.apache.tika.bundle
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1517558631819
+Bnd-LastModified: 1517562338277
 Embed-Dependency: tika-parsers;inline=true,commons-compress, xz, commo
  ns-codec, commons-csv,commons-io, commons-exec, commons-collections4,
   junrar,pdfbox,pdfbox-tools,pdfbox-debugger,fontbox,jempbox,bcmail-jd
