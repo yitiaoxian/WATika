@@ -377,7 +377,7 @@ class HtmlHandler extends TextContentHandler {
         //modify by xiao
         // 2018/1/30
         //html : the value of &nbsp is 160
-        // &nbsp;
+        //&nbsp;
         //normal blank space value is 32
         for (int i = start; i < start+length; i++) {
             if (ch[i] == htmlSpaceValue) {
