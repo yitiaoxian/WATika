@@ -117,6 +117,11 @@ class HtmlHandler extends TextContentHandler {
      */
     private static String flagName = null;
     private static boolean flagAtts = false;
+    private static String TEXTAREA = "TEXTAREA";
+    private static String CSSFLAG = "css";
+    private static String IGNOREFLAG = "display:none";
+    private static String NONEEDFLAG = "opr-recommends-merge-hide";
+
     @Override
     public void startElement(
             String uri, String local, String name, Attributes atts)
@@ -127,15 +132,15 @@ class HtmlHandler extends TextContentHandler {
          * add this
          */
         flagName = name;
-        if ("TEXTAREA".equals(name)){
+        if (TEXTAREA.equals(name)){
             for (int i = 0; i < atts.getLength(); i++) {
-               if (atts.getValue(i).contains("css")||atts.getValue(i).contains("display:none")
+               if (atts.getValue(i).contains(CSSFLAG) || atts.getValue(i).contains(IGNOREFLAG)
                 /**
                  * xiao note
                  * opr-recommends-merge-hide
                  * baidu js use the content
                  */
-                        ||atts.getValue(i).contains("opr-recommends-merge-hide")) {
+                        || atts.getValue(i).contains(NONEEDFLAG) ) {
                    flagAtts = true;
                }
             }
