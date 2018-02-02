@@ -1,9 +1,0 @@
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  jetty-8.1.19.v20160209
-INFO  Started SelectChannelConnector@localhost:9998
-INFO  Detecting media type for Filename: CDEC_WEATHER_2010_03_02
-INFO  Detecting media type for Filename: CDEC_WEATHER_2010_03_02.csv
-INFO  stopped o.e.j.s.h.ContextHandler{,null}
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  Detecting media type for Filename: foo.csv
-INFO  stopped o.e.j.s.h.ContextHandler{,null}

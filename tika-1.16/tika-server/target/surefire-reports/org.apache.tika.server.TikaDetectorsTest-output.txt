@@ -1,6 +1,0 @@
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  stopped o.e.j.s.h.ContextHandler{,null}
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  stopped o.e.j.s.h.ContextHandler{,null}
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  stopped o.e.j.s.h.ContextHandler{,null}

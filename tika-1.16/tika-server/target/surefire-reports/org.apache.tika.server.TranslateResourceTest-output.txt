@@ -1,7 +1,0 @@
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  Using translator: [org.apache.tika.language.translate.Lingo24Translator]: src: [es]: dest: [en]
-INFO  stopped o.e.j.s.h.ContextHandler{,null}
-INFO  Setting the server's publish address to be http://localhost:9998/
-INFO  LanguageIdentifier: detected source lang: [en]
-INFO  Using translator: [org.apache.tika.language.translate.Lingo24Translator]: src: [en]: dest: [en]
-INFO  stopped o.e.j.s.h.ContextHandler{,null}

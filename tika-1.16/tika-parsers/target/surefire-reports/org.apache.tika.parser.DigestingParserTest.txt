@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.apache.tika.parser.DigestingParserTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.156 sec - in org.apache.tika.parser.DigestingParserTest
