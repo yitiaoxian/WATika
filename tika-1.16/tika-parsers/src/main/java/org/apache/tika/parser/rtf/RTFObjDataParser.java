@@ -261,6 +261,7 @@ class RTFObjDataParser {
         metadata.set(Metadata.RESOURCE_NAME_KEY, FilenameUtils.getName(fileNameToUse));
         metadata.set(Metadata.EMBEDDED_RELATIONSHIP_ID, pathToUse);
 
+
         return objBytes;
     }
 

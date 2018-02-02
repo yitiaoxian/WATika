@@ -110,11 +110,37 @@ class HtmlHandler extends TextContentHandler {
         this(mapper, new XHTMLContentHandler(handler, metadata), metadata, new ParseContext(), false);
     }
 
+    /**
+     * xiao
+     * flagName : used to flag current element
+     * flagAtts : used to flag some elements that are not needed
+     */
+    private static String flagName = null;
+    private static boolean flagAtts = false;
     @Override
     public void startElement(
             String uri, String local, String name, Attributes atts)
             throws SAXException {
-
+        /***
+         * xiao
+         * 2018/2/2
+         * add this
+         */
+        flagName = name;
+        if ("TEXTAREA".equals(name)){
+            for (int i = 0; i < atts.getLength(); i++) {
+               if (atts.getValue(i).contains("css")||atts.getValue(i).contains("display:none")
+                /**
+                 * xiao note
+                 * opr-recommends-merge-hide
+                 * baidu js use the content
+                 */
+                        ||atts.getValue(i).contains("opr-recommends-merge-hide")) {
+                   flagAtts = true;
+               }
+            }
+        }
+        //end
         if ("SCRIPT".equals(name)) {
             scriptLevel++;
         }
@@ -168,7 +194,8 @@ class HtmlHandler extends TextContentHandler {
                 startElementWithSafeAttributes(safe, atts);
             }
         }
-
+        //xiao
+        if(flagAtts)discardLevel++;
         title.setLength(0);
     }
 
@@ -255,6 +282,9 @@ class HtmlHandler extends TextContentHandler {
     @Override
     public void endElement(
             String uri, String local, String name) throws SAXException {
+        //xiao
+        flagName = null;
+        flagAtts = false;
         if ("SCRIPT".equals(name)) {
             scriptLevel--;
             if (scriptLevel == 0) {
@@ -299,6 +329,7 @@ class HtmlHandler extends TextContentHandler {
         if (discardLevel > 0) {
             discardLevel--;
         }
+
     }
 
     private void writeScript() throws SAXException, EncryptedDocumentException {
@@ -331,6 +362,7 @@ class HtmlHandler extends TextContentHandler {
     }
     //2018/1/30
     //xiao
+    //flag for blankspace and normalspace
     private static final int htmlSpaceValue = 160;
     private static final int normalSpaceValue = 32;
     //end
@@ -347,6 +379,11 @@ class HtmlHandler extends TextContentHandler {
                 ch[i]=(char)normalSpaceValue;
             }
         }
+        if(flagAtts == true){
+            for(int i = start;i < start+length;i++){
+                ch[i] =(char)normalSpaceValue;
+            }
+        }
         //end
         if (scriptLevel > 0 && extractScripts) {
             script.append(ch, start, length);
@@ -355,8 +392,21 @@ class HtmlHandler extends TextContentHandler {
             title.append(ch, start, length);
         }
         if (bodyLevel > 0 && discardLevel == 0) {
-            super.characters(ch, start, length);
+            /**
+             * xiao
+             * 2018/2/2
+             * only receive data when flag is false
+             */
+            if(!flagAtts) {
+                super.characters(ch, start, length);
+            }
         }
+        /***
+         * xiao
+         * 2018/2/2
+         * make flagAtts be false
+         */
+        flagAtts = false;
 
     }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.parser.html.HtmlParserTest" time="0.703" tests="48" errors="0" skipped="2" failures="0">
+<testsuite name="org.apache.tika.parser.html.HtmlParserTest" time="0.578" tests="48" errors="0" skipped="2" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="E:\IntelliJ IDEA Community Edition 2017.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\maven\apache-maven-3.5.2\bin;E:\Git\cmd;E:\UltraEdit;C:\Users\xiao\AppData\Local\Microsoft\WindowsApps;C:\Users\xiao\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\maven\apache-maven-3.5.2\bin;E:\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\xiao\AppData\Local\Microsoft\WindowsApps;C:\Users\xiao\AppData\Local\GitHubDesktop\bin;C:\Users\xiao\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -65,52 +65,52 @@
   <testcase name="testBadScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0">
     <skipped message="until we fix TIKA-1896"/>
   </testcase>
-  <testcase name="testUserDefinedCharset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.078"/>
-  <testcase name="testCharactersDirectlyUnderBodyElement" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
+  <testcase name="testUserDefinedCharset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.062"/>
+  <testcase name="testCharactersDirectlyUnderBodyElement" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testBoilerplateWhitespace" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testPushback" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
-  <testcase name="testAreaExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.063"/>
+  <testcase name="testAreaExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.047"/>
   <testcase name="testParseAscii" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testParseEmpty" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testUsingFunkyCharsetInContentTypeHeader" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testIdentityMapper" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testOpenGraphMetadata" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testIdentityMapper" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
+  <testcase name="testOpenGraphMetadata" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testFrameSrcExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testObjectExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testUsingCharsetInContentTypeHeader" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testBrokenFrameset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testConfigExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
-  <testcase name="testMetaHttpEquivWithLotsOfPreambleText" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testBrokenFrameset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testConfigExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testMetaHttpEquivWithLotsOfPreambleText" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
   <testcase name="testGoodScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
   <testcase name="testNewlineAndIndent" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testLineBreak" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.032"/>
-  <testcase name="testMultiThreadingEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.125"/>
+  <testcase name="testMultiThreadingEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.094"/>
   <testcase name="testBaseHref" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
   <testcase name="testXHTMLWithMisleading" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.047"/>
-  <testcase name="testBoilerplateDelegation" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
-  <testcase name="testWhitespaceBetweenTableCells" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
-  <testcase name="testHttpEquivCharsetFunkyAttributes" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testBoilerplateDelegation" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testWhitespaceBetweenTableCells" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testHttpEquivCharsetFunkyAttributes" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testNoisyMetaCharsetHeaders" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
   <testcase name="testBoilerplateWithMarkup" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testLocator" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testFirstTitleValueisSetToMetadata" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testBoilerplateRemoval" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
-  <testcase name="testIgnoreCharsetDetectorLanguage" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testBoilerplateRemoval" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testIgnoreCharsetDetectorLanguage" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testXhtmlParsing" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
   <testcase name="testMisleadingMetaContentTypeTags" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testScriptSrc" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testScriptSrc" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testDetectOfCharset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testElementOrdering" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testLinkHrefResolution" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
+  <testcase name="testLinkHrefResolution" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
   <testcase name="testExtractScript" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testAllHeadElements" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testCustomHtmlSchema" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testCustomHtmlSchema" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="XtestParseUTF8" classname="org.apache.tika.parser.html.HtmlParserTest" time="0">
     <skipped message="The file &apos;testXHTML_utf8.html&apos; is not available for testing"/>
   </testcase>
   <testcase name="testMetaTagHandling" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
-  <testcase name="testSkippingCommentsInEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.015"/>
-  <testcase name="testIFrameSrcExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.016"/>
+  <testcase name="testSkippingCommentsInEncodingDetection" classname="org.apache.tika.parser.html.HtmlParserTest" time="0.031"/>
+  <testcase name="testIFrameSrcExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testHtml5Charset" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
   <testcase name="testImgUrlExtraction" classname="org.apache.tika.parser.html.HtmlParserTest" time="0"/>
 </testsuite>

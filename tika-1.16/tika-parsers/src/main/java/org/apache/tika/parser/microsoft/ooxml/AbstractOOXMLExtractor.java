@@ -178,7 +178,6 @@ public abstract class AbstractOOXMLExtractor implements OOXMLExtractor {
                 Metadata thumbnailMetadata = new Metadata();
                 String thumbName = tPart.getPartName().getName();
                 thumbnailMetadata.set(Metadata.RESOURCE_NAME_KEY, thumbName);
-
                 AttributesImpl attributes = new AttributesImpl();
                 attributes.addAttribute(XHTML, "class", "class", "CDATA", "embedded");
                 attributes.addAttribute(XHTML, "id", "id", "CDATA", thumbName);

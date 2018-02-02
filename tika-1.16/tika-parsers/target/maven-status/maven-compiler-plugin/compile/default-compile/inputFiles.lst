@@ -115,6 +115,7 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\txt\Cha
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDFParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\pkg\ZipContainerDetector.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\grib\GribParser.java
+E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdContentHandler.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\chm\accessor\ChmPmgiHeader.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\gdal\GDALParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\opendocument\OpenOfficeParser.java
@@ -226,7 +227,6 @@ E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\pdf\PDF
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\audio\AudioParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\xml\FictionBookParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\wps\WPSParser.java
-E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\ofd\OfdNormalizerContentHandler.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\font\AdobeFontMetricParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\microsoft\WMFParser.java
 E:\tika-1.16\tika-1.16\tika-parsers\src\main\java\org\apache\tika\parser\strings\Latin1StringsParser.java

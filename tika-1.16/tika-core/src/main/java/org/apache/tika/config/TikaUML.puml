@@ -1,0 +1,54 @@
+@startuml
+title
+Tika Config
+endtitle
+
+class TikaConfigSerializer
+class ServiceLoader
+class TikaConfig
+class TikaActivator
+class Param
+class ParamField
+interface LoadErrorHandler
+interface InitializableProblemHandler
+interface Initializable
+
+class ServiceLoader{
+static ClassLoader getContextClassLoader()
+static addService():V
+--private--
+volatile ClassLoader contextClassLoader
+ class RankedService
+ final services:Map<Object,RankedService>
+--public--
+ setContextClassLoader():V
+ isDynamic():boolean
+LoadErrorHandler getLoadErrorHandler()
+InitializableProblemHandler getInitializableProblemHandler()
+InputStream getResourceAsStream()
+ClassLoader getLoader()
+Enumeration<URL> findServiceResources()
+<T> List<T> loadServiceProviders()
+T> List<T> loadDynamicServiceProviders()
+<T> List<String> identifyStaticServiceProviders()
+<T> List<T> loadStaticServiceProviders()
+}
+
+class TikaConfig{
+--private--
+MimeTypes getDefaultMimeTypes()
+CompositeParser getDefaultParser()
+final ServiceLoader serviceLoader;
+final CompositeParser parser;
+final CompositeDetector detector;
+final Translator translator;
+final MimeTypes mimeTypes;
+final ExecutorService executorService;
+final EncodingDetector encodingDetector;
+--public--
+--protected--
+CompositeDetector getDefaultDetector()
+CompositeEncodingDetector getDefaultEncodingDetector()
+
+}
+@enduml

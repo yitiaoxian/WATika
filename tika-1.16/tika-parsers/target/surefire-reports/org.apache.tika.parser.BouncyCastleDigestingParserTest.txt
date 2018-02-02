@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.tika.parser.BouncyCastleDigestingParserTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.344 sec - in org.apache.tika.parser.BouncyCastleDigestingParserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.797 sec - in org.apache.tika.parser.BouncyCastleDigestingParserTest

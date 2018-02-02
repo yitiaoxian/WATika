@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: org.apache.tika.parser.mock.MockParserTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.299 sec - in org.apache.tika.parser.mock.MockParserTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.22 sec - in org.apache.tika.parser.mock.MockParserTest

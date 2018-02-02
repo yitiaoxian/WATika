@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.batch.fs.BatchProcessTest" time="58.774" tests="14" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.batch.fs.BatchProcessTest" time="59.622" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="E:\IntelliJ IDEA Community Edition 2017.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\maven\apache-maven-3.5.2\bin;E:\Git\cmd;E:\UltraEdit;C:\Users\xiao\AppData\Local\Microsoft\WindowsApps;C:\Users\xiao\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\maven\apache-maven-3.5.2\bin;E:\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\xiao\AppData\Local\Microsoft\WindowsApps;C:\Users\xiao\AppData\Local\GitHubDesktop\bin;C:\Users\xiao\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,18 +61,18 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testConsumersManagerShutdownHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.623"/>
-  <testcase name="allHeavyHangsTestWithStarvedCrawler" classname="org.apache.tika.batch.fs.BatchProcessTest" time="14.645"/>
-  <testcase name="testConsumersManagerInitHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.729"/>
-  <testcase name="testTimeOutAfterBeingAskedToShutdown" classname="org.apache.tika.batch.fs.BatchProcessTest" time="10.913"/>
-  <testcase name="oneHeavyHangTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="3.679"/>
-  <testcase name="allHeavyHangsTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.647"/>
-  <testcase name="testHierarchicalWFileList" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.807"/>
-  <testcase name="testHandlingOfIllegalXMLCharsInException" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.864"/>
-  <testcase name="testWaitAfterEarlyTermination" classname="org.apache.tika.batch.fs.BatchProcessTest" time="10.759"/>
-  <testcase name="testRedirectionOfStreams" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.721"/>
-  <testcase name="testOverrideOutputSuffix" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.767"/>
-  <testcase name="outOfMemory" classname="org.apache.tika.batch.fs.BatchProcessTest" time="2.002"/>
-  <testcase name="allHeavyHangsTestWithCrazyNumberConsumersTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.723"/>
-  <testcase name="noRestart" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.895"/>
+  <testcase name="testConsumersManagerShutdownHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.661"/>
+  <testcase name="allHeavyHangsTestWithStarvedCrawler" classname="org.apache.tika.batch.fs.BatchProcessTest" time="14.667"/>
+  <testcase name="testConsumersManagerInitHang" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.601"/>
+  <testcase name="testTimeOutAfterBeingAskedToShutdown" classname="org.apache.tika.batch.fs.BatchProcessTest" time="11.664"/>
+  <testcase name="oneHeavyHangTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.615"/>
+  <testcase name="allHeavyHangsTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.634"/>
+  <testcase name="testHierarchicalWFileList" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.71"/>
+  <testcase name="testHandlingOfIllegalXMLCharsInException" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.746"/>
+  <testcase name="testWaitAfterEarlyTermination" classname="org.apache.tika.batch.fs.BatchProcessTest" time="10.717"/>
+  <testcase name="testRedirectionOfStreams" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.641"/>
+  <testcase name="testOverrideOutputSuffix" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.688"/>
+  <testcase name="outOfMemory" classname="org.apache.tika.batch.fs.BatchProcessTest" time="1.876"/>
+  <testcase name="allHeavyHangsTestWithCrazyNumberConsumersTest" classname="org.apache.tika.batch.fs.BatchProcessTest" time="4.642"/>
+  <testcase name="noRestart" classname="org.apache.tika.batch.fs.BatchProcessTest" time="0.76"/>
 </testsuite>

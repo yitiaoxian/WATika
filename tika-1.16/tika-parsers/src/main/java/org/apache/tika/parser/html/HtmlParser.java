@@ -33,6 +33,7 @@ import org.apache.tika.metadata.Metadata;
 import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.AbstractEncodingDetectorParser;
 import org.apache.tika.parser.ParseContext;
+import org.apache.tika.sax.BodyContentHandler;
 import org.ccil.cowan.tagsoup.HTMLSchema;
 import org.ccil.cowan.tagsoup.Schema;
 import org.slf4j.Logger;
@@ -130,8 +131,8 @@ public class HtmlParser extends AbstractEncodingDetectorParser {
                     org.ccil.cowan.tagsoup.Parser.ignoreBogonsFeature, true);
 
             parser.setContentHandler(new XHTMLDowngradeHandler(
-                    new HtmlHandler(mapper, handler, metadata, context, extractScripts)));
 
+                    new HtmlHandler(mapper, handler, metadata, context, extractScripts)));
             parser.parse(reader.asInputSource());
         }
     }

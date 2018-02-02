@@ -8,7 +8,7 @@ Bundle-SymbolicName: org.apache.tika.parsers
 Implementation-Version: 1.16
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1516679379939
+Bnd-LastModified: 1517543550435
 Specification-Vendor: The Apache Software Foundation
 Specification-Title: Apache Tika parsers
 Implementation-Vendor-Id: org.apache.tika
@@ -484,8 +484,8 @@ Export-Package: org.apache.tika.parser.apple;uses:="org.apache.tika.ex
  ika.parser,org.apache.commons.io.input,org.apache.tika.exception,org.
  apache.tika.sax.xpath,org.apache.tika.parser.xml,org.apache.tika.extr
  actor,org.apache.commons.io,org.apache.tika.io,org.apache.tika.parser
- .txt",org.apache.tika.parser.ofd;uses:="javax.xml.namespace,org.xml.s
- ax,org.apache.tika.sax,org.xml.sax.helpers,org.apache.tika.mime,javax
+ .txt",org.apache.tika.parser.ofd;uses:="org.xml.sax.helpers,org.xml.s
+ ax,javax.xml.namespace,org.apache.tika.sax,org.apache.tika.mime,javax
  .xml.parsers,org.apache.tika.io,org.apache.tika.metadata,org.apache.t
  ika.parser,org.apache.tika.exception,org.apache.tika.sax.xpath,org.ap
  ache.tika.parser.xml,org.apache.tika.extractor",org.apache.tika.parse

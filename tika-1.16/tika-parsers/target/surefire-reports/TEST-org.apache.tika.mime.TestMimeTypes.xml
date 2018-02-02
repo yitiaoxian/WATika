@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.apache.tika.mime.TestMimeTypes" time="1.376" tests="72" errors="0" skipped="0" failures="0">
+<testsuite name="org.apache.tika.mime.TestMimeTypes" time="1.563" tests="72" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="E:\IntelliJ IDEA Community Edition 2017.3.1\plugins\maven\lib\maven3\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\maven\apache-maven-3.5.2\bin;E:\Git\cmd;E:\UltraEdit;C:\Users\xiao\AppData\Local\Microsoft\WindowsApps;C:\Users\xiao\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\NetSarang;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;E:\maven\apache-maven-3.5.2\bin;E:\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\xiao\AppData\Local\Microsoft\WindowsApps;C:\Users\xiao\AppData\Local\GitHubDesktop\bin;C:\Users\xiao\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,75 +62,75 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="testGetMimeType_byteArray" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testFontDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testKMLZDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testWmfDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testMSWriteFile" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testprtDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testOneNote" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testFontDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testKMLZDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testWmfDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testMSWriteFile" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testprtDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testOneNote" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testPnmDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testJpegDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testJpegDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
   <testcase name="testBpgDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testSvgDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testLoadMimeTypes" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testAMR" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testASX" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testMIF" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testGuessMimeTypes" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testRawDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testArchiveDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testDITADetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
-  <testcase name="testEmail" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testCBOR" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testDJVU" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testZLIB" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
-  <testcase name="testPsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0"/>
+  <testcase name="testSvgDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testLoadMimeTypes" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testAMR" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testASX" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testMIF" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testGuessMimeTypes" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testRawDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testArchiveDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testDITADetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testEmail" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testCBOR" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testDJVU" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testZLIB" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testPsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testAxCrypt" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testFeedsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testGifDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testAutoCADDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testSASProgramming" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testWebMDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testFitsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testXmlAndHtmlDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testPKCSSignatures" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testPngDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testMicrosoftMultiMediaDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testBerkeleyDB" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testJavaRegex" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testStarOfficeDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testCaseSensitivity" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testIcnsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testMSOwner" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testOLE2Detection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testFeedsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.062"/>
+  <testcase name="testGifDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testAutoCADDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testSASProgramming" classname="org.apache.tika.mime.TestMimeTypes" time="0.063"/>
+  <testcase name="testWebMDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testFitsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testXmlAndHtmlDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testPKCSSignatures" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testPngDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testMicrosoftMultiMediaDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testBerkeleyDB" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testJavaRegex" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testStarOfficeDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testCaseSensitivity" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testIcnsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testMSOwner" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testOLE2Detection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
   <testcase name="testVisioDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
   <testcase name="testPdfDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testWEBPDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testOoxmlDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
   <testcase name="testOldWorksWordProcessorDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testCgmDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testCgmDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
   <testcase name="testEndNoteImport" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="test7ZipDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testIWorkDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testOldExcel" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
-  <testcase name="testTextBasedFormatsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="test7ZipDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testIWorkDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testOldExcel" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testTextBasedFormatsDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testPictDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
   <testcase name="testWindowsEXE" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testSwfDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testCreativeSuite" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testMatroskaDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
-  <testcase name="testHFATypes" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testSwfDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testCreativeSuite" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
+  <testcase name="testMatroskaDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testHFATypes" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testWorksSpreadsheetDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
   <testcase name="testJavaDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testWebArchiveDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testWebArchiveDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
   <testcase name="testTiffDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testNetCDF" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testRdfXmlDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testMimeDeterminationForTestDocuments" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
-  <testcase name="testWebVTT" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
-  <testcase name="testStataDTA" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testCodeFormats" classname="org.apache.tika.mime.TestMimeTypes" time="0.032"/>
-  <testcase name="testBmpDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
-  <testcase name="testTextFormats" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testNetCDF" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testRdfXmlDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
+  <testcase name="testMimeDeterminationForTestDocuments" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testWebVTT" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testStataDTA" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testCodeFormats" classname="org.apache.tika.mime.TestMimeTypes" time="0.031"/>
+  <testcase name="testBmpDetection" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
+  <testcase name="testTextFormats" classname="org.apache.tika.mime.TestMimeTypes" time="0.015"/>
   <testcase name="testVandICalendars" classname="org.apache.tika.mime.TestMimeTypes" time="0.016"/>
 </testsuite>

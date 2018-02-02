@@ -7,7 +7,7 @@ Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-SymbolicName: org.apache.tika.bundle
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1516679565505
+Bnd-LastModified: 1517543733178
 Embed-Dependency: tika-parsers;inline=true,commons-compress, xz, commo
  ns-codec, commons-csv,commons-io, commons-exec, commons-collections4,
   junrar,pdfbox,pdfbox-tools,pdfbox-debugger,fontbox,jempbox,bcmail-jd
@@ -362,8 +362,8 @@ Export-Package: org.apache.tika.parser.hdf;uses:="org.apache.tika.meta
  rser,org.apache.tika.exception,org.apache.tika.config,org.slf4j,javax
  .xml",org.apache.tika.parser.iwork.iwana;uses:="org.apache.tika.mime,
  org.apache.tika.metadata,org.apache.tika.parser,org.xml.sax,org.apach
- e.tika.exception",org.apache.tika.parser.ofd;uses:="javax.xml.namespa
- ce,org.xml.sax,org.apache.tika.sax,org.xml.sax.helpers,org.apache.tik
+ e.tika.exception",org.apache.tika.parser.ofd;uses:="org.xml.sax.helpe
+ rs,org.xml.sax,javax.xml.namespace,org.apache.tika.sax,org.apache.tik
  a.mime,javax.xml.parsers,org.apache.tika.io,org.apache.tika.metadata,
  org.apache.tika.parser,org.apache.tika.exception,org.apache.tika.sax.
  xpath,org.apache.tika.parser.xml,org.apache.tika.extractor",org.apach
