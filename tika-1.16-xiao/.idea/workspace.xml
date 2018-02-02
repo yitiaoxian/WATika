@@ -4,514 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05e9b27-69ef-4c23-995d-90cdda9f3f7f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$1.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$1.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$10.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$10.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$11.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$11.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$12.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$12.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$13.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$13.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$14.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$14.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$2.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$2.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$3.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$3.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$4.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$4.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$5.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$5.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$6.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$6.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$7.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$7.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$8.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$8.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$9$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$9.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$9.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$FileEmbeddedDocumentExtractor.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$FileEmbeddedDocumentExtractor.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$NoDocumentJSONMetHandler.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$NoDocumentJSONMetHandler.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$NoDocumentMetHandler.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$NoDocumentMetHandler.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$NoDocumentXMPMetaHandler.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$NoDocumentXMPMetaHandler.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$OutputType.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$OutputType.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$TikaServer$1.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$TikaServer$1.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$TikaServer.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI$TikaServer.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/cli/TikaCLI.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$1.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$1.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$2.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$2.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$ImageDocumentSelector.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$ImageDocumentSelector.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$ImageSavingParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI$ImageSavingParser.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/classes/org/apache/tika/gui/TikaGUI.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/original-tika-app-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/original-tika-app-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/TEST-org.apache.tika.cli.TikaCLIBatchCommandLineTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/TEST-org.apache.tika.cli.TikaCLIBatchCommandLineTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/TEST-org.apache.tika.cli.TikaCLIBatchIntegrationTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/TEST-org.apache.tika.cli.TikaCLIBatchIntegrationTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/TEST-org.apache.tika.cli.TikaCLITest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/TEST-org.apache.tika.cli.TikaCLITest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/org.apache.tika.cli.TikaCLIBatchCommandLineTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/org.apache.tika.cli.TikaCLIBatchCommandLineTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/org.apache.tika.cli.TikaCLIBatchIntegrationTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/org.apache.tika.cli.TikaCLIBatchIntegrationTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/org.apache.tika.cli.TikaCLITest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/surefire-reports/org.apache.tika.cli.TikaCLITest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/tika-app-1.16-shaded.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/tika-app-1.16-shaded.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/tika-app-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/tika-app-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-app/target/tika-app-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-app/target/tika-app-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.CommandLineParserBuilderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.CommandLineParserBuilderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.RecursiveParserWrapperFSConsumerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.RecursiveParserWrapperFSConsumerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.BatchDriverTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.BatchDriverTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.BatchProcessTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.BatchProcessTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.FSFileResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.FSFileResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.FSUtilTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.FSUtilTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.HandlerBuilderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.HandlerBuilderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.OutputStreamFactoryTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.OutputStreamFactoryTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.strawman.StrawmanTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/TEST-org.apache.tika.batch.fs.strawman.StrawmanTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.CommandLineParserBuilderTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.CommandLineParserBuilderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.RecursiveParserWrapperFSConsumerTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.RecursiveParserWrapperFSConsumerTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.BatchDriverTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.BatchDriverTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.BatchProcessTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.BatchProcessTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.FSFileResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.FSFileResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.HandlerBuilderTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.HandlerBuilderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.OutputStreamFactoryTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/surefire-reports/org.apache.tika.batch.fs.OutputStreamFactoryTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/tika-batch-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/tika-batch-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/tika-batch-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-batch/target/tika-batch-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-bundle/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-bundle/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-bundle/target/tika-bundle-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-bundle/target/tika-bundle-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.TestRereadableInputStream.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.TestRereadableInputStream.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.TikaDetectionTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.TikaDetectionTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.config.ParamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.config.ParamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.config.TikaConfigSerializerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.config.TikaConfigSerializerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.config.TikaConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.config.TikaConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.MagicDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.MagicDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.MimeDetectionWithNNTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.MimeDetectionWithNNTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.NameDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.NameDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.TextDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.TextDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.TypeDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.TypeDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.ZeroSizeFileDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.detect.ZeroSizeFileDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.fork.ForkParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.fork.ForkParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.EndianUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.EndianUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.FilenameUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.FilenameUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.LookaheadInputStreamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.LookaheadInputStreamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TaggedInputStreamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TaggedInputStreamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TailStreamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TailStreamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TemporaryResourcesTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TemporaryResourcesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TikaInputStreamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.io.TikaInputStreamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.LanguageIdentifierTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.LanguageIdentifierTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.LanguageProfileTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.LanguageProfileTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.LanguageProfilerBuilderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.LanguageProfilerBuilderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.ProfilingWriterTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.ProfilingWriterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.detect.LanguageNamesTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.language.detect.LanguageNamesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.metadata.TestMetadata.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.metadata.TestMetadata.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.CustomReaderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.CustomReaderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.MediaTypeTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.MediaTypeTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.MimeDetectionTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.MimeDetectionTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.MimeTypesReaderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.MimeTypesReaderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.PatternsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.PatternsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.ProbabilisticMimeDetectionTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.mime.ProbabilisticMimeDetectionTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.CompositeParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.CompositeParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.InitializableParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.InitializableParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.ParameterizedParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.ParameterizedParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.ParserDecoratorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.parser.ParserDecoratorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.BasicContentHandlerFactoryTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.BasicContentHandlerFactoryTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.BodyContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.BodyContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.LinkContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.LinkContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.OfflineContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.OfflineContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.RichTextContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.RichTextContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.SafeContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.SafeContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.SecureContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.SecureContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.SerializerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.SerializerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.XHTMLContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.XHTMLContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.xpath.XPathParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.sax.xpath.XPathParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.AnnotationUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.AnnotationUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.CharsetUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.CharsetUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.ConcurrentUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.ConcurrentUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.RegexUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/TEST-org.apache.tika.utils.RegexUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.TestRereadableInputStream.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.TestRereadableInputStream.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.TikaDetectionTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.TikaDetectionTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.config.ParamTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.config.ParamTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.config.TikaConfigSerializerTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.config.TikaConfigSerializerTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.config.TikaConfigTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.config.TikaConfigTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.detect.MimeDetectionWithNNTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.detect.MimeDetectionWithNNTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.fork.ForkParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.fork.ForkParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.io.FilenameUtilsTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.io.FilenameUtilsTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.io.TikaInputStreamTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.io.TikaInputStreamTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.language.LanguageIdentifierTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.language.LanguageIdentifierTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.language.LanguageProfilerBuilderTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.language.LanguageProfilerBuilderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.metadata.TestMetadata.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.metadata.TestMetadata.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.mime.MimeDetectionTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.mime.MimeDetectionTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.mime.MimeTypesReaderTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.mime.MimeTypesReaderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.mime.ProbabilisticMimeDetectionTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.mime.ProbabilisticMimeDetectionTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.CompositeParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.CompositeParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.InitializableParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.InitializableParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.ParameterizedParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.ParameterizedParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.ParserDecoratorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.parser.ParserDecoratorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.utils.CharsetUtilsTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/surefire-reports/org.apache.tika.utils.CharsetUtilsTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/tika-core-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/tika-core-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-core/target/tika-core-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-core/target/tika-core-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/original-tika-eval-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/original-tika-eval-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.AnalyzerManagerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.AnalyzerManagerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.ComparerBatchTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.ComparerBatchTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.ProfilerBatchTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.ProfilerBatchTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.SimpleComparerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.SimpleComparerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.TikaEvalCLITest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.TikaEvalCLITest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.db.AbstractBufferTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.db.AbstractBufferTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.io.ExtractReaderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.io.ExtractReaderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.io.FatalExceptionReaderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.io.FatalExceptionReaderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.reports.ResultsReporterTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.reports.ResultsReporterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.tokens.TokenCounterTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.tokens.TokenCounterTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.util.MimeUtilTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/TEST-org.apache.tika.eval.util.MimeUtilTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.AnalyzerManagerTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.AnalyzerManagerTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.SimpleComparerTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.SimpleComparerTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.TikaEvalCLITest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.TikaEvalCLITest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.db.AbstractBufferTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.db.AbstractBufferTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.io.ExtractReaderTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.io.ExtractReaderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.tokens.TokenCounterTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/surefire-reports/org.apache.tika.eval.tokens.TokenCounterTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/tika-eval-1.16-shaded.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/tika-eval-1.16-shaded.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/tika-eval-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/tika-eval-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/tika-eval-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-eval/target/tika-eval-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.AdvancedTypeDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.AdvancedTypeDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.ContentHandlerExampleTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.ContentHandlerExampleTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.DumpTikaConfigExampleTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.DumpTikaConfigExampleTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.ExtractEmbeddedFilesTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.ExtractEmbeddedFilesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.LanguageDetectorExampleTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.LanguageDetectorExampleTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.SimpleTextExtractorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.SimpleTextExtractorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.SimpleTypeDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.SimpleTypeDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.TestParsingExample.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.TestParsingExample.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.TranslatorExampleTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/TEST-org.apache.tika.example.TranslatorExampleTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.AdvancedTypeDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.AdvancedTypeDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.ContentHandlerExampleTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.ContentHandlerExampleTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.DumpTikaConfigExampleTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.DumpTikaConfigExampleTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.ExtractEmbeddedFilesTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.ExtractEmbeddedFilesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.LanguageDetectorExampleTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.LanguageDetectorExampleTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.SimpleTextExtractorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.SimpleTextExtractorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.SimpleTypeDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.SimpleTypeDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.TestParsingExample.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/surefire-reports/org.apache.tika.example.TestParsingExample.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-example/target/tika-example-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-example/target/tika-example-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/surefire-reports/TEST-org.apache.tika.filetypedetector.TikaFileTypeDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/surefire-reports/TEST-org.apache.tika.filetypedetector.TikaFileTypeDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/surefire-reports/org.apache.tika.filetypedetector.TikaFileTypeDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/surefire-reports/org.apache.tika.filetypedetector.TikaFileTypeDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/tika-java7-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-java7/target/tika-java7-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/TEST-org.apache.tika.langdetect.Lingo24LangDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/TEST-org.apache.tika.langdetect.Lingo24LangDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/TEST-org.apache.tika.langdetect.OptimaizeLangDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/TEST-org.apache.tika.langdetect.OptimaizeLangDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/TEST-org.apache.tika.langdetect.TextLangDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/TEST-org.apache.tika.langdetect.TextLangDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/org.apache.tika.langdetect.Lingo24LangDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/org.apache.tika.langdetect.Lingo24LangDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/org.apache.tika.langdetect.OptimaizeLangDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/org.apache.tika.langdetect.OptimaizeLangDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/org.apache.tika.langdetect.TextLangDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/surefire-reports/org.apache.tika.langdetect.TextLangDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/tika-langdetect-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/tika-langdetect-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/tika-langdetect-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-langdetect/target/tika-langdetect-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/surefire-reports/TEST-org.apache.tika.parser.recognition.AgeRecogniserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/surefire-reports/TEST-org.apache.tika.parser.recognition.AgeRecogniserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/surefire-reports/org.apache.tika.parser.recognition.AgeRecogniserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/surefire-reports/org.apache.tika.parser.recognition.AgeRecogniserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/tika-nlp-1.16-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/tika-nlp-1.16-jar-with-dependencies.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/tika-nlp-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/tika-nlp-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlHandler.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlHandler.java" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlParser.java" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.java" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFObjDataParser.java" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/rtf/RTFObjDataParser.java" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/html/HtmlHandler.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/html/HtmlHandler.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/html/HtmlParser$HtmlParserMapper.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/html/HtmlParser$HtmlParserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/html/HtmlParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/html/HtmlParser.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/OfficeParser$1.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/OfficeParser$1.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/OfficeParser$POIFSDocumentType.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/OfficeParser$POIFSDocumentType.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/OfficeParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/OfficeParser.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/POIFSContainerDetector.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/POIFSContainerDetector.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/microsoft/ooxml/AbstractOOXMLExtractor.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/odf/OpenDocumentParser.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/pkg/ZipContainerDetector$1.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/pkg/ZipContainerDetector$1.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/pkg/ZipContainerDetector.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/pkg/ZipContainerDetector.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/rtf/RTFObjDataParser.class" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/classes/org/apache/tika/parser/rtf/RTFObjDataParser.class" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.TestParsers.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.TestParsers.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaDetectorConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaDetectorConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaEncodingDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaEncodingDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaParserConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaParserConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaTranslatorConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.config.TikaTranslatorConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.detect.TestContainerAwareDetector.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.detect.TestContainerAwareDetector.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.embedder.ExternalEmbedderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.embedder.ExternalEmbedderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.extractor.EmbeddedDocumentUtilTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.extractor.EmbeddedDocumentUtilTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.mime.MimeTypeTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.mime.MimeTypeTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.mime.MimeTypesTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.mime.MimeTypesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.mime.TestMimeTypes.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.mime.TestMimeTypes.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.AutoDetectParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.AutoDetectParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.BouncyCastleDigestingParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.BouncyCastleDigestingParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.DigestingParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.DigestingParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ParsingReaderTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ParsingReaderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.RecursiveParserWrapperTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.RecursiveParserWrapperTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.apple.AppleSingleFileParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.apple.AppleSingleFileParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.asm.ClassParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.asm.ClassParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.audio.AudioParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.audio.AudioParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.audio.MidiParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.audio.MidiParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmBlockInfo.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmBlockInfo.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmExtraction.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmExtraction.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmExtractor.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmExtractor.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmItsfHeader.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmItsfHeader.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmItspHeader.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmItspHeader.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmLzxState.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmLzxState.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmLzxcControlData.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmLzxcControlData.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmLzxcResetTable.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestChmLzxcResetTable.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestDirectoryListingEntry.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestDirectoryListingEntry.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestPmgiHeader.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestPmgiHeader.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestPmglHeader.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.chm.TestPmglHeader.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.code.SourceCodeParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.code.SourceCodeParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.crypto.TSDParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.crypto.TSDParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.dbf.DBFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.dbf.DBFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.dif.DIFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.dif.DIFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.dwg.DWGParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.dwg.DWGParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.envi.EnviHeaderParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.envi.EnviHeaderParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.epub.EpubParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.epub.EpubParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.executable.ExecutableParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.executable.ExecutableParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.feed.FeedParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.feed.FeedParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.font.FontParsersTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.font.FontParsersTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.fork.ForkParserIntegrationTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.fork.ForkParserIntegrationTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.gdal.TestGDALParser.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.gdal.TestGDALParser.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.geo.topic.GeoParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.geo.topic.GeoParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.geoinfo.GeographicInformationParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.geoinfo.GeographicInformationParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.grib.GribParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.grib.GribParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.hdf.HDFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.hdf.HDFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.html.HtmlParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.html.HtmlParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ibooks.iBooksParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ibooks.iBooksParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.BPGParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.BPGParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.ICNSParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.ICNSParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.ImageMetadataExtractorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.ImageMetadataExtractorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.ImageParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.ImageParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.MetadataFieldsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.MetadataFieldsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.PSDParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.PSDParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.TiffParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.TiffParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.WebPParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.WebPParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.xmp.JempboxExtractorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.image.xmp.JempboxExtractorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.isatab.ISArchiveParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.isatab.ISArchiveParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.iwork.AutoPageNumberUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.iwork.AutoPageNumberUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.iwork.IWorkParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.iwork.IWorkParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.jdbc.SQLite3ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.jdbc.SQLite3ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.journal.JournalParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.journal.JournalParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.journal.TEITest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.journal.TEITest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.jpeg.JpegParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.jpeg.JpegParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mail.MailUtilTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mail.MailUtilTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mail.RFC822ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mail.RFC822ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mat.MatParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mat.MatParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mbox.MboxParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mbox.MboxParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mbox.OutlookPSTParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mbox.OutlookPSTParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.EMFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.EMFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ExcelParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ExcelParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.JackcessParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.JackcessParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.MSOwnerFileParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.MSOwnerFileParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.OfficeParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.OfficeParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.OldExcelParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.OldExcelParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.OutlookParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.OutlookParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.POIContainerExtractionTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.POIContainerExtractionTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.PowerPointParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.PowerPointParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ProjectParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ProjectParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.PublisherParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.PublisherParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.TNEFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.TNEFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.VisioParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.VisioParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.WordParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.WordParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.WriteProtectedParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.WriteProtectedParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.SXSLFExtractorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.SXSLFExtractorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.xml.XML2003ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.microsoft.xml.XML2003ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mock.MockParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mock.MockParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mp3.Mp3ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mp3.Mp3ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mp3.MpegStreamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mp3.MpegStreamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mp4.MP4ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.mp4.MP4ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ner.NamedEntityParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ner.NamedEntityParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ner.nltk.NLTKNERecogniserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ner.nltk.NLTKNERecogniserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ner.regex.RegexNERecogniserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ner.regex.RegexNERecogniserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.netcdf.NetCDFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.netcdf.NetCDFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ocr.TesseractOCRConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ocr.TesseractOCRConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ocr.TesseractOCRParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.ocr.TesseractOCRParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.odf.ODFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.odf.ODFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pdf.AccessCheckerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pdf.AccessCheckerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pdf.PDFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pdf.PDFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.ArParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.ArParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.Bzip2ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.Bzip2ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.CompressParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.CompressParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.CompressorParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.CompressorParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.GzipParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.GzipParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.PackageParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.PackageParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.RarParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.RarParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.Seven7ParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.Seven7ParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.TarParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.TarParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.ZipParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.ZipParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.ZlibParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.pkg.ZlibParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.prt.PRTParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.prt.PRTParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.recognition.ObjectRecognitionParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.recognition.ObjectRecognitionParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.recognition.tf.TensorflowImageRecParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.recognition.tf.TensorflowImageRecParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.recognition.tf.TensorflowVideoRecParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.recognition.tf.TensorflowVideoRecParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.rtf.RTFParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.rtf.RTFParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.sentiment.SentimentAnalysisParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.sentiment.SentimentAnalysisParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.solidworks.SolidworksParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.solidworks.SolidworksParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.FileConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.FileConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.Latin1StringsParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.Latin1StringsParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.StringsConfigTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.StringsConfigTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.StringsParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.strings.StringsParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.txt.CharsetDetectorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.txt.CharsetDetectorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.txt.TXTParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.txt.TXTParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.video.FLVParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.video.FLVParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.wordperfect.QuattroProTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.wordperfect.QuattroProTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.wordperfect.WPInputStreamTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.wordperfect.WPInputStreamTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.wordperfect.WordPerfectTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.wordperfect.WordPerfectTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.xml.DcXMLParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.xml.DcXMLParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.xml.EmptyAndDuplicateElementsXMLParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.xml.EmptyAndDuplicateElementsXMLParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.xml.FictionBookParserTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.parser.xml.FictionBookParserTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.sax.PhoneExtractingContentHandlerTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.sax.PhoneExtractingContentHandlerTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.utils.ServiceLoaderUtilsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/TEST-org.apache.tika.utils.ServiceLoaderUtilsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.TestParsers.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.TestParsers.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaDetectorConfigTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaDetectorConfigTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaEncodingDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaEncodingDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaParserConfigTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaParserConfigTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaTranslatorConfigTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaTranslatorConfigTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.detect.TestContainerAwareDetector.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.detect.TestContainerAwareDetector.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.extractor.EmbeddedDocumentUtilTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.extractor.EmbeddedDocumentUtilTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.mime.MimeTypesTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.mime.MimeTypesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.mime.TestMimeTypes.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.mime.TestMimeTypes.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.AutoDetectParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.AutoDetectParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.BouncyCastleDigestingParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.BouncyCastleDigestingParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.DigestingParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.DigestingParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ParsingReaderTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ParsingReaderTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.RecursiveParserWrapperTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.RecursiveParserWrapperTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.asm.ClassParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.asm.ClassParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.audio.AudioParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.audio.AudioParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.audio.MidiParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.audio.MidiParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.chm.TestChmExtraction.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.chm.TestChmExtraction.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.chm.TestChmExtractor.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.chm.TestChmExtractor.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.code.SourceCodeParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.code.SourceCodeParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.crypto.TSDParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.crypto.TSDParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.dbf.DBFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.dbf.DBFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.dwg.DWGParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.dwg.DWGParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.envi.EnviHeaderParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.envi.EnviHeaderParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.epub.EpubParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.epub.EpubParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.executable.ExecutableParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.executable.ExecutableParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.font.FontParsersTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.font.FontParsersTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.fork.ForkParserIntegrationTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.fork.ForkParserIntegrationTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.gdal.TestGDALParser.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.gdal.TestGDALParser.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.geo.topic.GeoParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.geo.topic.GeoParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.geoinfo.GeographicInformationParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.geoinfo.GeographicInformationParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.grib.GribParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.grib.GribParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.hdf.HDFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.hdf.HDFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.html.HtmlParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.html.HtmlParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ibooks.iBooksParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ibooks.iBooksParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.ImageMetadataExtractorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.ImageMetadataExtractorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.ImageParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.ImageParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.TiffParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.TiffParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.WebPParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.WebPParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.xmp.JempboxExtractorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.image.xmp.JempboxExtractorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.isatab.ISArchiveParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.isatab.ISArchiveParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.iwork.IWorkParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.iwork.IWorkParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.jdbc.SQLite3ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.jdbc.SQLite3ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.journal.JournalParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.journal.JournalParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.jpeg.JpegParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.jpeg.JpegParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mail.RFC822ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mail.RFC822ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mat.MatParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mat.MatParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mbox.MboxParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mbox.MboxParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mbox.OutlookPSTParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mbox.OutlookPSTParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.EMFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.EMFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ExcelParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ExcelParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.JackcessParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.JackcessParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.OfficeParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.OfficeParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.OldExcelParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.OldExcelParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.OutlookParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.OutlookParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.POIContainerExtractionTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.POIContainerExtractionTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.PowerPointParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.PowerPointParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.PublisherParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.PublisherParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.TNEFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.TNEFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.WordParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.WordParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.WriteProtectedParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.WriteProtectedParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.OOXMLContainerExtractionTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.OOXMLParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.SXSLFExtractorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.SXSLFExtractorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.SXWPFExtractorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006.Word2006MLParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.xml.XML2003ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.microsoft.xml.XML2003ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mock.MockParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mock.MockParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mp3.Mp3ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mp3.Mp3ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mp4.MP4ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.mp4.MP4ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ner.NamedEntityParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ner.NamedEntityParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ner.nltk.NLTKNERecogniserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ner.nltk.NLTKNERecogniserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ner.regex.RegexNERecogniserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ner.regex.RegexNERecogniserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.netcdf.NetCDFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.netcdf.NetCDFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ocr.TesseractOCRParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.ocr.TesseractOCRParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.odf.ODFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.odf.ODFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pdf.PDFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pdf.PDFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.ArParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.ArParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.Bzip2ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.Bzip2ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.CompressParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.CompressParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.CompressorParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.CompressorParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.GzipParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.GzipParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.RarParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.RarParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.Seven7ParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.Seven7ParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.TarParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.TarParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.ZipParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.pkg.ZipParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.prt.PRTParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.prt.PRTParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.rtf.RTFParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.rtf.RTFParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.sentiment.SentimentAnalysisParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.sentiment.SentimentAnalysisParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.solidworks.SolidworksParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.solidworks.SolidworksParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.txt.CharsetDetectorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.txt.CharsetDetectorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.txt.TXTParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.txt.TXTParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.video.FLVParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.video.FLVParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.wordperfect.QuattroProTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.wordperfect.QuattroProTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.wordperfect.WordPerfectTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.wordperfect.WordPerfectTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.xml.DcXMLParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.xml.DcXMLParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.xml.EmptyAndDuplicateElementsXMLParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.xml.EmptyAndDuplicateElementsXMLParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.xml.FictionBookParserTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.parser.xml.FictionBookParserTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.sax.PhoneExtractingContentHandlerTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.sax.PhoneExtractingContentHandlerTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.utils.ServiceLoaderUtilsTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.utils.ServiceLoaderUtilsTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/tika-parsers-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/tika-parsers-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/tika-parsers-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-parsers/target/tika-parsers-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/TEST-org.apache.tika.metadata.serialization.JsonMetadataListTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/TEST-org.apache.tika.metadata.serialization.JsonMetadataListTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/TEST-org.apache.tika.metadata.serialization.JsonMetadataTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/TEST-org.apache.tika.metadata.serialization.JsonMetadataTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/org.apache.tika.metadata.serialization.JsonMetadataListTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/org.apache.tika.metadata.serialization.JsonMetadataListTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/org.apache.tika.metadata.serialization.JsonMetadataTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/surefire-reports/org.apache.tika.metadata.serialization.JsonMetadataTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/tika-serialization-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/tika-serialization-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/tika-serialization-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-serialization/target/tika-serialization-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/original-tika-server-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/original-tika-server-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.DetectorResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.DetectorResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.LanguageResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.LanguageResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.MetadataResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.MetadataResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.RecursiveMetadataResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.RecursiveMetadataResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.StackTraceOffTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.StackTraceOffTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.StackTraceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.StackTraceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaDetectorsTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaDetectorsTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaMimeTypesTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaMimeTypesTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaParsersTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaParsersTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaVersionTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaVersionTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaWelcomeTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TikaWelcomeTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TranslateResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.TranslateResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.UnpackerResourceTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/TEST-org.apache.tika.server.UnpackerResourceTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.DetectorResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.DetectorResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.LanguageResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.LanguageResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.MetadataResourceTest-output.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.MetadataResourceTest-output.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.MetadataResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.MetadataResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.RecursiveMetadataResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.RecursiveMetadataResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceOffTest-output.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceOffTest-output.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceOffTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceOffTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceTest-output.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceTest-output.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.StackTraceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaDetectorsTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaDetectorsTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaMimeTypesTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaMimeTypesTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaParsersTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaParsersTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaResourceTest-output.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaResourceTest-output.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaVersionTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaVersionTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaWelcomeTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TikaWelcomeTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TranslateResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.TranslateResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.UnpackerResourceTest-output.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.UnpackerResourceTest-output.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.UnpackerResourceTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/surefire-reports/org.apache.tika.server.UnpackerResourceTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/tika-server-1.16-shaded.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/tika-server-1.16-shaded.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/tika-server-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/tika-server-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-server/target/tika-server-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-server/target/tika-server-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.CachedTranslatorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.CachedTranslatorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.JoshuaNetworkTranslatorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.JoshuaNetworkTranslatorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.MicrosoftTranslatorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.MicrosoftTranslatorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.MosesTranslatorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.MosesTranslatorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.YandexTranslatorTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/TEST-org.apache.tika.language.translate.YandexTranslatorTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.CachedTranslatorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.CachedTranslatorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.JoshuaNetworkTranslatorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.JoshuaNetworkTranslatorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.MicrosoftTranslatorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.MicrosoftTranslatorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.YandexTranslatorTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/surefire-reports/org.apache.tika.language.translate.YandexTranslatorTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/tika-translate-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/tika-translate-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/tika-translate-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-translate/target/tika-translate-1.16.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/classes/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/surefire-reports/TEST-org.apache.tika.xmp.TikaToXMPTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/surefire-reports/TEST-org.apache.tika.xmp.TikaToXMPTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/surefire-reports/TEST-org.apache.tika.xmp.XMPMetadataTest.xml" afterPath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/surefire-reports/TEST-org.apache.tika.xmp.XMPMetadataTest.xml" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/surefire-reports/org.apache.tika.xmp.XMPMetadataTest.txt" afterPath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/surefire-reports/org.apache.tika.xmp.XMPMetadataTest.txt" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/tika-xmp-1.16-tests.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/tika-xmp-1.16-tests.jar" />
-      <change beforePath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/tika-xmp-1.16.jar" afterPath="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/tika-xmp-1.16.jar" />
-    </list>
+    <list default="true" id="f05e9b27-69ef-4c23-995d-90cdda9f3f7f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../tika-1.16/tika-xmp/target/" />
     <ignored path="$PROJECT_DIR$/../tika-1.16/tika-nlp/target/" />
     <ignored path="$PROJECT_DIR$/../tika-1.16/tika-parent/target/" />
@@ -559,15 +52,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HtmlHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HtmlHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="21" />
+            <state relative-caret-position="-2438">
+              <caret line="143" column="35" lean-forward="false" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
               <folding>
-                <element signature="e#15714#15715#0" expanded="true" />
-                <element signature="e#15790#15791#0" expanded="true" />
+                <element signature="e#2049#2057#0" expanded="true" />
+                <element signature="e#15913#15914#0" expanded="true" />
+                <element signature="e#15989#15990#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/target/test-classes/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="org.apache.tika.config.TikaEncodingDetectorTest.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaEncodingDetectorTest.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -762,7 +276,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -949,172 +463,27 @@
             <path>
               <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="cli" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tika" type="462c0819:PsiDirectoryNode" />
-              <item name="detect" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
               <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
               <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
               <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
               <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
               <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tika-1.16-xiao" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tika-1.16" type="462c0819:PsiDirectoryNode" />
-              <item name="tika-parsers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1460,7 +829,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1471,27 +840,48 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578709" sideWeight="0.5139485" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.49100256" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25751072" sideWeight="0.49100256" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3578709" sideWeight="0.4860515" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578709" sideWeight="0.4860515" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25804722" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35461372" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36693093" sideWeight="0.49356222" order="5" side_tool="false" content_ui="tabs" x="25" y="671" width="1864" height="308" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3578709" sideWeight="0.5139485" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25751072" sideWeight="0.49100256" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36693093" sideWeight="0.49356222" order="5" side_tool="false" content_ui="tabs" x="25" y="671" width="1864" height="308" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32616082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.50899744" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693092" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3578709" sideWeight="0.4860515" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25804722" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1952,21 +1342,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/metadata/Metadata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-core/src/main/java/org/apache/tika/io/CloseShieldInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -2066,7 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2108,7 +1482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2808">
           <caret line="143" column="0" lean-forward="false" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2190,7 +1563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2198,7 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2206,7 +1577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2214,7 +1584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2236,7 +1605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="147" column="23" lean-forward="false" selection-start-line="147" selection-start-column="23" selection-end-line="147" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2244,7 +1612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12933">
           <caret line="522" column="38" lean-forward="false" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2252,10 +1619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="904">
           <caret line="88" column="44" lean-forward="false" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="44" />
-          <folding>
-            <element signature="e#1938#1939#0" expanded="false" />
-            <element signature="e#2005#2006#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2263,7 +1626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2271,7 +1633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="67" column="9" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2324,7 +1685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="206" column="40" lean-forward="false" selection-start-line="206" selection-start-column="38" selection-end-line="206" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2364,12 +1724,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/src/main/java/org/apache/tika/parser/html/HtmlHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="156" column="21" lean-forward="false" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="21" />
+        <state relative-caret-position="-2438">
+          <caret line="143" column="35" lean-forward="false" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="35" />
           <folding>
-            <element signature="e#15714#15715#0" expanded="true" />
-            <element signature="e#15790#15791#0" expanded="true" />
+            <element signature="e#2049#2057#0" expanded="true" />
+            <element signature="e#15913#15914#0" expanded="true" />
+            <element signature="e#15989#15990#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaDetectorConfigTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tika-1.16/tika-parsers/target/surefire-reports/org.apache.tika.config.TikaEncodingDetectorTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
