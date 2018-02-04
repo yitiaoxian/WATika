@@ -1,0 +1,29 @@
+@startuml
+title
+<u>OfdParser parse the Ofd file</u>
+end title
+OFDFile -> OfdParser:parse as a inputstream
+== handle OFD by zip file ==
+OfdParser->OfdParser:parse():\nInputStream -->ZipInputStream
+OfdParser->OfdParser:handleZipEntry():\nhandle entry by name
+== handle OFD.xml==
+OfdParser -> OfdMetaParser:parse OFD.xml
+OfdMetaParser -> XMLParser:parse OFD.xml
+XMLParser -> OfdMetaParser:parse()
+XMLParser->OfdMetaParser:getContentHandler()
+OfdMetaParser ->OfdMetaParser:getMeta()
+OfdMetaParser ->MetadataHandler:set metadata
+OfdMetaParser --> XMLParser :return ch
+XMLParser ->XMLParser : continue parse()
+== handle /Content.xml ==
+OfdParser -> OfdContentParser : parse Content.xml
+OfdContentParser -> OfdContentParser : parse()
+OfdContentParser -> OfdContentParser : context.getSAXParser()
+OfdContentParser -> OfdContentParser : new OfdContentHandler
+OfdContentParser -> OfdContentHandler : SAXParser.parse()
+OfdContentHandler -> OfdContentHandler : SAX parse /Content.xml
+OfdContentHandler -> OfdContentHandler : handler.character(ch,start,length):\n receive data
+==handle /Res embedded resources==
+OfdParser -> EmbeddedDocumentExtractor : parse embedded resources :\nget an embeddedDocumentExtractor by EmbeddedDocumentUtil.getEmbeddedDocumentUtil
+EmbeddedDocumentExtractor ->EmbeddedDocumentExtractor:shouldParseEmbedded()
+@enduml
