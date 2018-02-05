@@ -342,35 +342,33 @@ public class TikaGUI extends JFrame
         StringWriter textMainBuffer = new StringWriter();
         StringWriter xmlBuffer = new StringWriter();
         StringBuilder metadataBuffer = new StringBuilder();
+        StringWriter WAExtractBuffer = new StringWriter();
         //xiao
         //2018/1/30
         //StringWriter waExtractBuffer = new StringWriter();
-        ByteArrayOutputStream tmpInput = new ByteArrayOutputStream();
-        byte[] buffer = new byte[1024];
-        int len;
-        while ((len = input.read(buffer)) > -1 ) {
-            tmpInput.write(buffer, 0, len);
-        }
-        tmpInput.flush();
-        InputStream stream1 = new ByteArrayInputStream(tmpInput.toByteArray());
-        InputStream stream2 = new ByteArrayInputStream(tmpInput.toByteArray());
-        String WAExtraction = null;
+//        ByteArrayOutputStream tmpInput = new ByteArrayOutputStream();
+//        byte[] buffer = new byte[1024];
+//        int len;
+//        while ((len = input.read(buffer)) > -1 ) {
+//            tmpInput.write(buffer, 0, len);
+//        }
+//        tmpInput.flush();
+//        InputStream stream1 = new ByteArrayInputStream(tmpInput.toByteArray());
+//        InputStream stream2 = new ByteArrayInputStream(tmpInput.toByteArray());
+//        String WAExtraction = null;
         //character length limit
-        ContentHandler contentHandler = new BodyContentHandler(-1);
-        AutoDetectParser parser = new AutoDetectParser();
-        parser.parse(stream2,contentHandler,new Metadata());
-        WAExtraction = contentHandler.toString();
+        //ContentHandler contentHandler = new BodyContentHandler(-1);
+        //AutoDetectParser parser = new AutoDetectParser();
+        //parser.parse(stream2,contentHandler,new Metadata());
+        //WAExtraction = contentHandler.toString();
         //end
 
         ContentHandler handler = new TeeContentHandler(
                 getHtmlHandler(htmlBuffer),
                 getTextContentHandler(textBuffer),
                 getTextMainContentHandler(textMainBuffer),
-                getXmlContentHandler(xmlBuffer)
-                // xiao
-                //2018/1/30
-                //getWAExtractHandler(waExtractBuffer)
-                //end
+                getXmlContentHandler(xmlBuffer),
+                getWAExtractHandler(WAExtractBuffer)
                  );
 
         //context.set(DocumentSelector.class, new ImageDocumentSelector());
@@ -380,19 +378,19 @@ public class TikaGUI extends JFrame
         /**
          * input to stream1
          */
-        if (stream1.markSupported()) {
+        if (input.markSupported()) {
             int mark = -1;
-            if (stream1 instanceof TikaInputStream) {
-                if (((TikaInputStream)stream1).hasFile()) {
-                    mark = (int)((TikaInputStream)stream1).getLength();
+            if (input instanceof TikaInputStream) {
+                if (((TikaInputStream)input).hasFile()) {
+                    mark = (int)((TikaInputStream)input).getLength();
                 }
             }
             if (mark == -1) {
                 mark = MAX_MARK;
             }
-            stream1.mark(mark);
+            input.mark(mark);
         }
-        parser.parse(stream1, handler, md, context);
+        parser.parse(input, handler, md, context);
 
         String[] names = md.names();
         Arrays.sort(names);
@@ -419,7 +417,7 @@ public class TikaGUI extends JFrame
         setText(html, htmlBuffer.toString());
         //xiao
         //2018/1/30
-        setText(WAExtract,WAExtraction);
+        setText(WAExtract,WAExtractBuffer.toString());
         //end
         if (!input.markSupported()) {
             setText(json, "InputStream does not support mark/reset for Recursive Parsing");
