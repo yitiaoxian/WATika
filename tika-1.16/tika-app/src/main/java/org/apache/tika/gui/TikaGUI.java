@@ -647,7 +647,7 @@ public class TikaGUI extends JFrame
     //xiao
     //2018/1/30
     private ContentHandler getWAExtractHandler(Writer writer){
-        WriteOutContentHandler outContentHandler = new WriteOutContentHandler(writer,10*1000);
+        WriteOutContentHandler outContentHandler = new WriteOutContentHandler(writer,-1);
         return new BodyContentHandler(outContentHandler);
     }
     //end
