@@ -146,6 +146,7 @@ public class OfdParser extends AbstractParser{
             entry = zipStream.getNextEntry();
         }
     }
+
     /**
      *@description handle zip file by dealing with zip entry
      * @param zipFile:to get ZipEntry
@@ -163,12 +164,39 @@ public class OfdParser extends AbstractParser{
         if (entry != null) {
             handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
         }
-
+        /**
+         * count the Content.xml number
+         */
+        int PAGE_COUNT = -1;
         Enumeration<? extends ZipEntry> entries = zipFile.entries();
         while (entries.hasMoreElements()) {
             entry = entries.nextElement();
             if (!OFD_XML.equals(entry.getName())) {
-                handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
+                if (entry.getName().endsWith(OFD_CONTENT)) {
+                    /**
+                     * if entry is Content.xml
+                     * PAGE_COUNT +1
+                     */
+                    PAGE_COUNT++;
+                }
+                else{
+                    handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
+                }
+            }
+        }
+        /**
+         * record the current page number
+         */
+        int CURRENT_PAGE=0;
+        while (CURRENT_PAGE <= PAGE_COUNT){
+            /**
+             * current page
+             */
+            StringBuffer page = new StringBuffer("Doc_0/Pages/Page_"+CURRENT_PAGE+"/Content.xml");
+            ZipEntry entryPage = zipFile.getEntry(page.toString());
+            if(entryPage!=null) {
+                CURRENT_PAGE++;
+                handleZipEntry(entryPage, zipFile.getInputStream(entryPage), metadata, context, handler);
             }
         }
     }
