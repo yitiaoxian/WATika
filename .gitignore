@@ -16,8 +16,9 @@ tika-1.16/tika-dotent/target/*
 tika-1.16/tika-eval/target/*
 tika-1.16/tika-example/target/*
 tika-1.16/tika-java7/target/*
-tika-1.16/tika-landetect/target/*
+tika-1.16/tika-langdetect/target/*
 tika-1.16/tika-nlp/target/*
 tika-1.16/tika-server/target/*
 tika-1.16/tika-translate/target/*
 tika-1.16/tika-xmp/target/*
+tika-1.16/tika-serialization/target/*
