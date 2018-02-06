@@ -1,0 +1,24 @@
+#ignore pom.xml
+*.xml
+*.puml
+*.class
+!tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
+tika-1.16-xiao
+tika-1.16/target/*
+tika-1.16/tika-core/target/*
+tika-1.16/tika-parsers/target/*
+tika-1.16/tika-app/target/*
+tika-1.16/tika-batch/target/*
+tika-1.16/tika-bundle/target/*
+tika-1.16/tika-deployment/target/*
+tika-1.16/tika-dl/target/*
+tika-1.16/tika-dotent/target/*
+tika-1.16/tika-eval/target/*
+tika-1.16/tika-example/target/*
+tika-1.16/tika-java7/target/*
+tika-1.16/tika-langdetect/target/*
+tika-1.16/tika-nlp/target/*
+tika-1.16/tika-server/target/*
+tika-1.16/tika-translate/target/*
+tika-1.16/tika-xmp/target/*
+tika-1.16/tika-serialization/target/*
