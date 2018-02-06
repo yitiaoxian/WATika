@@ -166,6 +166,7 @@ public class OfdParser extends AbstractParser{
         }
         /**
          * count the Content.xml number
+         * for parsing Content.xml in order
          */
         int PAGE_COUNT = -1;
         Enumeration<? extends ZipEntry> entries = zipFile.entries();

@@ -29,6 +29,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+import com.levigo.jbig2.JBIG2ImageReader;
 import org.apache.commons.io.input.CloseShieldInputStream;
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.metadata.Metadata;
@@ -69,6 +70,7 @@ public class ImageParser extends AbstractParser {
                 MediaType.image("x-xcf")));
         try {
             Class.forName("com.levigo.jbig2.JBIG2ImageReader");
+            //TODO
             TMP_SUPPORTED.add(MediaType.image("x-jbig2"));
         } catch (ClassNotFoundException e) {
         }
