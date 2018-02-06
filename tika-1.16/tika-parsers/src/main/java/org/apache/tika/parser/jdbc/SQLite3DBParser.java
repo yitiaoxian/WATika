@@ -43,7 +43,6 @@ import org.sqlite.SQLiteConfig;
  * file or configured in the TikaConfig xml file.
  */
 class SQLite3DBParser extends AbstractDBParser {
-
     protected static final String SQLITE_CLASS_NAME = "org.sqlite.JDBC";
     //If the InputStream wasn't a TikaInputStream, copy to this tmp file
     Path tmpFile = null;

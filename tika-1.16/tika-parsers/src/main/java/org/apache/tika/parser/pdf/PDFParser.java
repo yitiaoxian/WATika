@@ -764,6 +764,7 @@ public class PDFParser extends AbstractParser implements Initializable {
             StringBuilder sb = new StringBuilder();
             try {
                 Class.forName("com.levigo.jbig2.JBIG2ImageReader");
+                //TODO
             } catch (ClassNotFoundException e) {
                 sb.append("JBIG2ImageReader not loaded. jbig2 files will be ignored\n");
                 sb.append("See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io\n");
@@ -771,6 +772,7 @@ public class PDFParser extends AbstractParser implements Initializable {
             }
             try {
                 Class.forName("com.github.jaiimageio.impl.plugins.tiff.TIFFImageWriter");
+                //TODO
             } catch (ClassNotFoundException e) {
                 sb.append("TIFFImageWriter not loaded. tiff files will not be processed\n");
                 sb.append("See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io\n");
@@ -780,6 +782,7 @@ public class PDFParser extends AbstractParser implements Initializable {
 
             try {
                 Class.forName("com.github.jaiimageio.jpeg2000.impl.J2KImageReader");
+                //TODO
             } catch (ClassNotFoundException e) {
                 sb.append("J2KImageReader not loaded. JPEG2000 files will not be processed.\n");
                 sb.append("See https://pdfbox.apache.org/2.0/dependencies.html#jai-image-io\n");
