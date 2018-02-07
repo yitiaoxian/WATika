@@ -7,7 +7,7 @@ Bundle-SymbolicName: org.apache.tika.langdetect
 Implementation-Version: 1.16
 Built-By: xiao
 Bundle-ManifestVersion: 2
-Bnd-LastModified: 1517902575570
+Bnd-LastModified: 1517966626317
 Specification-Vendor: The Apache Software Foundation
 Specification-Title: Apache Tika language detection
 Implementation-Vendor-Id: org.apache.tika

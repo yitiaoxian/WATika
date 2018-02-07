@@ -343,25 +343,6 @@ public class TikaGUI extends JFrame
         StringWriter xmlBuffer = new StringWriter();
         StringBuilder metadataBuffer = new StringBuilder();
         StringWriter WAExtractBuffer = new StringWriter();
-        //xiao
-        //2018/1/30
-        //StringWriter waExtractBuffer = new StringWriter();
-//        ByteArrayOutputStream tmpInput = new ByteArrayOutputStream();
-//        byte[] buffer = new byte[1024];
-//        int len;
-//        while ((len = input.read(buffer)) > -1 ) {
-//            tmpInput.write(buffer, 0, len);
-//        }
-//        tmpInput.flush();
-//        InputStream stream1 = new ByteArrayInputStream(tmpInput.toByteArray());
-//        InputStream stream2 = new ByteArrayInputStream(tmpInput.toByteArray());
-//        String WAExtraction = null;
-        //character length limit
-        //ContentHandler contentHandler = new BodyContentHandler(-1);
-        //AutoDetectParser parser = new AutoDetectParser();
-        //parser.parse(stream2,contentHandler,new Metadata());
-        //WAExtraction = contentHandler.toString();
-        //end
 
         ContentHandler handler = new TeeContentHandler(
                 getHtmlHandler(htmlBuffer),
@@ -691,13 +672,15 @@ public class TikaGUI extends JFrame
          return tmp;
       }
       
+      @Override
       public Set<MediaType> getSupportedTypes(ParseContext context) {
          // Never used in an auto setup
          return null;
       }
 
+      @Override
       public void parse(InputStream stream, ContentHandler handler,
-            Metadata metadata, ParseContext context) throws IOException,
+                        Metadata metadata, ParseContext context) throws IOException,
             SAXException, TikaException {
          String name = metadata.get(Metadata.RESOURCE_NAME_KEY);
          if(name != null && wanted.containsKey(name)) {

@@ -189,12 +189,13 @@ public class OfdParser extends AbstractParser{
          * record the current page number
          */
         int CURRENT_PAGE=0;
+        String page = new String("Doc_0/Pages/Page_CURRENT_PAGE_TMP/Content.xml");
         while (CURRENT_PAGE <= PAGE_COUNT){
             /**
-             * current page
+             * get entry of the current page
              */
-            StringBuffer page = new StringBuffer("Doc_0/Pages/Page_"+CURRENT_PAGE+"/Content.xml");
-            ZipEntry entryPage = zipFile.getEntry(page.toString());
+            ZipEntry entryPage = zipFile.getEntry(
+                    page.replaceAll("CURRENT_PAGE_TMP",String.valueOf(CURRENT_PAGE)));
             if(entryPage!=null) {
                 CURRENT_PAGE++;
                 handleZipEntry(entryPage, zipFile.getInputStream(entryPage), metadata, context, handler);
