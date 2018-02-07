@@ -196,7 +196,7 @@ public class OfdParser extends AbstractParser{
              */
             ZipEntry entryPage = zipFile.getEntry(
                     page.replaceAll("CURRENT_PAGE_TMP",String.valueOf(CURRENT_PAGE)));
-            if(entryPage!=null) {
+            if(entryPage != null) {
                 CURRENT_PAGE++;
                 handleZipEntry(entryPage, zipFile.getInputStream(entryPage), metadata, context, handler);
             }

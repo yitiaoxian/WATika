@@ -112,6 +112,7 @@ public class TikaGUI extends JFrame
         UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         final TikaConfig finalConfig = config;
         SwingUtilities.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new TikaGUI(new DigestingParser(
                         new AutoDetectParser(finalConfig),
@@ -263,6 +264,7 @@ public class TikaGUI extends JFrame
         menu.add(item);
     }
 
+    @Override
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
         if ("openfile".equals(command)) {
@@ -490,6 +492,7 @@ public class TikaGUI extends JFrame
         }
     }
 
+    @Override
     public void hyperlinkUpdate(HyperlinkEvent e) {
         if (e.getEventType() == EventType.ACTIVATED) {
             try {
@@ -634,6 +637,7 @@ public class TikaGUI extends JFrame
      * A {@link DocumentSelector} that accepts only images.
      */
     private static class ImageDocumentSelector implements DocumentSelector {
+      @Override
       public boolean select(Metadata metadata) {
          String type = metadata.get(Metadata.CONTENT_TYPE);
          return type != null && type.startsWith("image/");

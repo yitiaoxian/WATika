@@ -39,6 +39,7 @@ public class MatchingContentHandler extends ContentHandlerDecorator {
         this.matcher = matcher;
     }
 
+    @Override
     public void startElement(
             String uri, String localName, String name, Attributes attributes)
             throws SAXException {
@@ -67,6 +68,7 @@ public class MatchingContentHandler extends ContentHandlerDecorator {
         }
     }
 
+    @Override
     public void endElement(String uri, String localName, String name)
             throws SAXException {
         if (matcher.matchesElement()) {
@@ -79,6 +81,7 @@ public class MatchingContentHandler extends ContentHandlerDecorator {
         }
     }
 
+    @Override
     public void characters(char[] ch, int start, int length)
             throws SAXException {
         if (matcher.matchesText()) {
@@ -93,6 +96,7 @@ public class MatchingContentHandler extends ContentHandlerDecorator {
         }
     }
 
+    @Override
     public void processingInstruction(String target, String data) {
         // TODO: Support for matching processing instructions
     }
