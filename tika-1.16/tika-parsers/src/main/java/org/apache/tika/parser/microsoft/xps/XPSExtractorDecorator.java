@@ -140,6 +140,14 @@ public class XPSExtractorDecorator extends AbstractOOXMLExtractor {
             this.xhtml = xhtml;
         }
 
+        /**
+         * parse element
+         * @param uri
+         * @param localName
+         * @param qName
+         * @param atts
+         * @throws SAXException
+         */
         @Override
         public void startElement(String uri, String localName, String qName, Attributes atts) throws SAXException {
             if (!DOCUMENT_REFERENCE.equals(localName)) {
@@ -177,6 +185,10 @@ public class XPSExtractorDecorator extends AbstractOOXMLExtractor {
                     throw new SAXException(new TikaException("IOException trying to read: " + docRef));
                 }
             } else {
+                /**
+                 * author xiao
+                 * 必须是以zip为文件容器
+                 */
                 throw new SAXException(new TikaException("Package must be ZipPackage"));
             }
         }

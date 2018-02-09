@@ -208,7 +208,6 @@ class XPSPageContentHandler extends DefaultHandler {
         xhml.endElement(DIV);
     }
 
-
     private final void writePage() throws SAXException {
         if (canvases.size() == 0) {
             return;
@@ -244,28 +243,6 @@ class XPSPageContentHandler extends DefaultHandler {
     }
 
     private void writeRow(List<GlyphRun> row) throws SAXException {
-/*
-        int rtl = 0;
-        int ltr = 0;
-        //if the row is entirely rtl, sort all as rtl
-        //otherwise sort ltr
-        for (GlyphRun r : row) {
-            //ignore directionality of pure spaces
-            if (r.unicodeString == null || r.unicodeString.trim().length() == 0) {
-                continue;
-            }
-            if (r.direction == GlyphRun.DIRECTION.RTL) {
-                rtl++;
-            } else {
-                ltr++;
-            }
-        }
-        if (rtl > 0 && ltr == 0) {
-            Collections.sort(row, GlyphRun.RTL_COMPARATOR);
-        } else {
-            Collections.sort(row, GlyphRun.LTR_COMPARATOR);
-        }*/
-
         xhml.startElement(P);
         for (GlyphRun run : row) {
             //figure out if you need to add a space
@@ -313,6 +290,12 @@ class XPSPageContentHandler extends DefaultHandler {
         return rows;
     }
 
+    /**
+     *
+     * @param localName
+     * @param atts
+     * @return
+     */
     private static String getVal(String localName, Attributes atts) {
         for (int i = 0; i < atts.getLength(); i++) {
             if (localName.equals(atts.getLocalName(i))) {

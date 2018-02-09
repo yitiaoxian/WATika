@@ -1046,15 +1046,26 @@ public class TikaCLI {
         private int count = 0;
         private final TikaConfig config = TikaConfig.getDefaultConfig();
 
+        @Override
         public boolean shouldParseEmbedded(Metadata metadata) {
             return true;
         }
 
+        @Override
         public void parseEmbedded(InputStream inputStream, ContentHandler contentHandler, Metadata metadata, boolean outputHtml) throws SAXException, IOException {
             String name = metadata.get(Metadata.RESOURCE_NAME_KEY);
 
             if (name == null) {
                 name = "file" + count++;
+            }
+
+            /**
+             * author xiao
+             * wrap embedded stream in a stream that supports mark/reset
+             * 将支持mark/reset的流中的嵌套流封装一层
+             */
+            if (!inputStream.markSupported()){
+                inputStream = TikaInputStream.get(inputStream);
             }
 
             MediaType contentType = detector.detect(inputStream, metadata);
