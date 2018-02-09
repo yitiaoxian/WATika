@@ -14,6 +14,8 @@ import java.io.IOException;
  * and keep the general framework similar to our other POI-integrated
  * extractors.
  * @author xiao
+ * 2018/2/9
+ * xps file text extractor
  */
 public class XPSTextExtractor extends POIXMLTextExtractor {
 
