@@ -41,6 +41,12 @@ public class OOXMLParser extends AbstractOfficeParser {
         ZipSecureFile.setMinInflateRatio(-1.0d);
     }
 
+    /**
+     * author xiao
+     * add xps type
+     */
+    protected static final MediaType XPS = MediaType.application("vnd.ms-xpsdocument");
+
     protected static final Set<MediaType> SUPPORTED_TYPES =
             Collections.unmodifiableSet(new HashSet<>(Arrays.asList(
                     MediaType.application("vnd.openxmlformats-officedocument.presentationml.presentation"),
@@ -83,10 +89,16 @@ public class OOXMLParser extends AbstractOfficeParser {
      * This list is used to decline certain formats that are not yet supported
      * by Tika and/or POI.
      */
+    /**
+     * author xiao
+     * add xps file supported
+     */
     protected static final Set<MediaType> UNSUPPORTED_OOXML_TYPES =
-            Collections.singleton(
-                    MediaType.application("vnd.ms-xpsdocument")
-            );
+//            Collections.singleton(
+            Collections.EMPTY_SET ;
+//                    MediaType.application("vnd.ms-xpsdocument")
+//            );
+
     /**
      * Serial version UID
      */

@@ -38,6 +38,7 @@ import org.apache.tika.metadata.TikaCoreProperties;
 import org.apache.tika.parser.microsoft.SummaryExtractor;
 import org.apache.tika.parser.microsoft.ooxml.xslf.XSLFEventBasedPowerPointExtractor;
 import org.apache.tika.parser.microsoft.ooxml.xwpf.XWPFEventBasedWordExtractor;
+import org.apache.tika.parser.microsoft.xps.XPSTextExtractor;
 import org.apache.xmlbeans.impl.values.XmlValueOutOfRangeException;
 import org.openxmlformats.schemas.officeDocument.x2006.customProperties.CTProperty;
 import org.openxmlformats.schemas.officeDocument.x2006.extendedProperties.CTProperties;
@@ -61,8 +62,9 @@ public class MetadataExtractor {
         if (extractor.getDocument() != null ||
                 ((extractor instanceof XSSFEventBasedExcelExtractor ||
                         extractor instanceof XWPFEventBasedWordExtractor ||
-                        extractor instanceof XSLFEventBasedPowerPointExtractor) &&
-                        extractor.getPackage() != null)) {
+                        extractor instanceof XSLFEventBasedPowerPointExtractor ||
+                        extractor instanceof XPSTextExtractor)&&
+        extractor.getPackage() != null)) {
             extractMetadata(extractor.getCoreProperties(), metadata);
             extractMetadata(extractor.getExtendedProperties(), metadata);
             extractMetadata(extractor.getCustomProperties(), metadata);
