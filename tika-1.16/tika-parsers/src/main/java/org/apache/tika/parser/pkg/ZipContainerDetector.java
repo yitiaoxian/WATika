@@ -65,10 +65,18 @@ public class ZipContainerDetector implements Detector {
     // TODO Remove this constant once we upgrade to POI 3.12 beta 2, then use PackageRelationshipTypes 
     private static final String STRICT_CORE_DOCUMENT = 
             "http://purl.oclc.org/ooxml/officeDocument/relationships/officeDocument";
-    
+
+    /***
+     * author xiao
+     * add xps file
+     */
+    private static final String XPS_DOCUMENT =
+            "http://schemas.microsoft.com/xps/2005/06/fixedrepresentation";
+
     /** Serial version UID */
     private static final long serialVersionUID = 2891763938430295453L;
 
+    @Override
     public MediaType detect(InputStream input, Metadata metadata)
             throws IOException {
         // Check if we have access to the document
@@ -268,6 +276,13 @@ public class ZipContainerDetector implements Detector {
         PackagePart corePart = pkg.getPart(core.getRelationship(0));
         String coreType = corePart.getContentType();
 
+        /**
+         * author xiao
+         * add xps
+         */
+        if(coreType.contains(".xps")){
+            return MediaType.application("vnd.ms-pacakge.xps");
+        }
         // Turn that into the type of the overall document
         String docType = coreType.substring(0, coreType.lastIndexOf('.'));
 
@@ -286,7 +301,13 @@ public class ZipContainerDetector implements Detector {
     /**
      * Detects Open XML Paper Specification (XPS)
      */
-    private static MediaType detectXPSOPC(OPCPackage pkg) {
+    /**
+     * author xiao
+     * @param pkg
+     * @return mediatype
+     * modify for xps detect
+     */
+    public static MediaType detectXPSOPC(OPCPackage pkg) {
         PackageRelationshipCollection xps = 
                 pkg.getRelationshipsByType("http://schemas.microsoft.com/xps/2005/06/fixedrepresentation");
         if (xps.size() == 1) {
