@@ -18,6 +18,7 @@ package org.apache.tika.parser.microsoft;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
@@ -29,18 +30,7 @@ import org.apache.poi.hslf.record.DocInfoListContainer;
 import org.apache.poi.hslf.record.RecordTypes;
 import org.apache.poi.hslf.record.VBAInfoAtom;
 import org.apache.poi.hslf.record.VBAInfoContainer;
-import org.apache.poi.hslf.usermodel.HSLFMasterSheet;
-import org.apache.poi.hslf.usermodel.HSLFNotes;
-import org.apache.poi.hslf.usermodel.HSLFObjectData;
-import org.apache.poi.hslf.usermodel.HSLFPictureData;
-import org.apache.poi.hslf.usermodel.HSLFShape;
-import org.apache.poi.hslf.usermodel.HSLFSlide;
-import org.apache.poi.hslf.usermodel.HSLFSlideShow;
-import org.apache.poi.hslf.usermodel.HSLFTable;
-import org.apache.poi.hslf.usermodel.HSLFTableCell;
-import org.apache.poi.hslf.usermodel.HSLFTextParagraph;
-import org.apache.poi.hslf.usermodel.HSLFTextRun;
-import org.apache.poi.hslf.usermodel.HSLFTextShape;
+import org.apache.poi.hslf.usermodel.*;
 import org.apache.poi.poifs.filesystem.DirectoryNode;
 import org.apache.poi.poifs.filesystem.NPOIFSFileSystem;
 import org.apache.tika.exception.EncryptedDocumentException;
@@ -107,6 +97,13 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
                     extractTableText(xhtml, (HSLFTable) shape);
                 }
             }
+
+            /**
+             * add by xiao
+             * for extracting text from grouped text boxes in the ppt
+             * 2018/2/24
+             */
+            extractGroupText(xhtml,slide.getShapes(),0);
 
             // Slide footer, if present
             if (hf != null && hf.isFooterVisible() && hf.getFooterText() != null) {
@@ -212,6 +209,37 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
         xhtml.endElement("div");
     }
 
+    /**
+     *
+     * @param xhtml
+     * @param shapes input shape
+     * @param depth depth to control whether to extract
+     * @throws SAXException
+     */
+    private void extractGroupText(XHTMLContentHandler xhtml,List<HSLFShape> shapes,int depth) throws SAXException {
+        if (shapes == null){
+            return;
+        }
+
+        /**
+         * only process items with depth>0
+         * for they should have been included already in slide.getTextParagraphs above.
+         */
+        /**
+         * However , cells are considered grouped within the table , so ignore them.
+         *
+         */
+        List<List<HSLFTextParagraph>> paragraphList = new ArrayList<>();
+        for (HSLFShape shape:shapes){
+            if (shape instanceof HSLFGroupShape){
+                extractGroupText(xhtml,((HSLFGroupShape) shape).getShapes(),depth+1);
+            }else if(shape instanceof HSLFTextShape
+                    && !(shape instanceof HSLFTableCell) && depth >0 ){
+                paragraphList.add(((HSLFTextShape) shape).getTextParagraphs());
+            }
+        }
+        textRunsToText(xhtml,paragraphList);
+    }
     private void extractMacros(HSLFSlideShow ppt, XHTMLContentHandler xhtml) throws EncryptedDocumentException {
 
         //get macro persist id
