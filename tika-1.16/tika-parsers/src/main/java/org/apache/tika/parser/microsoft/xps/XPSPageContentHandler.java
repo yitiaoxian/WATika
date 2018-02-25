@@ -56,8 +56,8 @@ class XPSPageContentHandler extends DefaultHandler {
     private static final String CANVAS_SAX = "canvas";
     private static final String P = "p";
     private static final String HREF = "href";
-    private static final String A = "a";
 
+    private static final String A = "a";
 
     private final XHTMLContentHandler xhml;
 
