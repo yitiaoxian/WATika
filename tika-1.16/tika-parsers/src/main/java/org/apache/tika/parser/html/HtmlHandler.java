@@ -19,14 +19,10 @@ package org.apache.tika.parser.html;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Locale;
-import java.util.Set;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -38,6 +34,9 @@ import org.apache.tika.metadata.Metadata;
 import org.apache.tika.metadata.TikaCoreProperties;
 import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.ParseContext;
+import org.apache.tika.parser.utils.DataURIScheme;
+import org.apache.tika.parser.utils.DataURISchemeParseException;
+import org.apache.tika.parser.utils.DataURISchemeUtil;
 import org.apache.tika.sax.TextContentHandler;
 import org.apache.tika.sax.XHTMLContentHandler;
 import org.xml.sax.Attributes;
@@ -65,6 +64,11 @@ class HtmlHandler extends TextContentHandler {
     private int scriptLevel= 0;
     private Attributes scriptAtts = EMPTY_ATTS;//attributes from outermost script element
     private final StringBuilder script = new StringBuilder();
+    /*
+    *extract file in the html and javascript inside the html
+    * 2018/2/25
+     */
+    private final DataURISchemeUtil dataURISchemeUtil = new DataURISchemeUtil();
 
     private boolean isTitleSetToMetadata = false;
 
@@ -200,8 +204,22 @@ class HtmlHandler extends TextContentHandler {
             }
         }
         //xiao
-        if(flagAtts)discardLevel++;
+        if(flagAtts){
+            discardLevel++;
+        }
         title.setLength(0);
+        /**
+         * extract text of embedded file inside the html
+         * 2018/2/25
+         */
+        String value = atts.getValue("src");
+        if(value != null && value.startsWith("data:")){
+            try {
+                handleDataURIScheme(value);
+            } catch (EncryptedDocumentException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     /**
@@ -264,6 +282,12 @@ class HtmlHandler extends TextContentHandler {
                 // And resolve relative links. Eventually this should be pushed
                 // into the HtmlMapper code.
                 if (URI_ATTRIBUTES.contains(normAttrName)) {
+                    if (normAttrName.equals("src")) {
+                        String v = newAttributes.getValue(att);
+                        if (v.startsWith("data:")) {
+                            newAttributes.setValue(att, "data:");
+                        }
+                    }
                     newAttributes.setValue(att, resolve(newAttributes.getValue(att)));
                 } else if (isObject && "codebase".equals(normAttrName)) {
                     newAttributes.setValue(att, codebase);
@@ -284,6 +308,39 @@ class HtmlHandler extends TextContentHandler {
         xhtml.startElement(name, newAttributes);
     }
 
+    /**
+     * 2018/2/25
+     * 处理DataURIScheme数据
+     * @param string
+     * @throws SAXException
+     * @throws EncryptedDocumentException
+     */
+    private void handleDataURIScheme(String string) throws SAXException, EncryptedDocumentException {
+        DataURIScheme dataURIScheme = null;
+        try {
+            dataURIScheme = dataURISchemeUtil.parse(string);
+        } catch (DataURISchemeParseException e) {
+            /**
+             * swallow
+             */
+            return;
+        }
+        Metadata m = new Metadata();
+        m.set(TikaCoreProperties.EMBEDDED_RESOURCE_TYPE,TikaCoreProperties.EmbeddedResourceType.INLINE.toString());
+        if (dataURIScheme.getMediaType() != null){
+            m.set(Metadata.CONTENT_TYPE, dataURIScheme.getMediaType().toString());
+        }
+        EmbeddedDocumentExtractor embeddedDocumentExtractor =
+                EmbeddedDocumentUtil.getEmbeddedDocumentExtractor(context);
+        if(embeddedDocumentExtractor.shouldParseEmbedded(m)){
+            try {
+                InputStream stream = dataURIScheme.getInputStream();
+                embeddedDocumentExtractor.parseEmbedded(stream,xhtml,m,false);
+            } catch (IOException e) {
+                EmbeddedDocumentUtil.recordEmbeddedStreamException(e,metadata);
+            }
+        }
+    }
     @Override
     public void endElement(
             String uri, String local, String name) throws SAXException {
@@ -354,6 +411,27 @@ class HtmlHandler extends TextContentHandler {
 
         EmbeddedDocumentExtractor embeddedDocumentExtractor =
                 EmbeddedDocumentUtil.getEmbeddedDocumentExtractor(context);
+        /**
+         * extract embedded files in the javascript inside the html
+         * 2018/2/25
+         */
+        //try to scrape dataURISchemes from javascript
+        List<DataURIScheme> dataURISchemes = dataURISchemeUtil.extract(script.toString());
+        for (DataURIScheme dataURIScheme : dataURISchemes) {
+            Metadata dataUriMetadata = new Metadata();
+            dataUriMetadata.set(TikaCoreProperties.EMBEDDED_RESOURCE_TYPE,
+                    TikaCoreProperties.EmbeddedResourceType.INLINE.toString());
+            dataUriMetadata.set(Metadata.CONTENT_TYPE,
+                    dataURIScheme.getMediaType().toString());
+            if (embeddedDocumentExtractor.shouldParseEmbedded(dataUriMetadata)) {
+                try (InputStream dataURISchemeInputStream = dataURIScheme.getInputStream()) {
+                    embeddedDocumentExtractor.parseEmbedded(dataURISchemeInputStream,
+                            xhtml, dataUriMetadata, false);
+                    } catch (IOException e) {
+                    //swallow
+                }
+            }
+        }
         try (InputStream stream = new ByteArrayInputStream(
                 script.toString().getBytes(StandardCharsets.UTF_8))) {
             embeddedDocumentExtractor.parseEmbedded(
