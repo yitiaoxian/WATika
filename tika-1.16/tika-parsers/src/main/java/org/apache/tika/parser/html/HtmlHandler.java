@@ -311,7 +311,7 @@ class HtmlHandler extends TextContentHandler {
     /**
      * 2018/2/25
      * 处理DataURIScheme数据
-     * @param string
+     * @param string data
      * @throws SAXException
      * @throws EncryptedDocumentException
      */

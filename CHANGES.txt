@@ -1,2 +1,7 @@
 *抽取HTML中以Data URI scheme嵌套在html和javascript的文件
 2018年2月25日11:15:59
+
+*升级PDFBOX到2.0.7
+在tika-parsers中的POM.xml文件中修改PDFBOX的版本2.0.6为2.0.7
+2018年2月25日17:10:23
+

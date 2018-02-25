@@ -30,10 +30,10 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.james:apache-mime4j-dom:0.8.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.tukaani:xz:1.6" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: commons-codec:commons-codec:1.10" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox:2.0.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:fontbox:2.0.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox-tools:2.0.6" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox-debugger:2.0.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox:2.0.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:fontbox:2.0.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox-tools:2.0.7" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:pdfbox-debugger:2.0.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.pdfbox:jempbox:1.8.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.bouncycastle:bcmail-jdk15on:1.54" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.54" level="project" />
