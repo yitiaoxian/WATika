@@ -1,10 +1,10 @@
 @echo off
-echo E盘取更新
-echo 清理更新包存放目录
-rd /s /q E:\gitUpdate\test1
+echo E盘项目路径下取更新文件
+::echo 清理更新包存放目录
+::rd /s /q E:\gitUpdate\test1
 
-echo 创建存放目录
-md E:\gitUpdate\test2
+::echo 创建存放目录
+::md E:\gitUpdate\test2
 
 
 echo 进入git的resources目录
@@ -25,11 +25,11 @@ rem echo git diff %a% %b% --name-only
 
 
 
-echo 解压到打包目录
+::echo 解压到打包目录
 ::tar -zxvf gengxinbao.tar.gz -C D:/update/test2/
 
 
-echo 删除差异压缩包
+::echo 删除差异压缩包
 ::del gengxinbao.tar.gz
 
 
