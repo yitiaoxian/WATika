@@ -25,11 +25,11 @@ rem echo git diff %a% %b% --name-only
 
 
 
-echo 解压到打包目录
+::echo 解压到打包目录
 ::tar -zxvf gengxinbao.tar.gz -C D:/update/test2/
 
 
-echo 删除差异压缩包
+::echo 删除差异压缩包
 ::del gengxinbao.tar.gz
 
 

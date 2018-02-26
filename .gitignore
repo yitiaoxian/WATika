@@ -1,9 +1,9 @@
 #ignore pom.xml
 *.xml
+!pom.xml
 *.puml
 *.class
 !tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
-!pom.xml
 tika-1.16-xiao
 tika-1.16/target/*
 tika-1.16/tika-core/target/*
