@@ -1,10 +1,10 @@
 @echo off
 echo E盘项目路径下取更新文件
-echo 清理更新包存放目录
-rd /s /q E:\gitUpdate\test1
+::echo 清理更新包存放目录
+::rd /s /q E:\gitUpdate\test1
 
-echo 创建存放目录
-md E:\gitUpdate\test2
+::echo 创建存放目录
+::md E:\gitUpdate\test2
 
 
 echo 进入git的resources目录
