@@ -7,3 +7,15 @@
 
 *修复ChmExtractor的线程安全
 2018年2月26日09:37:37
+
+*升级xmpcore到5.1.4（TIKA-2034）
+在tika-xmp/pom.xml中修改版本
+2018年2月26日09:52:10
+
+*升级jackson版本到2.9.2（TIKA-2501）
+在tika-parsers/pom.xml和tika-translate/pom.xml修改版本
+2018年2月26日10:01:15
+
+*升级pdfbox版本到2.0.8（TIKA-2489）
+在tika-parsers中的POM.xml文件中修改PDFBOX的版本2.0.7为2.0.8
+2018年2月26日10:04:58
