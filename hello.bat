@@ -1,5 +1,5 @@
 @echo off
-echo E盘取更新
+echo E盘项目路径下取更新文件
 echo 清理更新包存放目录
 rd /s /q E:\gitUpdate\test1
 
