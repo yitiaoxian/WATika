@@ -17,7 +17,7 @@ set /p b=请输入结束版本号b:
 
 
 echo 获取差异并打包
-git diff %a% %b% --name-only | xargs tar -czvf gengxinbao.tar.gz
+git diff %a% %b% --name-only | xargs zip 更新包.zip
 
 
 rem echo git diff %a% %b% --name-only
@@ -26,11 +26,11 @@ rem echo git diff %a% %b% --name-only
 
 
 echo 解压到打包目录
-tar -zxvf gengxinbao.tar.gz -C D:/update/test2/
+::tar -zxvf gengxinbao.tar.gz -C D:/update/test2/
 
 
 echo 删除差异压缩包
-del gengxinbao.tar.gz
+::del gengxinbao.tar.gz
 
 
 echo 搞定
