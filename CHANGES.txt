@@ -19,3 +19,6 @@
 *升级pdfbox版本到2.0.8（TIKA-2489）
 在tika-parsers中的POM.xml文件中修改PDFBOX的版本2.0.7为2.0.8
 2018年2月26日10:04:58
+
+*Extract xlsx files embedded in OLE objects within PPT and PPTX via Brian McColgan (TIKA-2588).
+2018年3月1日19:59:59

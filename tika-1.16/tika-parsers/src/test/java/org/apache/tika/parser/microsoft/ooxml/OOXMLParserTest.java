@@ -1666,6 +1666,22 @@ public class OOXMLParserTest extends TikaTest {
         assertContains("March\tApril", xml);
         assertNotContained("chartSpace", xml);
     }
+    @Test
+    public void testEmbeddedXLSInOLEObject() throws Exception {
+
+        List<Metadata> metadataList = getRecursiveMetadata("testPPT_oleWorkbook.pptx");
+
+        assertEquals(3, metadataList.size());
+        //github上的为4，实际测试时只有3？
+        Metadata xlsx = metadataList.get(2);
+
+        assertContains("<h1>Sheet1</h1>", xlsx.get(RecursiveParserWrapper.TIKA_CONTENT));
+
+        assertContains("<td>1</td>", xlsx.get(RecursiveParserWrapper.TIKA_CONTENT));
+
+        assertEquals("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                xlsx.get(Metadata.CONTENT_TYPE));
+    }
 
 }
 
