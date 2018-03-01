@@ -486,7 +486,8 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
                         // 修改类型
                         //office2003的ppt文件无法抽取出正确的文件
                         if (mediaType.equals("application/x-tika-msoffice-embedded; format=ole10_native")
-                                ||mediaType.equals("application/x-tika-msoffice-embedded; format=comp_obj")) {
+                                ||mediaType.equals("application/x-tika-msoffice-embedded; format=comp_obj")
+                                || mediaType.equals("application/x-tika-msoffice")) {
                         //if (mediaType.equals("application/x-tika-msoffice-embedded; format=comp_obj")) {
                             //test xiao
                             //2018年1月9日15:55:57
