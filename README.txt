@@ -7,3 +7,8 @@
 1.git diff %a% %b% --name-only | xargs tar -czvf gengxinbao.tar.gz
 a b为版本号
 2.git diff %a% %b% --name-only | xargs zip gengxinbao.zip 
+
+
+
+2018年3月2日23:16:19
+测试push到github
