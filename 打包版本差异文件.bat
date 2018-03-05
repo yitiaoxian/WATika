@@ -17,7 +17,7 @@ set /p b=请输入结束版本号b:
 
 
 echo 获取差异并打包
-git diff %a% %b% --name-only | xargs zip 更新包.zip
+git diff %a% %b% --name-only | xargs zip tika-update.zip
 
 
 rem echo git diff %a% %b% --name-only

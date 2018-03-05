@@ -22,3 +22,6 @@
 
 *Extract xlsx files embedded in OLE objects within PPT and PPTX via Brian McColgan (TIKA-2588).
 2018年3月1日19:59:59
+
+*修改打包差异文件的命令
+2018年3月5日16:37:34
