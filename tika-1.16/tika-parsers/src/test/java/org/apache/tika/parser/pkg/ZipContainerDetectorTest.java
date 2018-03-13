@@ -13,19 +13,19 @@ import java.io.InputStream;
 
 
 public class ZipContainerDetectorTest extends TikaTest {
-//    @Test
-//    public void testTiffWorkaround() throws Exception {
-//        //TIKA-2591
-//        ZipContainerDetector zipContainerDetector = new ZipContainerDetector();
-//        Metadata metadata = new Metadata();
-//        try (InputStream is = TikaInputStream.get(getResourceAsStream("/test-documents/testTIFF.tif"))) {
-//            MediaType mt = zipContainerDetector.detect(is, metadata);
-//            assertEquals(MediaType.image("tiff"), mt);
-//        }
-//        metadata = new Metadata();
-//        try (InputStream is = TikaInputStream.get(getResourceAsStream("/test-documents/testTIFF_multipage.tif"))) {
-//            MediaType mt = zipContainerDetector.detect(is, metadata);
-//            assertEquals(MediaType.image("tiff"), mt);
-//        }
-//    }
+    @Test
+    public void testTiffWorkaround() throws Exception {
+        //TIKA-2591
+        ZipContainerDetector zipContainerDetector = new ZipContainerDetector();
+        Metadata metadata = new Metadata();
+        try (InputStream is = TikaInputStream.get(getResourceAsStream("/test-documents/testTIFF.tif"))) {
+            MediaType mt = zipContainerDetector.detect(is, metadata);
+            assertEquals(MediaType.image("tiff"), mt);
+        }
+        metadata = new Metadata();
+        try (InputStream is = TikaInputStream.get(getResourceAsStream("/test-documents/testTIFF_multipage.tif"))) {
+            MediaType mt = zipContainerDetector.detect(is, metadata);
+            assertEquals(MediaType.image("tiff"), mt);
+        }
+    }
 }

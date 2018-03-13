@@ -80,8 +80,8 @@ public class ZipContainerDetector implements Detector {
     private static final byte[][] TIFF_SIGNATURES = new byte[3][];
     static {
         TIFF_SIGNATURES[0] = new byte[]{'M','M',0x00,0x2a};
-        TIFF_SIGNATURES[1] = new byte[]{'I','I',0x2a,0x00};
-        TIFF_SIGNATURES[2] = new byte[]{'M','M',0x00,0x2b};
+        TIFF_SIGNATURES[1] = new byte[]{'I','I',0x2a, 0x00};
+        TIFF_SIGNATURES[2] = new byte[]{'M','M', 0x00, 0x2b};
     }
 
 
@@ -141,20 +141,23 @@ public class ZipContainerDetector implements Detector {
         return false;
     }
     private static boolean arrayStartWith(byte[] needle,byte[] haystack){
+        if(haystack.length < needle.length){
+            return false;
+        }
         for(int i = 0;i < needle.length; i++){
             if(haystack[i] != needle[i]){
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
     private static MediaType detectArchiveFormat(byte[] prefix, int length) {
         /**
          * 先检查是不是tiff文件
          */
-        //if(isTiff(prefix)){
-          //  return TIFF;
-       // }
+        if(isTiff(prefix)){
+            return TIFF;
+        }
         try {
             String name = ArchiveStreamFactory.detect(new ByteArrayInputStream(prefix, 0, length));
             return PackageParser.getMediaType(name);
