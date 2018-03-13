@@ -206,6 +206,9 @@ public class PackageParser extends AbstractParser {
                 
                 SevenZFile sevenz;
                 try {
+                    /**
+                     * 7z压缩文件全加密的处理
+                     */
                     if (password == null) {
                         sevenz = new SevenZFile(tstream.getFile());
                     } else {

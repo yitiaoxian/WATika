@@ -75,6 +75,7 @@ public class ZipContainerDetector implements Detector {
 
     /**
      * 部分的tiff文件可能会被识别为tar 文件
+     * tiff文件的前面头几个字节
      */
     private static final MediaType TIFF = MediaType.image("tiff");
     private static final byte[][] TIFF_SIGNATURES = new byte[3][];
@@ -140,6 +141,12 @@ public class ZipContainerDetector implements Detector {
         }
         return false;
     }
+
+    /**
+     * @param needle
+     * @param haystack 头字节的检测是否与tiff相等
+     * @return
+     */
     private static boolean arrayStartWith(byte[] needle,byte[] haystack){
         if(haystack.length < needle.length){
             return false;

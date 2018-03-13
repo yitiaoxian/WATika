@@ -96,6 +96,7 @@
     </magic>
     <glob pattern="*.cbor"/>
   </mime-type>
+    <!-- 2018-03-09更新增加的mime类型-->
   <mime-type type="application/coreldraw">
       <alias type="application/x-coreldraw"/>
       <alias type="application/x-cdr"/>

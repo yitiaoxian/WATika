@@ -52,9 +52,15 @@ public class HtmlEncodingDetector implements EncodingDetector {
     private static final Pattern HTTP_META_PATTERN = Pattern.compile(
             "(?is)<\\s*meta\\s+([^<>]+)"
     );
+    /**
+     * 不被IANA所支持的字符集
+     */
     private static Set<String> CHARSETS_UNSUPPORTED_BY_IANA;
     static {
         Set<String> unsupported = new HashSet<>();
+        /**
+         * 加载不支持的字符集txt文件
+         */
         try (BufferedReader reader = new BufferedReader(
                 new InputStreamReader(
                         HtmlEncodingDetector.class
@@ -139,6 +145,9 @@ public class HtmlEncodingDetector implements EncodingDetector {
             //that is valid
             while (charsetMatcher.find()) {
                 String candCharset = charsetMatcher.group(1);
+                /**
+                 * IANA不支持的字符集之中是否有当前的字符集
+                 */
                 if(CHARSETS_UNSUPPORTED_BY_IANA.contains(candCharset.toLowerCase(Locale.US))){
                     continue;
                 }
