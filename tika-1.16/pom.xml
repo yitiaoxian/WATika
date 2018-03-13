@@ -43,7 +43,9 @@
     <module>tika-batch</module>
     <module>tika-app</module>
     <module>tika-bundle</module>
+    <!--server未使用的的模块
     <module>tika-server</module>
+    -->
     <module>tika-translate</module>
     <module>tika-langdetect</module>
     <module>tika-example</module>
