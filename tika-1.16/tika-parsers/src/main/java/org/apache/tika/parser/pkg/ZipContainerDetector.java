@@ -152,9 +152,9 @@ public class ZipContainerDetector implements Detector {
         /**
          * 先检查是不是tiff文件
          */
-        if(isTiff(prefix)){
-            return TIFF;
-        }
+        //if(isTiff(prefix)){
+          //  return TIFF;
+       // }
         try {
             String name = ArchiveStreamFactory.detect(new ByteArrayInputStream(prefix, 0, length));
             return PackageParser.getMediaType(name);
