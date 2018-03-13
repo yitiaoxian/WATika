@@ -73,6 +73,19 @@ public class ZipContainerDetector implements Detector {
     private static final String XPS_DOCUMENT =
             "http://schemas.microsoft.com/xps/2005/06/fixedrepresentation";
 
+    /**
+     * 部分的tiff文件可能会被识别为tar 文件
+     * tiff文件的前面头几个字节
+     */
+    private static final MediaType TIFF = MediaType.image("tiff");
+    private static final byte[][] TIFF_SIGNATURES = new byte[3][];
+    static {
+        TIFF_SIGNATURES[0] = new byte[]{'M','M',0x00,0x2a};
+        TIFF_SIGNATURES[1] = new byte[]{'I','I',0x2a, 0x00};
+        TIFF_SIGNATURES[2] = new byte[]{'M','M', 0x00, 0x2b};
+    }
+
+
     /** Serial version UID */
     private static final long serialVersionUID = 2891763938430295453L;
 
@@ -92,7 +105,10 @@ public class ZipContainerDetector implements Detector {
             int length = tis.peek(prefix);
 
             MediaType type = detectArchiveFormat(prefix, length);
-            if (PackageParser.isZipArchive(type)
+
+            if(type == TIFF){
+                return TIFF;
+            }else if (PackageParser.isZipArchive(type)
                     && TikaInputStream.isTikaInputStream(input)) {
                 return detectZipFormat(tis);
             } else if (!type.equals(MediaType.OCTET_STREAM)) {
@@ -117,8 +133,38 @@ public class ZipContainerDetector implements Detector {
             return MediaType.OCTET_STREAM;
         }
     }
+    private static boolean isTiff(byte[] prefix){
+        for(byte[] sig:TIFF_SIGNATURES){
+            if (arrayStartWith(sig,prefix)){
+                return true;
+            }
+        }
+        return false;
+    }
 
+    /**
+     * @param needle
+     * @param haystack 头字节的检测是否与tiff相等
+     * @return
+     */
+    private static boolean arrayStartWith(byte[] needle,byte[] haystack){
+        if(haystack.length < needle.length){
+            return false;
+        }
+        for(int i = 0;i < needle.length; i++){
+            if(haystack[i] != needle[i]){
+                return false;
+            }
+        }
+        return true;
+    }
     private static MediaType detectArchiveFormat(byte[] prefix, int length) {
+        /**
+         * 先检查是不是tiff文件
+         */
+        if(isTiff(prefix)){
+            return TIFF;
+        }
         try {
             String name = ArchiveStreamFactory.detect(new ByteArrayInputStream(prefix, 0, length));
             return PackageParser.getMediaType(name);

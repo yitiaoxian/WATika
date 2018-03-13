@@ -205,10 +205,17 @@ public class PackageParser extends AbstractParser {
                 }
                 
                 SevenZFile sevenz;
-                if (password == null) {
-                    sevenz = new SevenZFile(tstream.getFile());
-                } else {
-                    sevenz = new SevenZFile(tstream.getFile(), password.getBytes("UnicodeLittleUnmarked"));
+                try {
+                    /**
+                     * 7z压缩文件全加密的处理
+                     */
+                    if (password == null) {
+                        sevenz = new SevenZFile(tstream.getFile());
+                    } else {
+                        sevenz = new SevenZFile(tstream.getFile(), password.getBytes("UnicodeLittleUnmarked"));
+                    }
+                }catch (PasswordRequiredException e){
+                    throw new EncryptedDocumentException(e);
                 }
                 
                 // Pending a fix for COMPRESS-269 / TIKA-1525, this bit is a little nasty
