@@ -16,10 +16,17 @@
  */
 package org.apache.tika.parser.html;
 
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.nio.ByteBuffer;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Locale;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -45,7 +52,31 @@ public class HtmlEncodingDetector implements EncodingDetector {
     private static final Pattern HTTP_META_PATTERN = Pattern.compile(
             "(?is)<\\s*meta\\s+([^<>]+)"
     );
-
+    private static Set<String> CHARSETS_UNSUPPORTED_BY_IANA;
+    static {
+        Set<String> unsupported = new HashSet<>();
+        try (BufferedReader reader = new BufferedReader(
+                new InputStreamReader(
+                        HtmlEncodingDetector.class
+                                .getResourceAsStream("StandardCharsets_unsupported_by_IANA.txt"),
+                        StandardCharsets.UTF_8))) {
+            String line = reader.readLine();
+            while (line != null) {
+                if (line.startsWith("#")) {
+                    continue;
+                    }
+                    line = line.trim();
+                if (line.length() > 0) {
+                    unsupported.add(line.toLowerCase(Locale.US));
+                    }
+                    line = reader.readLine();
+                }
+        } catch (IOException e) {
+            throw new IllegalArgumentException("couldn't find StandardCharsets_unsupported_by_IANA.txt " +
+                    "on the class path");
+        }
+        CHARSETS_UNSUPPORTED_BY_IANA = Collections.unmodifiableSet(unsupported);
+    }
     //this should match both the older:
     //<meta http-equiv="content-type" content="text/html; charset=xyz"/>
     //and 
@@ -108,6 +139,9 @@ public class HtmlEncodingDetector implements EncodingDetector {
             //that is valid
             while (charsetMatcher.find()) {
                 String candCharset = charsetMatcher.group(1);
+                if(CHARSETS_UNSUPPORTED_BY_IANA.contains(candCharset.toLowerCase(Locale.US))){
+                    continue;
+                }
                 if (CharsetUtils.isSupported(candCharset)) {
                     try {
                         return CharsetUtils.forName(candCharset);
