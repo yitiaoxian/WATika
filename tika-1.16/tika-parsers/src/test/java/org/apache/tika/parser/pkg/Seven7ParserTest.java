@@ -142,6 +142,18 @@ public class Seven7ParserTest extends AbstractPkgTest {
         
         assertTrue("test no password", ex);
 
+        /**
+         * 测试7zip的加密文件
+         */
+        ex = false;
+        try(InputStream stream = Seven7ParserTest.class.getResourceAsStream("/test-documents/full_encrypted.7z")){
+            parser.parse(stream,handler,metadata,recursingContext);
+        }catch (EncryptedDocumentException e){
+            ex = true;
+        }catch (Exception e){
+            ex = false;
+        }
+
         ex = false;
         
         // Wrong password currently silently gives no content
