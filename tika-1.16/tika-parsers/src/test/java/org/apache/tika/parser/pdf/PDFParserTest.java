@@ -1397,4 +1397,18 @@ public class PDFParserTest extends TikaTest {
             return true;
         }
     }
+
+    /**
+     * pdf 语言元数据的增加的单元测试
+     * @throws Exception
+     */
+    @Test
+    public void testLanguageMetadata() throws Exception {
+
+        assertEquals("de-CH", getXML("testPDF-custommetadata.pdf")
+                .metadata.get(TikaCoreProperties.LANGUAGE));
+
+        assertEquals("zh-CN", getXML("testPDFFileEmbInAnnotation.pdf")
+                .metadata.get(TikaCoreProperties.LANGUAGE));
+    }
 }
