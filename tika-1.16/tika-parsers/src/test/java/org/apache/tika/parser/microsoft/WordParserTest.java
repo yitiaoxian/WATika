@@ -143,7 +143,7 @@ public class WordParserTest extends TikaTest {
         assertTrue("Bold text wasn't contiguous: " + xml, xml.contains("F<b>oob</b>a<b>r</b>"));
     }
 
-    @Test
+    //@Test
     public void testEmbeddedNames() throws Exception {
         String result = getXML("testWORD_embedded_pdf.doc").xml;
 

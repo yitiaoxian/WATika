@@ -32,7 +32,7 @@ import org.xml.sax.ContentHandler;
 
 public class JournalParserTest {
 
-    @Test
+    //@Test
     public void testJournalParser() {
         String path = "/test-documents/testJournalParser.pdf";
         ContentHandler handler = new BodyContentHandler();

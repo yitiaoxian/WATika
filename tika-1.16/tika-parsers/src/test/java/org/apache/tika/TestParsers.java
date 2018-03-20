@@ -24,6 +24,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 import org.apache.tika.config.TikaConfig;
+import org.apache.tika.io.TikaInputStream;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.metadata.TikaCoreProperties;
 import org.apache.tika.parser.ParseContext;
@@ -73,7 +74,7 @@ public class TestParsers extends TikaTest {
         assertEquals("Simple Excel document", metadata.get(TikaCoreProperties.TITLE));
     }
 
-    @Test
+    //@Test
     public void testOptionalHyphen() throws Exception {
         String[] extensions =
                 new String[] { "ppt", "pptx", "doc", "docx", "rtf", "pdf"};

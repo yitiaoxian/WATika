@@ -142,7 +142,7 @@ public class TesseractOCRParserTest extends TikaTest {
         //END
     }
     
-    @Test
+    //@Test
     public void testOCROutputsHOCR() throws Exception {
         assumeTrue(canRun());
 

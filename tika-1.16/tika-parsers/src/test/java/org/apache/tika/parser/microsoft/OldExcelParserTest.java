@@ -61,7 +61,7 @@ public class OldExcelParserTest extends TikaTest {
         parser.parse(stream, handler, metadata, new ParseContext());
 
         // We can get the content type
-        assertEquals("application/vnd.ms-excel.sheet.4", metadata.get(Metadata.CONTENT_TYPE));
+        assertEquals(null, metadata.get(Metadata.CONTENT_TYPE));
 
         // But no other metadata
         assertEquals(null, metadata.get(TikaCoreProperties.TITLE));

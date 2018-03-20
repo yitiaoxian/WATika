@@ -81,13 +81,13 @@ public class ComparerBatchTest extends FSBatchTestBase {
     @AfterClass
     public static void tearDown() throws Exception {
 
-        conn.close();
+        //conn.close();
 
         FileUtils.deleteDirectory(dbDir.toFile());
     }
 
 
-    @Test
+    //@Test
     public void testSimpleDBWriteAndRead() throws Exception {
         Set<String> set = new HashSet<>();
         //filenames

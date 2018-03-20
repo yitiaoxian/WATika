@@ -213,6 +213,13 @@ public abstract class TikaTest {
         return getRecursiveMetadata(filePath, new ParseContext());
     }
 
+    /**
+     * recursive 递归的，回归的
+     * @param filePath 文件路径参数
+     * @param context 解析环境
+     * @return 元数据
+     * @throws Exception
+     */
     protected List<Metadata> getRecursiveMetadata(String filePath, ParseContext context) throws Exception {
         Parser p = new AutoDetectParser();
         RecursiveParserWrapper wrapper = new RecursiveParserWrapper(p,
@@ -233,6 +240,7 @@ public abstract class TikaTest {
     }
 
     /**
+     * note : 基本的文本抽取
      * Basic text extraction.
      * <p>
      * Tries to close input stream after processing.

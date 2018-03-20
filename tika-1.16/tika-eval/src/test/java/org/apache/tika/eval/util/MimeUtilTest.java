@@ -37,9 +37,9 @@ public class MimeUtilTest {
     public void testBasic() throws Exception {
         assertResult("application/pdf", ".pdf");
         assertResult("APPLICATION/PDF", ".pdf");
-        assertResult("text/plain; charset=ISO-8859-1", ".txt");
-        assertResult("application/xhtml+xml; charset=UTF-8\n", ".html");
-        assertResult("application/xml; charset=UTF-8\n", ".xml");
+        assertResult("text/plain", ".txt");
+        assertResult("application/xhtml+xml", ".xhtml");
+        assertResult("application/xml;", ".xml");
 
         assertException("bogosity", "xml");
     }
