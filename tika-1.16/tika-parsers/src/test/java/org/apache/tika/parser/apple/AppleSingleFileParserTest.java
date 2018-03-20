@@ -36,9 +36,10 @@ public class AppleSingleFileParserTest extends TikaTest {
      * xiao
      * 2018/3/20
      * note:IO异常
+     * 这是由于windows的字体文件夹下多了一个mstmc.ttf文件无法加载造成的错误
      * @throws Exception
      */
-    //@Test
+    @Test
     public void testBasic() throws Exception {
         List<Metadata> list = getRecursiveMetadata("testAppleSingleFile.pdf");
         assertEquals(2, list.size());

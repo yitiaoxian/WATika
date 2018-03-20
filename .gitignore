@@ -2,6 +2,7 @@
 *.xml
 !pom.xml
 *.puml
+*.iml
 *.class
 !tika-1.16/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml
 tika-1.16-xiao
