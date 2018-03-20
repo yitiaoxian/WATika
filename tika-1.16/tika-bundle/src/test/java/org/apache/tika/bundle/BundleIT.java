@@ -267,7 +267,6 @@ public class BundleIT {
         assertTrue(content.contains("testHTML.html"));
         assertTrue(content.contains("Test Indexation Html"));
         assertTrue(content.contains("testOpenOffice2.odt"));
-
         assertTrue(content.contains("testPDF.pdf"));
         assertTrue(content.contains("Apache Tika"));
         assertTrue(content.contains("testPPT.ppt"));
