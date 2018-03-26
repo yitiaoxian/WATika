@@ -283,6 +283,15 @@ public class TikaInputStream extends TaggedInputStream {
         return get(blob, new Metadata());
     }
 
+    public static TikaInputStream get(InputStreamFactory factory) throws IOException {
+        return get(factory,new TemporaryResources());
+    }
+    public static TikaInputStream get(InputStreamFactory factory,TemporaryResources tmp) throws IOException {
+        TikaInputStream stream = get(factory.getInputStream(),tmp);
+        stream.streamFactory = factory;
+        return stream;
+    }
+    private InputStreamFactory streamFactory;
     /**
      * Blob size threshold that limits the largest BLOB size to be
      * buffered fully in memory by the {@link #get(Blob, Metadata)}
@@ -570,6 +579,12 @@ public class TikaInputStream extends TaggedInputStream {
         if (container instanceof Closeable) {
             tmp.addResource((Closeable) container);
         }
+    }
+    public boolean hasInputStreamFactory(){
+        return streamFactory != null;
+    }
+    public InputStreamFactory getInputStreamFactory(){
+        return streamFactory;
     }
 
     public boolean hasFile() {
