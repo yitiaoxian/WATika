@@ -37,6 +37,7 @@ import java.util.Set;
 public class TensorflowVideoRecParserTest {
 
     @Test
+    @Ignore("tensorflow test that cannot by specified")
     public void recognise() throws Exception {
         TensorflowRESTVideoRecogniser recogniser = new TensorflowRESTVideoRecogniser();
         recogniser.initialize(new HashMap<String, Param>());

@@ -63,7 +63,8 @@ import org.xml.sax.SAXException;
 /**
  * Tika parser for Time Stamped Data Envelope (application/timestamped-data)
  */
-public class TSDParser extends AbstractParser {
+public class
+TSDParser extends AbstractParser {
     private static final long serialVersionUID = 3268158344501763323L;
 
     private static final Logger LOG = LoggerFactory.getLogger(TSDParser.class);

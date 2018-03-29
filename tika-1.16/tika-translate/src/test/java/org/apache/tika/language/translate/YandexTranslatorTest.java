@@ -92,10 +92,7 @@ public class YandexTranslatorTest {
         String expectedText = "Good Evening!!!";
         try{
            String transText = translator.translate(inputText, "en");
-           System.out.println("translate:"+transText);
-           System.out.println("inputtext:"+inputText);
            assertNotNull("Text not translated", transText);
-           System.out.println(transText.equals(inputText));
            assumeTrue(!expectedText.equals(transText));
 	}
 	catch(TikaException e){

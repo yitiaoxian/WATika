@@ -74,6 +74,7 @@ public class ImageParser extends AbstractParser {
             TMP_SUPPORTED.add(MediaType.image("x-jbig2"));
         } catch (ClassNotFoundException e) {
         }
+
     }
 
     private static final Set<MediaType> SUPPORTED_TYPES =
@@ -160,10 +161,12 @@ public class ImageParser extends AbstractParser {
         return value;
     }
 
+    @Override
     public Set<MediaType> getSupportedTypes(ParseContext context) {
         return SUPPORTED_TYPES;
     }
 
+    @Override
     public void parse(
             InputStream stream, ContentHandler handler,
             Metadata metadata, ParseContext context)

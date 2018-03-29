@@ -37,6 +37,7 @@ import java.util.Set;
 public class TensorflowImageRecParserTest {
 
     @Test
+    @Ignore("tensorflow test that cannot by specified")
     public void recognise() throws Exception {
         TensorflowImageRecParser recogniser = new TensorflowImageRecParser();
         recogniser.initialize(new HashMap<String, Param>());

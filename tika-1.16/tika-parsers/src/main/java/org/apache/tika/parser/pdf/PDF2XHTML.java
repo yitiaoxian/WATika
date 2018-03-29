@@ -200,7 +200,7 @@ class PDF2XHTML extends AbstractPDF2XHTML {
 
             if (object instanceof PDFormXObject) {
                 extractImages(((PDFormXObject) object).getResources(), seenThisPage);
-            } else if (object instanceof PDImageXObject) {
+            }else if(object instanceof PDImageXObject) {
 
                 PDImageXObject image = (PDImageXObject) object;
 
