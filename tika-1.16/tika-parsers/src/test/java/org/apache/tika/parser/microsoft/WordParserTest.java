@@ -418,7 +418,7 @@ public class WordParserTest extends TikaTest {
     }
 
     @Test
-    @Ignore //until we determine whether we can include test docs or not
+    @Ignore("until we determine whether we can include test docs or not")
     public void testHyperlinkStringLongNoCloseQuote() throws Exception {
         //TIKA-1512, one cause: no closing quote on really long string
         //test file derived from govdocs1 012152.doc
@@ -427,7 +427,7 @@ public class WordParserTest extends TikaTest {
     }
 
     @Test
-    @Ignore //until we determine whether we can include test docs or not
+    @Ignore ("until we determine whether we can include test docs or not")
     public void testHyperlinkStringLongCarriageReturn() throws Exception {
         //TIKA-1512, one cause: no closing quote, but carriage return
         //test file derived from govdocs1 040044.doc
