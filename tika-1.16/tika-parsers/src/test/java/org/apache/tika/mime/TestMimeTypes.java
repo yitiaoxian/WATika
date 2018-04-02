@@ -897,7 +897,11 @@ public class TestMimeTypes {
         // test-TXT.txt encrypted with a key of "tika"
         assertTypeDetection("testTXT-tika.axx", "application/x-axcrypt");
     }
-    
+
+    @Test
+    public void testMessageNews() throws Exception {
+        assertTypeByData("message/news", "testMessageNews.txt");
+    }
     @Test
     public void testWindowsEXE() throws Exception {
         assertTypeByName("application/x-msdownload", "x.dll");
