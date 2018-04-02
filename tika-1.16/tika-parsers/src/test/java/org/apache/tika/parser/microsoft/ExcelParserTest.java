@@ -520,4 +520,11 @@ public class ExcelParserTest extends TikaTest {
         String xml = getXML("testEXCEL_textbox.xls", pc).xml;
         assertNotContained("autoshape", xml);
     }
+
+    //TIka-2618
+    @Test
+    public void testLabelsAreExtracted() throws Exception {
+        String xml = getXML("testEXCEL_labels-govdocs-515858.xls").xml;
+        assertContains("Morocco", xml);
+    }
 }
