@@ -42,7 +42,7 @@
     <tukaani.version>1.6</tukaani.version>
     <mime4j.version>0.8.1</mime4j.version>
     <vorbis.version>0.8</vorbis.version>
-    <pdfbox.version>2.0.8</pdfbox.version>
+    <pdfbox.version>2.0.9</pdfbox.version>
     <jempbox.version>1.8.13</jempbox.version>
     <netcdf-java.version>4.5.5</netcdf-java.version>
     <cxf.version>3.0.12</cxf.version>
@@ -50,6 +50,7 @@
     <!-- used by POI, PDFBox and Jackcess ...try to sync -->
     <bouncycastle.version>1.54</bouncycastle.version>
     <commonsexec.version>1.3</commonsexec.version>
+    <brotli.version>0.1.2</brotli.version>
   </properties>
 
   <dependencies>
@@ -131,7 +132,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
-      <version>${commons.compress.version}</version>
+      <version>1.16.1</version>
     </dependency>
     <dependency>
       <groupId>org.tukaani</groupId>
@@ -154,6 +155,17 @@
           <artifactId>commons-logging</artifactId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+       <groupId>com.github.luben</groupId>
+        <artifactId>zstd-jni</artifactId>
+        <version>1.3.3-3</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.brotli</groupId>
+        <artifactId>dec</artifactId>
+        <version>${brotli.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.pdfbox</groupId>
@@ -543,10 +555,9 @@
          https://github.com/levigo/jbig2-imageio
       -->
     <dependency>
-      <groupId>com.levigo.jbig2</groupId>
-      <artifactId>levigo-jbig2-imageio</artifactId>
-      <version>1.6.5</version>
-      <scope>test</scope>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>jbig2-imageio</artifactId>
+      <version>3.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.levigo.jbig2</groupId>

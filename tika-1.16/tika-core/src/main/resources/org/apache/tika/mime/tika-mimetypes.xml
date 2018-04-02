@@ -3084,7 +3084,19 @@
       <match value="bplist" type="string" offset="0"/>
     </magic>
   </mime-type>
-
+    <mime-type type="application/x-gtar">
+        <_comment>GNU tar Compressed File Archive (GNU Tape Archive)</_comment>
+        <magic priority="50">
+            <!-- GNU tar archive -->
+            <match value="ustar  \0" type="string" offset="257" />
+        </magic>
+        <glob pattern="*.gtar"/>
+        <sub-class-of type="application/x-tar"/>
+    </mime-type>
+    <mime-type type="application/x-brotli">
+        <glob pattern="*.br" />
+        <glob pattern="*.brotli" />
+      </mime-type>
   <mime-type type="application/x-bzip">
     <magic priority="40">
       <match value="BZh" type="string" offset="0"/>
@@ -5579,7 +5591,6 @@
       <match value="From:" type="stringignorecase" offset="0"/>
       <match value="Received:" type="stringignorecase" offset="0"/>
       <match value="Message-ID:" type="stringignorecase" offset="0"/>
-      <match value="\nMessage-ID" type="stringignorecase" offset="0:8192"/>
       <match value="Date:" type="string" offset="0"/>
       <match value="User-Agent:" type="string" offset="0"/>
       <match value="MIME-Version:" type="stringignorecase" offset="0"/>
@@ -5600,6 +5611,10 @@
       <match value="\nSubject:" type="string" offset="0:8192"/>
      <match value="\nMIME-Version:" type="stringignorecase" offset="0:8192"/>
       </match>
+    </magic>
+    <magic priority="40">
+       <!-- lower priority than message/news -->
+      <match value="\nMessage-ID:" type="stringignorecase" offset="0:1000"/>
     </magic>
     <glob pattern="*.eml"/>
     <glob pattern="*.mime"/>
