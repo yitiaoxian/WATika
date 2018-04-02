@@ -50,6 +50,7 @@
     <!-- used by POI, PDFBox and Jackcess ...try to sync -->
     <bouncycastle.version>1.54</bouncycastle.version>
     <commonsexec.version>1.3</commonsexec.version>
+    <brotli.version>0.1.2</brotli.version>
   </properties>
 
   <dependencies>
@@ -131,7 +132,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
-      <version>${commons.compress.version}</version>
+      <version>1.16.1</version>
     </dependency>
     <dependency>
       <groupId>org.tukaani</groupId>
@@ -154,6 +155,17 @@
           <artifactId>commons-logging</artifactId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+       <groupId>com.github.luben</groupId>
+        <artifactId>zstd-jni</artifactId>
+        <version>1.3.3-3</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.brotli</groupId>
+        <artifactId>dec</artifactId>
+        <version>${brotli.version}</version>
     </dependency>
     <dependency>
       <groupId>org.apache.pdfbox</groupId>

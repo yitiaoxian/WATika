@@ -22,13 +22,16 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.apache.commons.compress.compressors.CompressorStreamFactory;
 import org.apache.tika.TikaTest;
 import org.apache.tika.metadata.Metadata;
+import org.apache.tika.metadata.TikaCoreProperties;
 import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.ParseContext;
+import org.apache.tika.parser.RecursiveParserWrapper;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -39,9 +42,9 @@ public class CompressorParserTest extends TikaTest {
 
     @BeforeClass
     public static void setUp() {
-        NOT_COVERED.add(MediaType.application("x-brotli"));
         NOT_COVERED.add(MediaType.application("x-lz4-block"));
         NOT_COVERED.add(MediaType.application("x-snappy-raw"));
+        NOT_COVERED.add(MediaType.application("deflate64"));
     }
 
     @Test
@@ -59,7 +62,15 @@ public class CompressorParserTest extends TikaTest {
         //for now, be content that the container file is correctly identified
         assertContains("test1.xml", r.xml);
     }
+    @Test
+    public void testBrotli() throws Exception {
+        Metadata metadata = new Metadata();
+        metadata.set(Metadata.RESOURCE_NAME_KEY, "testBROTLI_compressed.br");
+        List<Metadata> metadataList = getRecursiveMetadata("testBROTLI_compressed.br", metadata);
 
+        assertContains("XXXXXXXXXXYYYYYYYYYY", metadataList.get(1).get(RecursiveParserWrapper.TIKA_CONTENT));
+        assertEquals("testBROTLI_compressed", metadataList.get(1).get(Metadata.RESOURCE_NAME_KEY));
+    }
     @Test
     public void testCoverage() throws Exception {
         //test that the package parser covers all inputstreams handled

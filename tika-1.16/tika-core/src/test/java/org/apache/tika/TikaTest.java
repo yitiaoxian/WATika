@@ -208,6 +208,19 @@ public abstract class TikaTest {
           input.close();
       }
     }
+    protected List<Metadata> getRecursiveMetadata(String filePath, Metadata metadata) throws Exception {
+                return getRecursiveMetadata(filePath, new ParseContext(), metadata);
+    }
+    protected List<Metadata> getRecursiveMetadata(String filePath, ParseContext context, Metadata metadata)
+            throws Exception {
+        Parser p = new AutoDetectParser();
+        RecursiveParserWrapper wrapper = new RecursiveParserWrapper(p,
+                new BasicContentHandlerFactory(BasicContentHandlerFactory.HANDLER_TYPE.XML, -1));
+        try (InputStream is = getResourceAsStream("/test-documents/" + filePath)) {
+            wrapper.parse(is, new DefaultHandler(), metadata, context);
+        }
+        return wrapper.getMetadata();
+    }
 
     protected List<Metadata> getRecursiveMetadata(String filePath) throws Exception {
         return getRecursiveMetadata(filePath, new ParseContext());
