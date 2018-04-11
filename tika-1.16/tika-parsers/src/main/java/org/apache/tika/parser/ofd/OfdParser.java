@@ -15,11 +15,13 @@ import org.apache.tika.sax.EndDocumentShieldingContentHandler;
 import org.apache.tika.sax.XHTMLContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
+import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 
-import java.io.BufferedInputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import java.io.*;
 import java.util.*;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
@@ -47,6 +49,12 @@ public class OfdParser extends AbstractParser{
      * OFD_RES:embedded resource files
      */
     private static final String OFD_RES = "Res/";
+
+    /**
+     * OFD_DOCUMENT:页面的顺序信息
+     */
+    private static final String OFD_DOCUMENT = "Doc_0/Document.xml";
+
     /**
      * OFD_XML:content file
      */
@@ -164,41 +172,42 @@ public class OfdParser extends AbstractParser{
         if (entry != null) {
             handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
         }
+
         /**
-         * count the Content.xml number
-         * for parsing Content.xml in order
+         * linkedlist存储document.xml中的页面信息，按照读取的顺序解析文本内容的xml文件
          */
-        int PAGE_COUNT = -1;
-        Enumeration<? extends ZipEntry> entries = zipFile.entries();
-        while (entries.hasMoreElements()) {
-            entry = entries.nextElement();
-            if (!OFD_XML.equals(entry.getName())) {
-                if (entry.getName().endsWith(OFD_CONTENT)) {
-                    /**
-                     * if entry is Content.xml
-                     * PAGE_COUNT +1
-                     */
-                    PAGE_COUNT++;
-                }
-                else{
-                    handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
-                }
+        ZipEntry ofd_document = zipFile.getEntry(OFD_DOCUMENT);
+        /**
+         * 存储document中的页面信息，按照ID的顺序
+         */
+        LinkedList<String> contentXml = new LinkedList<>();
+
+        if(ofd_document != null){
+            OfdDocumentHandler documentHandler = new OfdDocumentHandler();
+            //单独使用SAX解析document中的关于内容xml信息
+            SAXParserFactory factory = SAXParserFactory.newInstance();
+            SAXParser parser = null;
+            try {
+                parser=factory.newSAXParser();
+                parser.parse(zipFile.getInputStream(ofd_document),documentHandler);
+            } catch (ParserConfigurationException e) {
+                e.printStackTrace();
             }
+            contentXml = documentHandler.getCONTENT_INFO();
+
+        }else {
+            throw new TikaException("OFD文档解析错误，检查ofd的解压后的文件结构！");
         }
-        /**
-         * record the current page number
-         */
-        int CURRENT_PAGE=0;
-        String page = new String("Doc_0/Pages/Page_CURRENT_PAGE_TMP/Content.xml");
-        while (CURRENT_PAGE <= PAGE_COUNT){
-            /**
-             * get entry of the current page
-             */
-            ZipEntry entryPage = zipFile.getEntry(
-                    page.replaceAll("CURRENT_PAGE_TMP",String.valueOf(CURRENT_PAGE)));
-            if(entryPage != null) {
-                CURRENT_PAGE++;
-                handleZipEntry(entryPage, zipFile.getInputStream(entryPage), metadata, context, handler);
+        if(contentXml.size() == 0){
+            throw new TikaException("OFD文档解析错误，检查ofd的解压后的文件结构！");
+        }
+        for (String page:contentXml){
+            String pagePath = "Doc_0/"+page;
+            if(pagePath.endsWith(OFD_CONTENT)){
+                ZipEntry entryPage = zipFile.getEntry(pagePath);
+                if(entryPage != null) {
+                    handleZipEntry(entryPage, zipFile.getInputStream(entryPage), metadata, context, handler);
+                }
             }
         }
     }
