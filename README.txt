@@ -1,9 +1,1 @@
-:q
-
-
-2018Äê2ÔÂ24ÈÕ14:57:09
-´ò°ügitÁ½¸öÌá½»°æ±¾ÖĞµÄ²îÒìÎÄ¼ş
-Ê¹ÓÃcygwinÔÚgit²Ö¿âÏÂÃæµÄ
-1.git diff %a% %b% --name-only | xargs tar -czvf gengxinbao.tar.gz
-a bÎª°æ±¾ºÅ
-2.git diff %a% %b% --name-only | xargs zip gengxinbao.zip 
+TIKA-2626 æœªåŒæ­¥æ›´æ–° æ›´æ–°çš„ä»£ç æ–‡ä»¶éœ€è¦å¤šä¸ªæ›´æ–°æ”¯æŒ 2018å¹´4æœˆ12æ—¥15:55:35
