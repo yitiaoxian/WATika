@@ -232,7 +232,7 @@ public class EmbeddedDocumentUtil implements Serializable {
         Parser returnParser = null;
         if (p != null) {
             if (p instanceof ParserDecorator) {
-                p = ((ParserDecorator)p).getWrappedParser();
+                p = findInDecorated((ParserDecorator) p,clazz);
             }
             if (equals(p, clazz)) {
                 return p;
@@ -246,6 +246,16 @@ public class EmbeddedDocumentUtil implements Serializable {
         }
 
         return null;
+    }
+    private static Parser findInDecorated(ParserDecorator p,Class clazz){
+        Parser candidate = p.getWrappedParser();
+        if (equals(candidate,clazz)){
+            return candidate;
+        }
+        if (candidate instanceof ParserDecorator){
+            candidate = findInDecorated((ParserDecorator) candidate,clazz);
+        }
+        return candidate;
     }
 
     private static Parser findInComposite(CompositeParser p, Class clazz, ParseContext context) {
