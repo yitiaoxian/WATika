@@ -1,0 +1,13 @@
+@startuml
+package org.apache.tika.parser.ofd <<Frame>>{
+    class OfdParser extends AbstractParser
+    class OfdMetaParser extends XMLParser
+    class OfdContentParser extends AbstractParser
+    class OfdContentHandler extends DefaultHandler
+}
+
+OfdParser --> OfdMetaParser : new
+OfdParser --> OfdContentParser : new
+
+OfdContentParser --> OfdContentHandler : new
+@enduml
