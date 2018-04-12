@@ -35,6 +35,7 @@
 
   <properties>
     <!--<ikvm>${env.IKVM_HOME}</ikvm>-->
+    <!--将Jar包编译打包成dll文件-->
     <ikvm>C:\Program Files\ikvm-7.2.4630.5</ikvm>
 
   </properties>
