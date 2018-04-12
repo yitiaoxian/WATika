@@ -35,6 +35,8 @@
 
   <properties>
     <!--<ikvm>${env.IKVM_HOME}</ikvm>-->
+    <!--设置了IKVM的系统变量，无法使用，整个程序的打包失败-->
+    <!--直接使用其路径才能打包-->
     <ikvm>C:\Program Files\ikvm-7.2.4630.5</ikvm>
 
   </properties>
