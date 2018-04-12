@@ -1,6 +1,7 @@
 #ignore pom.xml
 *.xml
 !pom.xml
+.idea/*
 *.puml
 *.iml
 *.class

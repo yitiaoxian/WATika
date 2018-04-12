@@ -210,6 +210,18 @@ public class OfdParser extends AbstractParser{
                 }
             }
         }
+        /**
+         * 嵌套流设置之后导致文件嵌套处理流程异常
+         * 结果无法抽取ofd中的嵌套资源文件
+         */
+        Enumeration<? extends ZipEntry> entries = zipFile.entries();
+        ZipEntry resEntry = null;
+        while (entries.hasMoreElements()){
+            resEntry = entries.nextElement();
+            if(resEntry.getName().contains(OFD_RES)){
+                handleZipEntry(resEntry, zipFile.getInputStream(resEntry), metadata, context, handler);
+            }
+        }
     }
 
     /**
