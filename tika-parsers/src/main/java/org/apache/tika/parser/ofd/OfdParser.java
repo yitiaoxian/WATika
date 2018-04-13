@@ -272,6 +272,10 @@ public class OfdParser extends AbstractParser{
                         embeddedDocumentExtractor.parseEmbedded(zipBuffer,
                                 new EmbeddedContentHandler(handler), embeddedMetadata, false);
                     }catch (ZipException e){
+                        /**
+                         * 协议还原后的ofd文件，嵌套文件异常造成的处理
+                         * 异常捕获，让处理程序继续进行
+                         */
                         System.out.println(e);
                     }catch (TaggedIOException e){
                         System.out.println(e);
