@@ -24,6 +24,7 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.*;
 import java.util.*;
 import java.util.zip.ZipEntry;
+import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 
@@ -266,8 +267,13 @@ public class OfdParser extends AbstractParser{
                 if (embeddedDocumentExtractor.shouldParseEmbedded(embeddedMetadata)) {
                     //to avoid some IOException
                     BufferedInputStream zipBuffer = new BufferedInputStream(zip);
-                    embeddedDocumentExtractor.parseEmbedded(zipBuffer,
-                            new EmbeddedContentHandler(handler), embeddedMetadata, false);
+                    try {
+                        embeddedDocumentExtractor.parseEmbedded(zipBuffer,
+                                new EmbeddedContentHandler(handler), embeddedMetadata, false);
+                    }catch (ZipException e){
+                        System.out.println(e);
+                    }
+
                 }
             }
         }

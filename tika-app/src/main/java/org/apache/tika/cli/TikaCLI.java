@@ -1045,7 +1045,8 @@ public class TikaCLI {
         }
 
         @Override
-        public void parseEmbedded(InputStream inputStream, ContentHandler contentHandler, Metadata metadata, boolean outputHtml) throws SAXException, IOException {
+        public void parseEmbedded(InputStream inputStream, ContentHandler contentHandler, Metadata metadata, boolean outputHtml)
+                throws SAXException, IOException {
             String name = metadata.get(Metadata.RESOURCE_NAME_KEY);
 
             if (name == null) {
