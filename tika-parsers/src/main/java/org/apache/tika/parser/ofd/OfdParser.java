@@ -3,6 +3,7 @@ package org.apache.tika.parser.ofd;
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.extractor.EmbeddedDocumentExtractor;
 import org.apache.tika.extractor.EmbeddedDocumentUtil;
+import org.apache.tika.io.TaggedIOException;
 import org.apache.tika.io.TikaInputStream;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.metadata.TikaCoreProperties;
@@ -271,6 +272,10 @@ public class OfdParser extends AbstractParser{
                         embeddedDocumentExtractor.parseEmbedded(zipBuffer,
                                 new EmbeddedContentHandler(handler), embeddedMetadata, false);
                     }catch (ZipException e){
+                        System.out.println(e);
+                    }catch (TaggedIOException e){
+                        System.out.println(e);
+                    }catch (IOException e){
                         System.out.println(e);
                     }
 
