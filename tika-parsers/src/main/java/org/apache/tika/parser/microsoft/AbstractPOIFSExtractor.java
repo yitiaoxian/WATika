@@ -274,6 +274,14 @@ abstract class AbstractPOIFSExtractor {
                     embedded = TikaInputStream.get(new byte[0]);
                     embedded.setOpenContainer(dir);
                 }
+                /**
+                 * 肖乾柯
+                 * 嵌套文件不抽取文本内容
+                 * 注意：如果开启抽取，会抛出TikaException: Zip bomb detected!
+                 * outputHtml : false
+                 * 修改EmbeddedDocumentUtil中的解析嵌套设置
+                 *  2018年4月23日11:33:45
+                 */
                 embeddedDocumentUtil.parseEmbedded(embedded, xhtml, metadata, true);
             }
         } catch (IOException e) {

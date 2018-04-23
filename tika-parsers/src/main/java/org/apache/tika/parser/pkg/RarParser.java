@@ -67,13 +67,31 @@ public class RarParser extends AbstractParser {
 
         try (TemporaryResources tmp = new TemporaryResources()) {
             TikaInputStream tis = TikaInputStream.get(stream, tmp);
-            rar = new Archive(tis.getFile());
-
-            if (rar.isEncrypted()) {
-
+            /**
+             * 肖乾柯
+             * 在这里增加对于rar5压缩加密的识别
+             * 加密识别的文件
+             * 2018年4月23日11:35:49
+             */
+            FileHeader fileHeaderForEncryptCheck = rar.nextFileHeader();
+                if(fileHeaderForEncryptCheck.isEncrypted()){
+                    throw new EncryptedDocumentException();
+                }
+            try {
+                rar = new Archive(tis.getFile());
+            }catch (Exception e){
                 throw new EncryptedDocumentException();
-           }
+            }
 
+            //这里对于rar5加密文件的识别可能有问题
+
+            try {
+                if (rar.isEncrypted()) {
+                    throw new EncryptedDocumentException();
+                }
+            }catch (Exception e){
+                throw new EncryptedDocumentException(e);
+            }
             //Without this BodyContentHandler does not work
             xhtml.element("div", " ");
 

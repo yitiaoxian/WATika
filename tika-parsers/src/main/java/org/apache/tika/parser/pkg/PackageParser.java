@@ -49,6 +49,7 @@ import org.apache.tika.exception.EncryptedDocumentException;
 import org.apache.tika.exception.TikaException;
 import org.apache.tika.extractor.EmbeddedDocumentExtractor;
 import org.apache.tika.extractor.EmbeddedDocumentUtil;
+import org.apache.tika.io.TaggedIOException;
 import org.apache.tika.io.TemporaryResources;
 import org.apache.tika.io.TikaInputStream;
 import org.apache.tika.metadata.Metadata;
@@ -241,7 +242,17 @@ public class PackageParser extends AbstractParser {
             ArchiveEntry entry = ais.getNextEntry();
             while (entry != null) {
                 if (!entry.isDirectory()) {
-                    parseEntry(ais, entry, extractor, metadata, xhtml);
+                    /**
+                     * 肖乾柯
+                     * 对于加密的压缩文件IO异常重抛为加密文件异常
+                     * 注意：这是由于加密造成的IO异常
+                     * 2018年4月23日10:44:31
+                     */
+                    try {
+                        parseEntry(ais, entry, extractor, metadata, xhtml);
+                    }catch (TaggedIOException taggedIOException){
+                        throw new EncryptedDocumentException();
+                    }
                 }
                 entry = ais.getNextEntry();
             }

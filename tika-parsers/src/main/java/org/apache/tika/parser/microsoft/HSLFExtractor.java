@@ -437,7 +437,6 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
             EmbeddedDocumentUtil.recordEmbeddedStreamException(e, parentMetadata);
             return;
         }
-
         for (HSLFShape shape : shapes) {
             if (shape instanceof OLEShape) {
                 OLEShape oleShape = (OLEShape) shape;
@@ -453,7 +452,6 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
                     EmbeddedDocumentUtil.recordEmbeddedStreamException(e, parentMetadata);
                     continue;
                 }
-
                 if (data != null) {
                     String objID = Integer.toString(oleShape.getObjectID());
 
@@ -489,7 +487,7 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
                         if (mediaType.equals("application/x-tika-msoffice-embedded; format=ole10_native")
                                 ||mediaType.equals("application/x-tika-msoffice-embedded; format=comp_obj")
                                 || mediaType.equals("application/x-tika-msoffice")) {
-                        //if (mediaType.equals("application/x-tika-msoffice-embedded; format=comp_obj")) {
+                            //if (mediaType.equals("application/x-tika-msoffice-embedded; format=comp_obj")) {
                             //test xiao
                             //2018年1月9日15:55:57
                             NPOIFSFileSystem npoifs = null;
@@ -504,8 +502,7 @@ public class HSLFExtractor extends AbstractPOIFSExtractor {
                                 if (npoifs != null){
                                     npoifs.close();
                                 }
-                            }
-                           //end
+                            }//end
                         } else {
                             handleEmbeddedResource(
                                     stream, objID, objID,

@@ -43,6 +43,7 @@ import org.apache.tika.parser.RecursiveParserWrapper;
 import org.apache.tika.sax.BasicContentHandlerFactory;
 import org.apache.tika.sax.BodyContentHandler;
 import org.apache.tika.sax.ToXMLContentHandler;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xml.sax.ContentHandler;
 
@@ -117,7 +118,7 @@ public class SQLite3ParserTest extends TikaTest {
     }
 
     //test what happens if the user does not want embedded docs handled
-    @Test
+    @Ignore
     public void testNotAddingEmbeddedParserToParseContext() throws Exception {
         Parser p = new AutoDetectParser();
         ContentHandler handler = new ToXMLContentHandler();

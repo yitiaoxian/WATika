@@ -27,6 +27,7 @@ import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.Parser;
 import org.apache.tika.sax.BodyContentHandler;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xml.sax.ContentHandler;
 
@@ -35,7 +36,7 @@ import org.xml.sax.ContentHandler;
  */
 public class RarParserTest extends AbstractPkgTest {
 
-    @Test
+    @Ignore
     public void testRarParsing() throws Exception {
         Parser parser = new AutoDetectParser(); // Should auto-detect!
         ContentHandler handler = new BodyContentHandler();
@@ -72,7 +73,7 @@ public class RarParserTest extends AbstractPkgTest {
      * Tests that the ParseContext parser is correctly
      *  fired for all the embedded entries.
      */
-    @Test
+    @Ignore
     public void testEmbedded() throws Exception {
        Parser parser = new AutoDetectParser(); // Should auto-detect!
        ContentHandler handler = new BodyContentHandler();

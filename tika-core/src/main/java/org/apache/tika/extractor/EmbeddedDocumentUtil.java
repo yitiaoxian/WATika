@@ -208,7 +208,15 @@ public class EmbeddedDocumentUtil implements Serializable {
 
     public void parseEmbedded(InputStream inputStream, ContentHandler handler,
                               Metadata metadata, boolean outputHtml) throws IOException, SAXException, EncryptedDocumentException {
-        embeddedDocumentExtractor.parseEmbedded(inputStream, handler, metadata, outputHtml);
+        /**
+         * 肖乾柯
+         * 嵌套文件不抽取文本内容
+         * 注意：如果开启抽取，会抛出TikaException: Zip bomb detected!
+         * outputHtml : false
+         * 修改EmbeddedDocumentUtil中的解析嵌套设置
+         *  2018年4月23日11:33:45
+         */
+        embeddedDocumentExtractor.parseEmbedded(inputStream, handler, metadata, false);
     }
 
     /**
