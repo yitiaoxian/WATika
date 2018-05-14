@@ -125,7 +125,7 @@ public class TikaEncodingDetectorTest extends AbstractTikaConfigTest {
         List<Parser> parsers = new ArrayList<>();
         findEncodingDetectionParsers(p, parsers);
 
-        assertEquals(3, parsers.size());
+        assertEquals(4, parsers.size());
         EncodingDetector encodingDetector = ((AbstractEncodingDetectorParser)parsers.get(0)).getEncodingDetector();
         assertTrue(encodingDetector instanceof CompositeEncodingDetector);
         assertEquals(1, ((CompositeEncodingDetector) encodingDetector).getDetectors().size());
@@ -157,7 +157,7 @@ public class TikaEncodingDetectorTest extends AbstractTikaConfigTest {
         List<Parser> parsers = new ArrayList<>();
         findEncodingDetectionParsers(p, parsers);
 
-        assertEquals(3, parsers.size());
+        assertEquals(4, parsers.size());
 
         for (Parser encodingDetectingParser : parsers) {
             EncodingDetector encodingDetector = ((AbstractEncodingDetectorParser) encodingDetectingParser).getEncodingDetector();
