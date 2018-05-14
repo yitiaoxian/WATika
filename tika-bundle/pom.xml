@@ -146,7 +146,7 @@
               geoapi, sis-metadata, sis-netcdf, sis-utility,
               sis-storage, apache-mime4j-core, apache-mime4j-dom,
               jsr-275, jhighlight, java-libpst,
-              netcdf4, grib, cdm, httpservices, jcip-annotations,
+              netcdf4, grib, cdm, parso,httpservices, jcip-annotations,
               jmatio, guava, age-predictor-api;type=jar;inline=false
             </Embed-Dependency>
             <Embed-Transitive>true</Embed-Transitive>
@@ -177,6 +177,7 @@
               com.adobe.xmp.properties;resolution:=optional,
               com.google.protobuf;resolution:=optional,
               com.ibm.icu.text;resolution:=optional,
+              com.parso;resolution:=optional,
               com.sleepycat.je;resolution:=optional,
               com.sun.javadoc;resolution:=optional,
               com.sun.xml.bind.marshaller;resolution:=optional,

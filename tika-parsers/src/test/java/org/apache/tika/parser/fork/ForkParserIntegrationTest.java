@@ -38,6 +38,7 @@ import org.apache.tika.parser.EmptyParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.Parser;
 import org.apache.tika.sax.BodyContentHandler;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
@@ -219,7 +220,7 @@ public class ForkParserIntegrationTest {
     /**
      * TIKA-832
      */
-    @Test
+    @Ignore
     public void testAttachingADebuggerOnTheForkedParserShouldWork()
             throws Exception {
         ParseContext context = new ParseContext();
