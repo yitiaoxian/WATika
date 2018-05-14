@@ -23,11 +23,11 @@ import java.util.Set;
 
 import com.epam.parso.SasFileProperties;
 import org.apache.tika.exception.TikaException;
-import org.apache.tika.metadata.Metadata;
-import org.apache.tika.metadata.TikaCoreProperties;
+import org.apache.tika.metadata.*;
 import org.apache.tika.mime.MediaType;
 import org.apache.tika.parser.AbstractParser;
 import org.apache.tika.parser.ParseContext;
+import org.apache.tika.parser.executable.MachineMetadata;
 import org.apache.tika.sax.XHTMLContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
@@ -72,6 +72,27 @@ public class SAS7BDATParser extends AbstractParser {
         metadata.set(TikaCoreProperties.TITLE, props.getName());
         metadata.set(TikaCoreProperties.CREATED, props.getDateCreated());
         metadata.set(TikaCoreProperties.MODIFIED, props.getDateModified());
+        metadata.set(PagedText.N_PAGES,     (int)props.getPageCount());
+        metadata.set(Database.COLUMN_COUNT, (int)props.getColumnsCount());
+        metadata.set(Database.ROW_COUNT,    (int)props.getRowCount());
+        // TODO Can we find more general properties for these / move
+        //  these to more general places?
+        metadata.set(HttpHeaders.CONTENT_ENCODING, props.getEncoding());
+        metadata.set(OfficeOpenXMLExtended.APPLICATION, props.getServerType());
+        metadata.set(OfficeOpenXMLExtended.APP_VERSION, props.getSasRelease());
+        metadata.set(MachineMetadata.ARCHITECTURE_BITS,
+                props.isU64() ? "64" : "32");
+        metadata.set(MachineMetadata.ENDIAN, props.getEndianness() == 1 ?
+                MachineMetadata.Endian.LITTLE.getName() :
+                MachineMetadata.Endian.BIG.getName());
+
+        for (Column c : sas.getColumns()) {
+            String name = c.getLabel();
+            if (name == null || name.isEmpty()) {
+                name = c.getName();
+            }
+            metadata.add(Database.COLUMN_NAME, name);
+        }
         // Output as a table
         xhtml.element("h1", props.getName());
         xhtml.startElement("table");
@@ -80,8 +101,12 @@ public class SAS7BDATParser extends AbstractParser {
         // Do the column headings
         xhtml.startElement("tr");
         for (Column c : sas.getColumns()) {
+            String label = c.getLabel();
+            if (label == null || label.isEmpty()) {
+                label = c.getName();
+            }
             xhtml.startElement("th", "title", c.getName());
-            xhtml.characters(c.getLabel());
+            xhtml.characters(label);
             xhtml.endElement("th");
         }
         xhtml.endElement("tr");

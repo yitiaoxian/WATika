@@ -17,22 +17,19 @@
 package org.apache.tika.parser.sas;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
 
-import java.io.IOException;
 import java.io.InputStream;
+import java.util.Arrays;
 
 import org.apache.tika.TikaTest;
-import org.apache.tika.metadata.Metadata;
-import org.apache.tika.metadata.TikaCoreProperties;
+import org.apache.tika.metadata.*;
 import org.apache.tika.parser.AutoDetectParser;
 import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.Parser;
+import org.apache.tika.parser.executable.MachineMetadata;
 import org.apache.tika.sax.BodyContentHandler;
-import org.apache.tika.sax.WriteOutContentHandler;
 import org.junit.Test;
 import org.xml.sax.ContentHandler;
-import org.xml.sax.helpers.DefaultHandler;
 
 public class SAS7BDATParserTest extends TikaTest {
     private Parser parser = new SAS7BDATParser();
@@ -52,7 +49,16 @@ public class SAS7BDATParserTest extends TikaTest {
         // Mon Jan 30 07:31:47 GMT 2017
         assertEquals("2017-01-30T07:31:47Z", metadata.get(TikaCoreProperties.CREATED));
         assertEquals("2017-01-30T07:31:47Z", metadata.get(TikaCoreProperties.MODIFIED));
-
+        assertEquals("1", metadata.get(PagedText.N_PAGES));
+        assertEquals("2", metadata.get(Database.COLUMN_COUNT));
+        assertEquals("11", metadata.get(Database.ROW_COUNT));
+        assertEquals("windows-1252", metadata.get(HttpHeaders.CONTENT_ENCODING));
+        assertEquals("W32_7PRO", metadata.get(OfficeOpenXMLExtended.APPLICATION));
+        assertEquals("9.0301M2", metadata.get(OfficeOpenXMLExtended.APP_VERSION));
+        assertEquals("32", metadata.get(MachineMetadata.ARCHITECTURE_BITS));
+        assertEquals("Little", metadata.get(MachineMetadata.ENDIAN));
+        assertEquals(Arrays.asList("recnum","label"),
+                Arrays.asList(metadata.getValues(Database.COLUMN_NAME)));
         String content = handler.toString();
         assertContains("TESTING", content);
         assertContains("\t3\t", content);
@@ -78,7 +84,16 @@ public class SAS7BDATParserTest extends TikaTest {
         // Fri Mar 06 19:10:19 GMT 2015
         assertEquals("2015-03-06T19:10:19Z", metadata.get(TikaCoreProperties.CREATED));
         assertEquals("2015-03-06T19:10:19Z", metadata.get(TikaCoreProperties.MODIFIED));
-        // TODO Test the rest of the metadata
+        assertEquals("1", metadata.get(PagedText.N_PAGES));
+        assertEquals("5", metadata.get(Database.COLUMN_COUNT));
+        assertEquals("31", metadata.get(Database.ROW_COUNT));
+        assertEquals("windows-1252", metadata.get(HttpHeaders.CONTENT_ENCODING));
+        assertEquals("XP_PRO", metadata.get(OfficeOpenXMLExtended.APPLICATION));
+        assertEquals("9.0101M3", metadata.get(OfficeOpenXMLExtended.APP_VERSION));
+        assertEquals("32", metadata.get(MachineMetadata.ARCHITECTURE_BITS));
+        assertEquals("Little", metadata.get(MachineMetadata.ENDIAN));
+        assertEquals(Arrays.asList("A","B","C","D","E"),
+                Arrays.asList(metadata.getValues(Database.COLUMN_NAME)));
         String content = handler.toString();
         assertContains("SHEET1", content);
         assertContains("A\tB\tC", content);
@@ -89,5 +104,19 @@ public class SAS7BDATParserTest extends TikaTest {
         assertContains("\t08二月1904\t", content);
     }
 
-    // TODO HTML contents unit test
+    @Test
+   public void testHTML() throws Exception {
+        XMLResult result = getXML("testSAS.sas7bdat");
+        String xml = result.xml;
+
+        // Check the title came through
+        assertContains("<h1>TESTING</h1>", xml);
+        // Check the headings
+        assertContains("<th title=\"recnum\">recnum</th>", xml);
+        assertContains("<th title=\"label\">label</th>", xml);
+        // Check some rows
+        assertContains("<td>3</td>", xml);
+        assertContains("<td>This is row", xml);
+        assertContains("10</td>", xml);
+    }
 }
