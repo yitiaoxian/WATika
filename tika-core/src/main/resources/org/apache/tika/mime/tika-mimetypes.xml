@@ -7091,4 +7091,7 @@
         </magic>
         <glob pattern="*.caf"/>
     </mime-type>
+  <mime-type type="application/envi.hdr">
+    <glob pattern="*.hdr"/>
+  </mime-type>
 </mime-info>
