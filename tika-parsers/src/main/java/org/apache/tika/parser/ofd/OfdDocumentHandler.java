@@ -1,5 +1,6 @@
 package org.apache.tika.parser.ofd;
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -16,7 +17,10 @@ public class OfdDocumentHandler extends DefaultHandler {
      * 存放document.xml中的content.xml信息
      */
     private LinkedList<String> CONTENT_INFO = new LinkedList<>();
+
+    //注意doc/document.xml 中页面元数据信息的标签
     private static final String PAGE_TAG = "ofd:Page";
+    private static final String PAGE_TAG_2 = "Page";
 
     public OfdDocumentHandler() {
 
@@ -39,7 +43,11 @@ public class OfdDocumentHandler extends DefaultHandler {
 
             currentFlag  = localName;
             String tmp = attributes.getValue("BaseLoc");
-
+            CONTENT_INFO.add(tmp);
+        }
+        if(PAGE_TAG_2.equals(qName)){
+            currentFlag  = localName;
+            String tmp = attributes.getValue("BaseLoc");
             CONTENT_INFO.add(tmp);
         }
     }

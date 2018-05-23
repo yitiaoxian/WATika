@@ -78,7 +78,8 @@ public class OfdMetaParser extends XMLParser {
        ch = getMeta(ch,md,Property.externalText("Subject"),"Subject");
        //usage of the ofd document
        ch = getMeta(ch,md,Property.externalText("DocUsage"),"DocUsage");
-
+       //文件根ID Doc_0  / Doc_1/
+       ch = getMeta(ch,md,Property.externalText("DocRoot"),"DocRoot");
        return ch;
     }
    @Override

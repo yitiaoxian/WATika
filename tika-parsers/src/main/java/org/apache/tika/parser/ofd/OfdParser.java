@@ -14,6 +14,8 @@ import org.apache.tika.parser.Parser;
 import org.apache.tika.sax.EmbeddedContentHandler;
 import org.apache.tika.sax.EndDocumentShieldingContentHandler;
 import org.apache.tika.sax.XHTMLContentHandler;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -170,6 +172,7 @@ public class OfdParser extends AbstractParser{
     public void handleZipFile(ZipFile zipFile,Metadata metadata,ParseContext context,
                               EndDocumentShieldingContentHandler handler)
             throws IOException, TikaException, SAXException {
+        //元数据解析
         ZipEntry entry = zipFile.getEntry(OFD_XML);
         if (entry != null) {
             handleZipEntry(entry, zipFile.getInputStream(entry), metadata, context, handler);
@@ -178,7 +181,9 @@ public class OfdParser extends AbstractParser{
         /**
          * linkedlist存储document.xml中的页面信息，按照读取的顺序解析文本内容的xml文件
          */
-        ZipEntry ofd_document = zipFile.getEntry(OFD_DOCUMENT);
+        //ZipEntry ofd_document = zipFile.getEntry(OFD_DOCUMENT);
+        ZipEntry ofd_document = zipFile.getEntry(metadata.get("DocRoot"));
+
         /**
          * 存储document中的页面信息，按照ID的顺序
          */
@@ -198,13 +203,16 @@ public class OfdParser extends AbstractParser{
             contentXml = documentHandler.getCONTENT_INFO();
 
         }else {
-            throw new TikaException("OFD文档解析错误，检查ofd的解压后的文件结构！");
+            throw new TikaException("OFD文档解析错误，元数据文件信息获取错误！");
         }
         if(contentXml.size() == 0){
             throw new TikaException("OFD文档解析错误，检查ofd的解压后的文件结构！");
         }
+        //DocRoot的获取  元数据中进行的解析
+        String[] docRoot = metadata.get("DocRoot").split("\\/");
+
         for (String page:contentXml){
-            String pagePath = "Doc_0/"+page;
+            String pagePath = docRoot[0].toString()+"/"+page;
             if(pagePath.endsWith(OFD_CONTENT)){
                 ZipEntry entryPage = zipFile.getEntry(pagePath);
                 if(entryPage != null) {
