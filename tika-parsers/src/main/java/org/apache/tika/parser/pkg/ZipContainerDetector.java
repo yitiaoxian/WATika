@@ -254,11 +254,11 @@ public class ZipContainerDetector implements Detector {
         try {
             parser.parse(zip.getInputStream(ofdEntry1), new DefaultHandler(), metadataT, contextT);
         } catch (TikaException e) {
-            e.printStackTrace();
+            return null;
         } catch (SAXException e) {
-            e.printStackTrace();
+            return null;
         } catch (IOException e) {
-            e.printStackTrace();
+            return null;
         }
         ZipArchiveEntry ofdEntry2 = zip.getEntry(metadataT.get("DocRoot"));
 
