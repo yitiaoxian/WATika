@@ -47,10 +47,14 @@ import org.apache.tika.io.TemporaryResources;
 import org.apache.tika.io.TikaInputStream;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.mime.MediaType;
+import org.apache.tika.parser.ParseContext;
 import org.apache.tika.parser.iwork.IWorkPackageParser;
 import org.apache.tika.parser.iwork.IWorkPackageParser.IWORKDocumentType;
 import org.apache.tika.parser.iwork.iwana.IWork13PackageParser;
+import org.apache.tika.parser.ofd.OfdMetaParser;
 import org.apache.tika.parser.txt.TXTParser;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
 
 /**
  * A detector that works on Zip documents and other archive and compression
@@ -236,7 +240,20 @@ public class ZipContainerDetector implements Detector {
      */
     private static MediaType detectOfd(ZipFile zip) {
         ZipArchiveEntry ofdEntry1 = zip.getEntry("OFD.xml");
-        ZipArchiveEntry ofdEntry2 = zip.getEntry("Doc_0/Document.xml");
+        OfdMetaParser parser = new OfdMetaParser();
+        Metadata metadataT = new Metadata();
+        ParseContext contextT = new ParseContext();
+        try {
+            parser.parse(zip.getInputStream(ofdEntry1), new DefaultHandler(), metadataT, contextT);
+        } catch (TikaException e) {
+            e.printStackTrace();
+        } catch (SAXException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        ZipArchiveEntry ofdEntry2 = zip.getEntry(metadataT.get("DocRoot"));
+
         if (ofdEntry1 != null && ofdEntry2 != null) {
             return MediaType.application("ofd");
         } else {
