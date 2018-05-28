@@ -239,7 +239,15 @@ public class ZipContainerDetector implements Detector {
      * @return type
      */
     private static MediaType detectOfd(ZipFile zip) {
-        ZipArchiveEntry ofdEntry1 = zip.getEntry("OFD.xml");
+        ZipArchiveEntry ofdEntry1 = null;
+        try {
+            ofdEntry1 = zip.getEntry("OFD.xml");
+            if(ofdEntry1 == null){
+                return null;
+            }
+        }catch (Exception e){
+            return null;
+        }
         OfdMetaParser parser = new OfdMetaParser();
         Metadata metadataT = new Metadata();
         ParseContext contextT = new ParseContext();
